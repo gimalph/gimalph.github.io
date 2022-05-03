@@ -38,6 +38,24 @@ languages:
                 - name: 研究
                   url: research/
                   weight: 3
+        profileMode:
+            enabled: true
+            title: "儀間 達也 (Tatsuya Gima)"
+            imageUrl: "images/hu.png"
+            imageWidth: 180
+            imageHeight: 180
+            subtitle: "
+                名古屋大学情報学研究科 博士後期課程の儀間です．
+                グラフ構造パラメータを利用した固定パラメータアルゴリズム設計についての研究をしています．
+                特に論理を用いたメタアルゴリズムなどに興味があります．"
+            buttons:
+                - name: 履歴書
+                  url: about
+                - name: 研究業績
+                  url: research
+                - name: 活動履歴
+                  url: news
+
 
 
 #
@@ -86,14 +104,15 @@ params:
 #    author: Tatsuya Gima
 
 
-    profileMode:
-        enabled: true
-        title: Tatsuya Gima
-        # imageUrl: "#"
-        # imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        subtitle: ""
+
+#    profileMode:
+#        enabled: true
+#        title: Tatsuya Gima
+#        # imageUrl: "#"
+#        # imageTitle: my image
+#        # imageWidth: 120
+#        # imageHeight: 120
+#        subtitle: ""
 
     defaultTheme: auto
     # disableThemeToggle: true
