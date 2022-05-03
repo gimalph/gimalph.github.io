@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>儀間 達也 (Tatsuya Gima)</title>
-    <link>https://adityatelange.github.io/</link>
+    <link>https://gimalph.github.io/</link>
     <description>Recent content on 儀間 達也 (Tatsuya Gima)</description>
     <image>
-      <url>https://adityatelange.github.io/papermod-cover.png</url>
-      <link>https://adityatelange.github.io/papermod-cover.png</link>
+      <url>https://gimalph.github.io/papermod-cover.png</url>
+      <link>https://gimalph.github.io/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://adityatelange.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://gimalph.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>履歴書</title>
-      <link>https://adityatelange.github.io/about/</link>
+      <link>https://gimalph.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://adityatelange.github.io/about/</guid>
+      <guid>https://gimalph.github.io/about/</guid>
       <description> 氏名: 儀間 達也 (ぎま たつや） メール: gima [at] nagoya-u.jp 所属: 名古屋大学 大学院情報学研究科 数理情報学専攻 博士後期課程 指導教員: 大舘 陽太 准教授  学歴等  2022年 4月 &amp;ndash; 現在: 名古屋大学 大学院情報学研究科 数理情報学専攻 博士後期課程 2020年 4月 &amp;ndash; 2022年3月: 名古屋大学 大学院情報学研究科 数理情報学専攻 博士前期課程（修士（情報学）） 2016年 4月 &amp;ndash; 2020年3月: 熊本大学工学部 情報電気電子工学科 （学士（工学））  受賞歴  2022年 3月: 電子情報通信学会総合大会 COMP学生シンポジウム 最優秀論文賞 2020年 3月: 熊本大学工学部 情報電気電子工学科 学科学業奨励賞  </description>
     </item>
     
     
     <item>
       <title>研究</title>
-      <link>https://adityatelange.github.io/research/</link>
+      <link>https://gimalph.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://adityatelange.github.io/research/</guid>
+      <guid>https://gimalph.github.io/research/</guid>
       <description>研究活動履歴など</description>
     </item>
     
