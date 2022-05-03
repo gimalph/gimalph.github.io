@@ -1,4 +1,4 @@
-baseURL: "https://adityatelange.github.io/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "https://gimalph.github.io/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: Tatsuya Gima
 paginate: 5
 theme: PaperMod
@@ -27,19 +27,6 @@ languages:
           category: categories
           tag: tags
           series: series
-#        profileMode:
-#            enabled: true
-#            title: PaperMod
-#            # imageUrl: "#"
-#            # imageTitle: my image
-#            # imageWidth: 120
-#            # imageHeight: 120
-#            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-#            buttons:
-#                - name: Blog
-#                  url: posts
-#                - name: Tags
-#                  url: tags
         menu:
             main:
                 - name: 履歴書
@@ -97,6 +84,16 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Tatsuya Gima"
 #    author: Tatsuya Gima
+
+
+    profileMode:
+        enabled: true
+        title: Tatsuya Gima
+        # imageUrl: "#"
+        # imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        subtitle: ""
 
     defaultTheme: auto
     # disableThemeToggle: true
