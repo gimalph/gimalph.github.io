@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>儀間 達也 (Tatsuya Gima)</title>
-    <link>https://gimalph.github.io/</link>
-    <description>Recent content on 儀間 達也 (Tatsuya Gima)</description>
+    <title>Research on 儀間 達也 (Tatsuya Gima)</title>
+    <link>https://gimalph.github.io/posts/research/</link>
+    <description>Recent content in Research on 儀間 達也 (Tatsuya Gima)</description>
     <image>
       <url>https://gimalph.github.io/papermod-cover.png</url>
       <link>https://gimalph.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 04 May 2022 00:00:00 +0900</lastBuildDate><atom:link href="https://gimalph.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>HPを作りました</title>
-      <link>https://gimalph.github.io/posts/init/</link>
-      <pubDate>Wed, 04 May 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://gimalph.github.io/posts/init/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>名古屋大学大学院情報学研究科の博士後期課程に入学しました</title>
-      <link>https://gimalph.github.io/posts/doctor/</link>
-      <pubDate>Fri, 01 Apr 2022 03:48:46 +0900</pubDate>
-      
-      <guid>https://gimalph.github.io/posts/doctor/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Wed, 16 Mar 2022 00:00:00 +0900</lastBuildDate><atom:link href="https://gimalph.github.io/posts/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>&#34;An improved deterministic parameterized algorithm for cactus vertex deletion&#34; by Y. Aoike, T. Gima, T. Hanaka, M. Kiyomi, Y. Kobayashi, Y. Kobayashi, K. Kurita, and Y. Otachi が Theory of Computing System誌に採択されました</title>
       <link>https://gimalph.github.io/posts/research/an_improved_deterministic_parameterized_algorithm_for_cactus_vertex_deletion/</link>
@@ -71,25 +53,6 @@
       
       <guid>https://gimalph.github.io/posts/research/compstsymp2021/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>履歴書</title>
-      <link>https://gimalph.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gimalph.github.io/about/</guid>
-      <description> 氏名: 儀間 達也 (ぎま たつや） メール: gima [at] nagoya-u.jp 所属: 名古屋大学 大学院情報学研究科 数理情報学専攻 博士後期課程 指導教員: 大舘 陽太 准教授  学歴等  2022年 4月 &amp;ndash; 現在: 名古屋大学 大学院情報学研究科 数理情報学専攻 博士後期課程 2020年 4月 &amp;ndash; 2022年3月: 名古屋大学 大学院情報学研究科 数理情報学専攻 博士前期課程（修士（情報学）） 2016年 4月 &amp;ndash; 2020年3月: 熊本大学工学部 情報電気電子工学科 （学士（工学））  受賞歴  2022年 3月: 電子情報通信学会総合大会 COMP学生シンポジウム 最優秀論文賞 2020年 3月: 熊本大学工学部 情報電気電子工学科 学科学業奨励賞  </description>
-    </item>
-    
-    
-    <item>
-      <title>研究</title>
-      <link>https://gimalph.github.io/research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gimalph.github.io/research/</guid>
-      <description>研究活動履歴など</description>
     </item>
     
   </channel>

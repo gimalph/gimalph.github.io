@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>対外発表 on 儀間 達也 (Tatsuya Gima)</title>
+    <link>https://gimalph.github.io/tags/%E5%AF%BE%E5%A4%96%E7%99%BA%E8%A1%A8/</link>
+    <description>Recent content in 対外発表 on 儀間 達也 (Tatsuya Gima)</description>
+    <image>
+      <url>https://gimalph.github.io/papermod-cover.png</url>
+      <link>https://gimalph.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Mar 2022 00:00:00 +0900</lastBuildDate><atom:link href="https://gimalph.github.io/tags/%E5%AF%BE%E5%A4%96%E7%99%BA%E8%A1%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022年電子情報通信学会総合大会COMP学生シンポジウムでの発表 &#34;Extended MSO model checking via small vertex integrity&#34; が最優秀論文賞を受賞しました</title>
+      <link>https://gimalph.github.io/posts/research/compstsymp2022/</link>
+      <pubDate>Tue, 15 Mar 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://gimalph.github.io/posts/research/compstsymp2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
