@@ -1,6 +1,8 @@
 ---
 title: "リンク"
 date: 2022-05-12T20:10:46+09:00
+sitemap:
+    changefreq: yearly
 ---
 
 #### 所属研究室関連

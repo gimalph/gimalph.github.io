@@ -124,12 +124,16 @@ params:
     ShowShareButtons: false
     ShowReadingTime: false
     # disableSpecial1stPost: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowToc: false
     images: ["papermod-cover.png"]
 
+sitemap:
+    changefreq: monthly
+    filename: sitemap.xml
+    priority: 0.5
 
 markup:
     goldmark:
@@ -143,26 +147,3 @@ markup:
 #         # noClasses: false
 #         style: monokai
 
-privacy:
-    vimeo:
-        disabled: false
-        simple: true
-
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
-
-    instagram:
-        disabled: false
-        simple: true
-
-    youtube:
-        disabled: false
-        privacyEnhanced: true
-
-services:
-    instagram:
-        disableInlineCSS: true
-    twitter:
-        disableInlineCSS: true

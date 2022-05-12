@@ -2,12 +2,13 @@
 title: "研究"
 summary: "研究活動履歴など"
 date: 2022-05-12T20:10:46+09:00
+showToc: true
 ---
 (*付きは発表者)
 
 ### 受賞歴
-- 2022年 3月: [電子情報通信学会総合大会 COMP学生シンポジウム 最優秀論文賞](https://www.ieice.org/~comp/student-sympo/2022.html)
-- 2020年 3月: 熊本大学工学部 情報電気電子工学科 学科学業奨励賞
+1. 2022年 3月: [電子情報通信学会総合大会 COMP学生シンポジウム 最優秀論文賞](https://www.ieice.org/~comp/student-sympo/2022.html)
+2. 2020年 3月: 熊本大学工学部 情報電気電子工学科 学科学業奨励賞
 
 ### 査読付き論文誌
 1. Yuuki Aoike, Tatsuya Gima, Tesshu Hanaka, Masashi Kiyomi, Yasuaki Kobayashi, Yusuke Kobayashi, Kazuhiro Kurita, Yota Otachi.
