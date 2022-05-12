@@ -1,9 +1,14 @@
 ---
 title: "研究"
 summary: "研究活動履歴など"
+date: 2022-05-12T20:10:46+09:00
 ---
-
 (*付きは発表者)
+
+### 受賞歴
+- 2022年 3月: [電子情報通信学会総合大会 COMP学生シンポジウム 最優秀論文賞](https://www.ieice.org/~comp/student-sympo/2022.html)
+- 2020年 3月: 熊本大学工学部 情報電気電子工学科 学科学業奨励賞
+
 ### 査読付き論文誌
 1. Yuuki Aoike, Tatsuya Gima, Tesshu Hanaka, Masashi Kiyomi, Yasuaki Kobayashi, Yusuke Kobayashi, Kazuhiro Kurita, Yota Otachi.
 [An improved deterministic parameterized algorithm for cactus vertex deletion.](https://doi.org/10.1007/s00224-022-10076-x)
@@ -18,6 +23,11 @@ _Theoretical Computer Science_, Volume 918, pp. 60--76, 2022. ([arXiv](https://a
 _The 12th International Conference on Algorithms and Complexity (CIAC2021)_, online,
 LNCS, vol 12701, pp. 271--285, May, 2021.
 
+
+### 投稿中論文
+1. Tatsuya Gima, Yota Otachi.
+[Extended MSO Model Checking via Small Vertex Integrity, arXiv:2202.08445](https://arxiv.org/abs/2202.08445),
+Feb, 2022.
 ### 国内研究会発表（査読なし）
 1. *儀間 達也, 大舘 陽太．
 Extended MSO model checking via small vertex integrity．

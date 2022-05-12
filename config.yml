@@ -38,12 +38,15 @@ languages:
                 - name: 研究
                   url: research/
                   weight: 3
+                - name: リンク
+                  url: link/
+                  weight: 100
         profileMode:
             enabled: true
             title: "儀間 達也 (Tatsuya Gima)"
-#            imageUrl: "images/profile.png"
-#            imageWidth: 180
-#            imageHeight: 180
+            imageUrl: "images/profile.png"
+            imageWidth: 180
+            imageHeight: 180
             subtitle: "
                 名古屋大学博士後期課程の儀間です．
                 <br>
@@ -126,9 +129,6 @@ params:
     ShowCodeCopyButtons: true
     ShowToc: false
     images: ["papermod-cover.png"]
-
-    socialIcons:
-
 
 
 markup:
