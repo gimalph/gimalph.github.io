@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gimalph.github.io/posts/research/soma2022/</loc>
+    <lastmod>2022-06-12T00:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://gimalph.github.io/posts/</loc>
+    <lastmod>2022-06-12T00:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://gimalph.github.io/posts/research/</loc>
+    <lastmod>2022-06-12T00:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://gimalph.github.io/</loc>
+    <lastmod>2022-06-12T00:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://gimalph.github.io/link/</loc>
     <lastmod>2022-05-12T20:10:46+09:00</lastmod>
     <changefreq>yearly</changefreq>
@@ -22,27 +42,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://gimalph.github.io/posts/</loc>
-    <lastmod>2022-05-04T00:00:00+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://gimalph.github.io/</loc>
-    <lastmod>2022-05-04T00:00:00+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://gimalph.github.io/posts/doctor/</loc>
     <lastmod>2022-04-01T03:48:46+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gimalph.github.io/posts/research/an_improved_deterministic_parameterized_algorithm_for_cactus_vertex_deletion/</loc>
-    <lastmod>2022-03-16T00:00:00+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://gimalph.github.io/posts/research/</loc>
     <lastmod>2022-03-16T00:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
