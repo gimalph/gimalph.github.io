@@ -60,6 +60,32 @@ languages:
                   url: research
                 - name: 活動履歴
                   url: news
+    en:
+        languageName: "English"
+        weight: 2
+        title: Tatsuya Gima
+        contentDir: content/english
+        menu:
+            main:
+                - name: CV
+                  url: about/
+                  weight: 1
+                - name: Publications
+                  url: research/
+                  weight: 3
+        profileMode:
+            enabled: true
+            title: "Tatsuya Gima"
+            imageUrl: "images/profile.png"
+            imageWidth: 180
+            imageHeight: 180
+            buttons:
+                - name: CV
+                  url: about
+                - name: Publications
+                  url: research
+    
+    
 
 
 

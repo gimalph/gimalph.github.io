@@ -1,7 +1,7 @@
 ---
 title: "研究"
 summary: "研究活動履歴など"
-date: 2022-05-12T20:10:46+09:00
+date: 2022-07-02T20:10:46+09:00
 showToc: true
 ---
 (*付きは発表者)
@@ -10,10 +10,10 @@ showToc: true
 ### 査読付き論文誌
 1. Yuuki Aoike, Tatsuya Gima, Tesshu Hanaka, Masashi Kiyomi, Yasuaki Kobayashi, Yusuke Kobayashi, Kazuhiro Kurita, Yota Otachi.
 [An improved deterministic parameterized algorithm for cactus vertex deletion.](https://doi.org/10.1007/s00224-022-10076-x)
-_Theory of Computing Systems_ 66, pp. 502--515, 2022. ([arXiv](https://arxiv.org/abs/2012.04910))
+_Theory of Computing Systems_, 66, pp. 502--515, 2022. ([arXiv](https://arxiv.org/abs/2012.04910))
 1. Tatsuya Gima, Tesshu Hanaka, Masashi Kiyomi, Yasuaki Kobayashi, Yota Otachi.
 [Exploring the Gap Between Treedepth and Vertex Cover Through Vertex Integrity.](https://doi.org/10.1016/j.tcs.2022.03.021)
-_Theoretical Computer Science_, Volume 918, pp. 60--76, 2022. 
+_Theoretical Computer Science_, 918, pp. 60--76, 2022. 
 ([arXiv](https://arxiv.org/abs/2101.09414))
 
 ### 査読付き国際会議
