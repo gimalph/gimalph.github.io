@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tatsuya Gima</title>
+    <link>https://gimalph.github.io/en/</link>
+    <description>Recent content on Tatsuya Gima</description>
+    <image>
+      <url>https://gimalph.github.io/papermod-cover.png</url>
+      <link>https://gimalph.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://gimalph.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My publications</title>
+      <link>https://gimalph.github.io/en/research/</link>
+      <pubDate>Fri, 01 Jul 2022 20:10:46 +0900</pubDate>
+      
+      <guid>https://gimalph.github.io/en/research/</guid>
+      <description>my publications</description>
+    </item>
+    
+    <item>
+      <title>My CV</title>
+      <link>https://gimalph.github.io/en/about/</link>
+      <pubDate>Thu, 12 May 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://gimalph.github.io/en/about/</guid>
+      <description> Name: Tatsuya Gima E-mail: gima [at] nagoya-u.jp Affiliation: Doctoral Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University. Supervisor: Yota Otachi  Career  April 2022 &amp;ndash; Now: Doctoral Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University. December 2020 &amp;ndash; Now: Graduate Program for Lifestyle Revolution based on Transdisciplinary Mobility Innovation (TMI) in Nagoya University. April 2020 &amp;ndash; March 2022: Master&amp;rsquo;s Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University (Master of Informatics) April 2016 &amp;ndash; March 2020: Department of Computer Science and Electrical Engineering, Kumamoto University (Bachelor of Engineering)  Awards  March 2022: IEICE General Conference COMP Students Symposium Best Paper Award  </description>
+    </item>
+    
+  </channel>
+</rss>

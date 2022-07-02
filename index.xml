@@ -9,7 +9,16 @@
       <link>https://gimalph.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 12 Jun 2022 00:00:00 +0900</lastBuildDate><atom:link href="https://gimalph.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jul 2022 20:10:46 +0900</lastBuildDate><atom:link href="https://gimalph.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My publications</title>
+      <link>https://gimalph.github.io/english/research/</link>
+      <pubDate>Fri, 01 Jul 2022 20:10:46 +0900</pubDate>
+      
+      <guid>https://gimalph.github.io/english/research/</guid>
+      <description>my publications</description>
+    </item>
+    
     <item>
       <title>&#34;Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited&#34;について，最適化手法とアルゴリズム (SOMA) —未来を担う若手研究者の集い 2022— (東京大学)で発表しました． </title>
       <link>https://gimalph.github.io/posts/research/soma2022/</link>
@@ -29,12 +38,12 @@
     </item>
     
     <item>
-      <title>研究</title>
-      <link>https://gimalph.github.io/research/</link>
-      <pubDate>Thu, 12 May 2022 20:10:46 +0900</pubDate>
+      <title>My CV</title>
+      <link>https://gimalph.github.io/english/about/</link>
+      <pubDate>Thu, 12 May 2022 00:00:00 +0900</pubDate>
       
-      <guid>https://gimalph.github.io/research/</guid>
-      <description>研究活動履歴など</description>
+      <guid>https://gimalph.github.io/english/about/</guid>
+      <description> Name: Tatsuya Gima E-mail: gima [at] nagoya-u.jp Affiliation: Doctoral Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University. Supervisor: Yota Otachi  Career  April 2022 &amp;ndash; Now: Doctoral Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University. December 2020 &amp;ndash; Now: Graduate Program for Lifestyle Revolution based on Transdisciplinary Mobility Innovation (TMI) in Nagoya University. April 2020 &amp;ndash; March 2022: Master&amp;rsquo;s Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University (Master of Informatics) April 2016 &amp;ndash; March 2020: Department of Computer Science and Electrical Engineering, Kumamoto University (Bachelor of Engineering)  Awards  March 2022: IEICE General Conference COMP Students Symposium Best Paper Award  </description>
     </item>
     
     <item>
