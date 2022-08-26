@@ -6,6 +6,16 @@
     <lastmod>2022-07-01T20:10:46+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gimalph.github.io/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gimalph.github.io/en/research/"
+                />
   </url><url>
     <loc>https://gimalph.github.io/en/about/</loc>
     <lastmod>2022-05-12T00:00:00+09:00</lastmod>
