@@ -1,0 +1,16 @@
+conference:
+  - author: Tatsuya Gima, Takehiro Ito, Yasuaki Kobayashi, Yota Otachi.
+    title: Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited.
+    booktitle: The 30th Annual European Symposium on Algorithms (ESA 2022), in Potsdam, Germany.
+    year: 2022
+    month: Sep
+
+    comment: accepted
+  - author: Tatsuya Gima, Tesshu Hanaka, Masashi Kiyomi, Yasuaki Kobayashi, Yota Otachi.
+    title: Exploring the gap between treedepth and vertex cover through vertex integrity.
+    booktitle: The 12th International Conference on Algorithms and Complexity (CIAC2021), online.
+    year: 2021
+    month: May
+    doi: https://doi.org/10.1007/978-3-030-75242-2_19
+    series: Lecture Notes in Computer Science, 12701, pp. 271--285. 
+    arXiv: https://arxiv.org/abs/2101.09414

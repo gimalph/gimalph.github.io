@@ -1,7 +1,7 @@
 ---
 title: "研究"
 summary: "研究活動履歴など"
-date: 2022-07-02T20:10:46+09:00
+date: 2022-08-26T12:00:00+09:00
 showToc: true
 ---
 (*付きは発表者)
@@ -18,9 +18,9 @@ _Theoretical Computer Science_, 918, pp. 60--76, 2022.
 
 ### 査読付き国際会議
 1. Tatsuya Gima, Takehiro Ito, Yasuaki Kobayashi and Yota Otachi.
-[Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited.]()
-_The 30th Annual European Symposium on Algorithms (ESA 2022)_, 
-accepted.
+[Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited.](https://drops.dagstuhl.de/opus/frontdoor.php?source_opus=16999)
+_The 30th Annual European Symposium on Algorithms (ESA 2022)_, Germany,
+LIPIcs, vol 244, pp. 61:1--61:15, Sep, 2022.
 1. *Tatsuya Gima, Tesshu Hanaka, Masashi Kiyomi, Yasuaki Kobayashi, Yota Otachi.
 [Exploring the gap between treedepth and vertex cover through vertex integrity.](https://doi.org/10.1007/978-3-030-75242-2_19)
 _The 12th International Conference on Algorithms and Complexity (CIAC2021)_, online,
@@ -37,6 +37,9 @@ LNCS, vol 12701, pp. 271--285, May, 2021.
 Feb, 2022.
 
 ### 国内研究会発表（査読なし）
+1. *儀間 達也, 伊藤 健洋, 小林 靖明, 大舘 陽太.
+Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited,
+JCCA-DMIA-2022, ミニシンポジウム 組合せ遷移, 成蹊大学, 2022年8月.
 1. *儀間 達也, 伊藤 健洋, 小林 靖明, 大舘 陽太.
 Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited,
 最適化手法とアルゴリズム ─未来を担う若手研究者の集い 2022─, 東京大学, 2022年6月.

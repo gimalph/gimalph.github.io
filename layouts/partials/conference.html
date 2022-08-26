@@ -1,0 +1,5 @@
+<ul>
+    {{ range .conference }}
+    <li>{{ .author }} <i>{{ .title}}</i> {{ .booktitle }} {{ .month }}, {{ .year }}</li>
+    {{ end }}
+</ul>
