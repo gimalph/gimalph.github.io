@@ -39,7 +39,7 @@ Feb, 2022.
 ### 国内研究会発表（査読なし）
 1. *儀間 達也, 伊藤 健洋, 小林 靖明, 大舘 陽太.
 Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited,
-JCCA-DMIA-2022, ミニシンポジウム 組合せ遷移, 成蹊大学, 2022年8月.
+JCCA-2022
 1. *儀間 達也, 伊藤 健洋, 小林 靖明, 大舘 陽太.
 Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited,
 最適化手法とアルゴリズム ─未来を担う若手研究者の集い 2022─, 東京大学, 2022年6月.

@@ -15,9 +15,10 @@ _Theoretical Computer Science_, Volume 918, pp. 60--76, 2022.
 
 ### Conference papers
 1. Tatsuya Gima, Takehiro Ito, Yasuaki Kobayashi and Yota Otachi.
-[Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited.]()
-_The 30th Annual European Symposium on Algorithms (ESA 2022)_, 
-accepted.
+[Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited.](https://drops.dagstuhl.de/opus/frontdoor.php?source_opus=16999)
+_The 30th Annual European Symposium on Algorithms (ESA 2022)_, Germany,
+LIPIcs, vol 244, pp. 61:1--61:15, Sep, 2022.
+
 1. *Tatsuya Gima, Tesshu Hanaka, Masashi Kiyomi, Yasuaki Kobayashi, Yota Otachi.
 [Exploring the gap between treedepth and vertex cover through vertex integrity.](https://doi.org/10.1007/978-3-030-75242-2_19)
 _The 12th International Conference on Algorithms and Complexity (CIAC2021)_, online,
