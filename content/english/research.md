@@ -14,12 +14,16 @@ _Theoretical Computer Science_, Volume 918, pp. 60--76, 2022.
 ([arXiv](https://arxiv.org/abs/2101.09414))
 
 ### Conference papers
+1. Tatsuya Gima, Yota Otachi.
+[Extended MSO Model Checking via Small Vertex Integrity, arXiv:2202.08445]()
+_The 33rd International Symposium on Algorithms and Computation (ISAAC 2022)_, Korea and online,
+ accepted.
 1. Tatsuya Gima, Takehiro Ito, Yasuaki Kobayashi and Yota Otachi.
 [Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited.](https://drops.dagstuhl.de/opus/frontdoor.php?source_opus=16999)
 _The 30th Annual European Symposium on Algorithms (ESA 2022)_, Germany,
 LIPIcs, vol 244, pp. 61:1--61:15, Sep, 2022.
-
 1. *Tatsuya Gima, Tesshu Hanaka, Masashi Kiyomi, Yasuaki Kobayashi, Yota Otachi.
+([arXiv](https://arxiv.org/abs/2207.01024))
 [Exploring the gap between treedepth and vertex cover through vertex integrity.](https://doi.org/10.1007/978-3-030-75242-2_19)
 _The 12th International Conference on Algorithms and Complexity (CIAC2021)_, online,
 LNCS, vol 12701, pp. 271--285, May, 2021.
