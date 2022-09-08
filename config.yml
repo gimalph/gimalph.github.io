@@ -32,15 +32,15 @@ languages:
                 - name: 履歴書
                   url: about/
                   weight: 1
-                - name: 活動履歴
-                  url: news/
-                  weight: 10
                 - name: 研究
                   url: research/
                   weight: 3
-                - name: リンク
-                  url: link/
-                  weight: 100
+                - name: 活動履歴
+                  url: news/
+                  weight: 10
+                # - name: リンク
+                #   url: link/
+                #   weight: 100
         profileMode:
             enabled: true
             title: "儀間 達也 (Tatsuya Gima)"
@@ -60,6 +60,8 @@ languages:
                   url: research
                 - name: 活動履歴
                   url: news
+                - name: "English"
+                  url: /en/
     en:
         languageName: "English"
         weight: 2
@@ -76,52 +78,18 @@ languages:
         profileMode:
             enabled: true
             title: "Tatsuya Gima"
-            imageUrl: "images/profile.png"
-            imageWidth: 180
-            imageHeight: 180
+            subtitle: "
+            I am a first year Ph.D student of Nagoya University. <br>
+            Keywords: graph algorithm, fixed-parameter tractability, 
+            "
             buttons:
                 - name: CV
                   url: about
                 - name: Publications
                   url: research
+                - name: "Japanese"
+                  url: /ja/
     
-    
-
-
-
-#
-#    en:
-#        languageName: "English"
-#        weight: 2
-#        taxonomies:
-#          category: categories
-#          tag: tags
-#          series: series
-#        menu:
-#            main:
-#                - name: Archive
-#                  url: archives
-#                  weight: 5
-
-
-
-#
-#    fa:
-#        languagedirection: rtl
-#        weight: 3
-#        title: PaperMod RTL
-#        homeInfoParams:
-#            Title: "Hi there \U0001F44B"
-#            Content: Welcome to RTL layout
-#        taxonomies:
-#          category: FAcategories
-#          tag: FAtags
-#          series: FAseries
-#        menu:
-#            main:
-#                - name: FATags
-#                  url: fatags
-#                  weight: 10
 
 outputs:
     home:
@@ -132,18 +100,6 @@ outputs:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Tatsuya Gima"
-#    author: Tatsuya Gima
-
-
-
-#    profileMode:
-#        enabled: true
-#        title: Tatsuya Gima
-#        # imageUrl: "#"
-#        # imageTitle: my image
-#        # imageWidth: 120
-#        # imageHeight: 120
-#        subtitle: ""
 
     defaultTheme: auto
     # disableThemeToggle: true
