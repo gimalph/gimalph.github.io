@@ -67,11 +67,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://gimalph.github.io/link/</loc>
-    <lastmod>2022-05-12T20:10:46+09:00</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://gimalph.github.io/english/about/</loc>
     <lastmod>2022-05-12T00:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -127,12 +122,12 @@
                 href="https://gimalph.github.io/tags/"
                 />
   </url><url>
-    <loc>https://gimalph.github.io/tags/%E5%8F%97%E8%B3%9E%E6%AD%B4/</loc>
+    <loc>https://gimalph.github.io/tags/%E5%9B%BD%E5%86%85%E7%99%BA%E8%A1%A8/</loc>
     <lastmod>2022-03-15T00:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://gimalph.github.io/tags/%E5%9B%BD%E5%86%85%E7%99%BA%E8%A1%A8/</loc>
+    <loc>https://gimalph.github.io/tags/%E5%8F%97%E8%B3%9E%E6%AD%B4/</loc>
     <lastmod>2022-03-15T00:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
