@@ -10,7 +10,7 @@
 <meta name="description" content="Posts - 儀間 達也 (Tatsuya Gima)">
 <meta name="author" content="">
 <link rel="canonical" href="https://gimalph.github.io/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.ec8da366ca2fb647537ccb7a8f6fa5b4e9cd3c7a0d3171dd2d3baad1e49c8bfc.css" integrity="sha256-7I2jZsovtkdTfMt6j2&#43;ltOnNPHoNMXHdLTuq0eSci/w=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.bccfefac377bc340f06c260aed1bddf49a4354816d7c570d6aac75a997986c95.css" integrity="sha256-vM/vrDd7w0DwbCYK7Rvd9JpDVIFtfFcNaqx1qZeYbJU=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://gimalph.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://gimalph.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://gimalph.github.io/favicon-32x32.png">
@@ -111,14 +111,14 @@ if (!doNotTrack) {
     <nav class="nav">
         <div class="logo">
             <a href="https://gimalph.github.io/" accesskey="h" title="儀間 達也 (Tatsuya Gima) (Alt + H)">儀間 達也 (Tatsuya Gima)</a>
-            <span class="logo-switches">
+            <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -138,7 +138,7 @@ if (!doNotTrack) {
                             aria-label="English">En</a>
                     </li>
                 </ul>
-            </span>
+            </div>
         </div>
         <ul id="menu">
             <li>
@@ -156,20 +156,31 @@ if (!doNotTrack) {
                     <span>活動履歴</span>
                 </a>
             </li>
-            <li>
-                <a href="https://gimalph.github.io/link/" title="リンク">
-                    <span>リンク</span>
-                </a>
-            </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://gimalph.github.io/">Home</a></div>
+<header class="page-header"><div class="breadcrumbs"><a href="https://gimalph.github.io/">ホーム</a></div>
   <h1>
     Posts
   </h1>
 </header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>研究活動履歴をデータベースから自動生成させてみました
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>なんか他にいい方法ありそうですが全部手作業フォーマットよりは良くなったと思う．
+ほしい要素としては，以下のようなイメージでした．
+bibtex ぽい情報から markdown のページを生成 hugo やめたくなっても移れるように出来るだけ hugo 依存しないこと できるだけフォーマットズレを起こさないように自動化 以下手法
+まず論文情報を yaml に書き込む
+conference: - author: - Tatsuya Gima - Yota Otachi title: Extended MSO Model Checking via Small Vertex Integrity booktitle: The 33rd International Symposium on Algorithms and Computation (ISAAC 2022) series: LIPIcs volume: &#39;248&#39; pages: 20:1--20:15 place: Korea year: &#39;2022&#39; month: Dec doi: https://doi.org/10.4230/LIPIcs.ISAAC.2022.20 arxiv: https://arxiv.org/abs/2202.08445 - author: - Tatsuya Gima - Tesshu Hanaka - Masashi Kiyomi - Yasuaki Kobayashi - Yota Otachi title: Exploring the Gap Between Treedepth and Vertex Cover Through Vertex Integrity journal: Theoretical Computer Science volume: &#39;918&#39; pages: 60--76 year: &#39;2022&#39; doi: https://doi....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-12-31 00:00:00 +0900 +0900'>12月 31, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to 研究活動履歴をデータベースから自動生成させてみました" href="https://gimalph.github.io/posts/20221231/"></a>
+</article>
 
 <article class="post-entry"> 
   <header class="entry-header">
@@ -203,7 +214,7 @@ if (!doNotTrack) {
   <div class="entry-content">
     <p></p>
   </div>
-  <footer class="entry-footer"><span title='2022-08-17 10:00:00 +0900 +0900'>8月 17, 2022</span></footer>
+  <footer class="entry-footer"><span title='2022-12-19 20:04:47 +0900 +0900'>12月 19, 2022</span></footer>
   <a class="entry-link" aria-label="post link to Research" href="https://gimalph.github.io/posts/research/"></a>
 </article>
     </main>
@@ -213,7 +224,7 @@ if (!doNotTrack) {
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">

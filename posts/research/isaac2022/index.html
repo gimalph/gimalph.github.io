@@ -5,13 +5,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>リンク | 儀間 達也 (Tatsuya Gima)</title>
+<title>ISAAC 2022で &#34;Extended mso model checking via small vertex integrity&#34; について発表しました．  | 儀間 達也 (Tatsuya Gima)</title>
 <meta name="keywords" content="">
-<meta name="description" content="所属研究室関連  名古屋大学 情報学部 / 大学院情報学研究科 大舘陽太 研究室 小野廣隆 研究室 柳浦睦憲 研究室  競技プログラミング（最近あまりやっていません…）  AtCoder @xelmeph Codeforces @Xelmeph  ">
+<meta name="description" content="以下の論文について，ISAAC2022 (韓国) で発表しました． ESA2022に続いて人生で2度目の国際会議参加でした．
+Tatsuya Gima, Yota Otachi. Extended MSO Model Checking via Small Vertex Integrity. The 33rd International Symposium on Algorithms and Computation (ISAAC 2022). Korea. LIPIcs, 248, pp. 20:1&ndash;20:15, 2022, Dec. [📖doi link][📝arXiv]
+内容としては，それなりに（計算理論的に）難しいような最適化問題であっても, ある程度疎で特殊なグラフ（vertex integrity というものが小さいグラフ）であれば， 高速に解けること (FPT) を示したものです．
+（小野先生と上原先生に写真を取っていただきました）">
 <meta name="author" content="">
-<link rel="canonical" href="https://gimalph.github.io/link/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.149ea7cdaa83f0ab31471ced9e0495af0272de908dd4a38e5c229d8b0579a758.css" integrity="sha256-FJ6nzaqD8KsxRxztngSVrwJy3pCN1KOOXCKdiwV5p1g=" rel="preload stylesheet" as="style">
-<script defer crossorigin="anonymous" src="/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js" integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w="
+<link rel="canonical" href="https://gimalph.github.io/posts/research/isaac2022/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.bccfefac377bc340f06c260aed1bddf49a4354816d7c570d6aac75a997986c95.css" integrity="sha256-vM/vrDd7w0DwbCYK7Rvd9JpDVIFtfFcNaqx1qZeYbJU=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://gimalph.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://gimalph.github.io/favicon-16x16.png">
@@ -20,7 +23,7 @@
 <link rel="mask-icon" href="https://gimalph.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="ja" href="https://gimalph.github.io/link/">
+<link rel="alternate" hreflang="ja" href="https://gimalph.github.io/posts/research/isaac2022/">
 <noscript>
     <style>
         #theme-toggle,
@@ -58,30 +61,34 @@
 
     </style>
 </noscript>
-<script type="application/javascript">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EXH7LC79L6"></script>
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'G-EXH7LC79L6', 'auto');
-	
-	ga('send', 'pageview');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-EXH7LC79L6', { 'anonymize_ip': false });
 }
 </script>
-<meta property="og:title" content="リンク" />
-<meta property="og:description" content="所属研究室関連  名古屋大学 情報学部 / 大学院情報学研究科 大舘陽太 研究室 小野廣隆 研究室 柳浦睦憲 研究室  競技プログラミング（最近あまりやっていません…）  AtCoder @xelmeph Codeforces @Xelmeph  " />
+<meta property="og:title" content="ISAAC 2022で &#34;Extended mso model checking via small vertex integrity&#34; について発表しました． " />
+<meta property="og:description" content="以下の論文について，ISAAC2022 (韓国) で発表しました． ESA2022に続いて人生で2度目の国際会議参加でした．
+Tatsuya Gima, Yota Otachi. Extended MSO Model Checking via Small Vertex Integrity. The 33rd International Symposium on Algorithms and Computation (ISAAC 2022). Korea. LIPIcs, 248, pp. 20:1&ndash;20:15, 2022, Dec. [📖doi link][📝arXiv]
+内容としては，それなりに（計算理論的に）難しいような最適化問題であっても, ある程度疎で特殊なグラフ（vertex integrity というものが小さいグラフ）であれば， 高速に解けること (FPT) を示したものです．
+（小野先生と上原先生に写真を取っていただきました）" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://gimalph.github.io/link/" /><meta property="og:image" content="https://gimalph.github.io/papermod-cover.png"/><meta property="article:section" content="" />
-<meta property="article:published_time" content="2022-05-12T20:10:46&#43;09:00" />
-<meta property="article:modified_time" content="2022-05-12T20:10:46&#43;09:00" /><meta property="og:site_name" content="儀間 達也 (Tatsuya Gima)" />
+<meta property="og:url" content="https://gimalph.github.io/posts/research/isaac2022/" /><meta property="og:image" content="https://gimalph.github.io/papermod-cover.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-12-19T20:04:47+09:00" />
+<meta property="article:modified_time" content="2022-12-19T20:04:47+09:00" /><meta property="og:site_name" content="儀間 達也 (Tatsuya Gima)" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://gimalph.github.io/papermod-cover.png"/>
 
-<meta name="twitter:title" content="リンク"/>
-<meta name="twitter:description" content="所属研究室関連  名古屋大学 情報学部 / 大学院情報学研究科 大舘陽太 研究室 小野廣隆 研究室 柳浦睦憲 研究室  競技プログラミング（最近あまりやっていません…）  AtCoder @xelmeph Codeforces @Xelmeph  "/>
+<meta name="twitter:title" content="ISAAC 2022で &#34;Extended mso model checking via small vertex integrity&#34; について発表しました． "/>
+<meta name="twitter:description" content="以下の論文について，ISAAC2022 (韓国) で発表しました． ESA2022に続いて人生で2度目の国際会議参加でした．
+Tatsuya Gima, Yota Otachi. Extended MSO Model Checking via Small Vertex Integrity. The 33rd International Symposium on Algorithms and Computation (ISAAC 2022). Korea. LIPIcs, 248, pp. 20:1&ndash;20:15, 2022, Dec. [📖doi link][📝arXiv]
+内容としては，それなりに（計算理論的に）難しいような最適化問題であっても, ある程度疎で特殊なグラフ（vertex integrity というものが小さいグラフ）であれば， 高速に解けること (FPT) を示したものです．
+（小野先生と上原先生に写真を取っていただきました）"/>
 
 
 <script type="application/ld+json">
@@ -92,8 +99,20 @@ if (!doNotTrack) {
     {
       "@type": "ListItem",
       "position":  1 ,
-      "name": "リンク",
-      "item": "https://gimalph.github.io/link/"
+      "name": "Posts",
+      "item": "https://gimalph.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Research",
+      "item": "https://gimalph.github.io/posts/research/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "ISAAC 2022で \"Extended mso model checking via small vertex integrity\" について発表しました． ",
+      "item": "https://gimalph.github.io/posts/research/isaac2022/"
     }
   ]
 }
@@ -102,20 +121,20 @@ if (!doNotTrack) {
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "リンク",
-  "name": "リンク",
-  "description": "所属研究室関連  名古屋大学 情報学部 / 大学院情報学研究科 大舘陽太 研究室 小野廣隆 研究室 柳浦睦憲 研究室  競技プログラミング（最近あまりやっていません…）  AtCoder @xelmeph Codeforces @Xelmeph  ",
+  "headline": "ISAAC 2022で \"Extended mso model checking via small vertex integrity\" について発表しました． ",
+  "name": "ISAAC 2022で \u0022Extended mso model checking via small vertex integrity\u0022 について発表しました． ",
+  "description": "以下の論文について，ISAAC2022 (韓国) で発表しました． ESA2022に続いて人生で2度目の国際会議参加でした．\nTatsuya Gima, Yota Otachi. Extended MSO Model Checking via Small Vertex Integrity. The 33rd International Symposium on Algorithms and Computation (ISAAC 2022). Korea. LIPIcs, 248, pp. 20:1\u0026ndash;20:15, 2022, Dec. [📖doi link][📝arXiv]\n内容としては，それなりに（計算理論的に）難しいような最適化問題であっても, ある程度疎で特殊なグラフ（vertex integrity というものが小さいグラフ）であれば， 高速に解けること (FPT) を示したものです．\n（小野先生と上原先生に写真を取っていただきました）",
   "keywords": [
     
   ],
-  "articleBody": "所属研究室関連  名古屋大学 情報学部 / 大学院情報学研究科 大舘陽太 研究室 小野廣隆 研究室 柳浦睦憲 研究室  競技プログラミング（最近あまりやっていません…）  AtCoder @xelmeph Codeforces @Xelmeph  ",
-  "wordCount" : "16",
+  "articleBody": "以下の論文について，ISAAC2022 (韓国) で発表しました． ESA2022に続いて人生で2度目の国際会議参加でした．\nTatsuya Gima, Yota Otachi. Extended MSO Model Checking via Small Vertex Integrity. The 33rd International Symposium on Algorithms and Computation (ISAAC 2022). Korea. LIPIcs, 248, pp. 20:1–20:15, 2022, Dec. [📖doi link][📝arXiv]\n内容としては，それなりに（計算理論的に）難しいような最適化問題であっても, ある程度疎で特殊なグラフ（vertex integrity というものが小さいグラフ）であれば， 高速に解けること (FPT) を示したものです．\n（小野先生と上原先生に写真を取っていただきました）\n",
+  "wordCount" : "43",
   "inLanguage": "ja",
-  "datePublished": "2022-05-12T20:10:46+09:00",
-  "dateModified": "2022-05-12T20:10:46+09:00",
+  "datePublished": "2022-12-19T20:04:47+09:00",
+  "dateModified": "2022-12-19T20:04:47+09:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://gimalph.github.io/link/"
+    "@id": "https://gimalph.github.io/posts/research/isaac2022/"
   },
   "publisher": {
     "@type": "Organization",
@@ -145,14 +164,14 @@ if (!doNotTrack) {
     <nav class="nav">
         <div class="logo">
             <a href="https://gimalph.github.io/" accesskey="h" title="儀間 達也 (Tatsuya Gima) (Alt + H)">儀間 達也 (Tatsuya Gima)</a>
-            <span class="logo-switches">
+            <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -172,7 +191,7 @@ if (!doNotTrack) {
                             aria-label="English">En</a>
                     </li>
                 </ul>
-            </span>
+            </div>
         </div>
         <ul id="menu">
             <li>
@@ -190,11 +209,6 @@ if (!doNotTrack) {
                     <span>活動履歴</span>
                 </a>
             </li>
-            <li>
-                <a href="https://gimalph.github.io/link/" title="リンク">
-                    <span class="active">リンク</span>
-                </a>
-            </li>
         </ul>
     </nav>
 </header>
@@ -202,26 +216,27 @@ if (!doNotTrack) {
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://gimalph.github.io/">Home</a></div>
+    <div class="breadcrumbs"><a href="https://gimalph.github.io/">ホーム</a>&nbsp;»&nbsp;<a href="https://gimalph.github.io/posts/">Posts</a>&nbsp;»&nbsp;<a href="https://gimalph.github.io/posts/research/">Research</a></div>
     <h1 class="post-title">
-      リンク
+      ISAAC 2022で &#34;Extended mso model checking via small vertex integrity&#34; について発表しました． 
     </h1>
-    <div class="post-meta"><span title='2022-05-12 20:10:46 +0900 JST'>May 12, 2022</span>
+    <div class="post-meta"><span title='2022-12-19 20:04:47 +0900 +0900'>12月 19, 2022</span>
 
 </div>
   </header> 
-  <div class="post-content"><h4 id="所属研究室関連">所属研究室関連<a hidden class="anchor" aria-hidden="true" href="#所属研究室関連">#</a></h4>
-<ul>
-<li><a href="https://www.i.nagoya-u.ac.jp">名古屋大学 情報学部 / 大学院情報学研究科</a></li>
-<li><a href="https://www.math.mi.i.nagoya-u.ac.jp/~otachi">大舘陽太 研究室</a></li>
-<li><a href="http://www.tcs.mi.i.nagoya-u.ac.jp">小野廣隆 研究室</a></li>
-<li><a href="http://www.co.mi.i.nagoya-u.ac.jp/~yagiura/">柳浦睦憲 研究室</a></li>
-</ul>
-<h4 id="競技プログラミング最近あまりやっていません">競技プログラミング（最近あまりやっていません…）<a hidden class="anchor" aria-hidden="true" href="#競技プログラミング最近あまりやっていません">#</a></h4>
-<ul>
-<li><a href="https://atcoder.jp/users/xelmeph">AtCoder @xelmeph</a></li>
-<li><a href="https://codeforces.com/profile/Xelmeph">Codeforces @Xelmeph</a></li>
-</ul>
+  <div class="post-content"><p>以下の論文について，<a href="https://isa.hanyang.ac.kr/isaac2022/">ISAAC2022 (韓国)</a> で発表しました．
+ESA2022に続いて人生で2度目の国際会議参加でした．</p>
+<p>Tatsuya Gima, Yota Otachi. Extended MSO Model Checking via Small Vertex Integrity. <em>The 33rd International Symposium on Algorithms and Computation (ISAAC 2022)</em>. Korea. LIPIcs, 248, pp. 20:1&ndash;20:15, 2022, Dec. [<a href="https://doi.org/10.4230/LIPIcs.ISAAC.2022.20">📖doi link</a>][<a href="https://arxiv.org/abs/2202.08445">📝arXiv</a>]</p>
+<p>内容としては，それなりに（計算理論的に）難しいような最適化問題であっても, ある程度疎で特殊なグラフ（vertex integrity というものが小さいグラフ）であれば，
+高速に解けること (FPT) を示したものです．</p>
+<p><figure>
+    <img loading="lazy" src="/images/isaac2022/isaac2022-1.jpg" width="256"/> 
+</figure>
+ <figure>
+     <img loading="lazy" src="/images/isaac2022/isaac2022-2.jpg" width="256"/> 
+ </figure>
+
+（小野先生と上原先生に写真を取っていただきました）</p>
 
 
   </div>
@@ -229,6 +244,18 @@ if (!doNotTrack) {
   <footer class="post-footer">
     <ul class="post-tags">
     </ul>
+<nav class="paginav">
+  <a class="prev" href="https://gimalph.github.io/posts/20221231/">
+    <span class="title">« 前のページ</span>
+    <br>
+    <span>研究活動履歴をデータベースから自動生成させてみました</span>
+  </a>
+  <a class="next" href="https://gimalph.github.io/posts/research/jcca2022/">
+    <span class="title">次のページ »</span>
+    <br>
+    <span>JCCA-DMIA-2022のミニシンポジウム「組合せ遷移」で &#34;Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited&#34; について発表しました． </span>
+  </a>
+</nav>
 
   </footer>
 </article>
@@ -239,7 +266,7 @@ if (!doNotTrack) {
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
@@ -308,12 +335,12 @@ if (!doNotTrack) {
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerText = 'copy';
+        copybutton.innerHTML = 'コピー';
 
         function copyingDone() {
-            copybutton.innerText = 'copied!';
+            copybutton.innerHTML = 'コピーされました!';
             setTimeout(() => {
-                copybutton.innerText = 'copy';
+                copybutton.innerHTML = 'コピー';
             }, 2000);
         }
 
