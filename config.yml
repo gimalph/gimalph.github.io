@@ -23,10 +23,10 @@ languages:
         languageAltTitle: Japanese
         weight: 1
         title: 儀間 達也 (Tatsuya Gima)
-        taxonomies:
-          category: categories
-          tag: tags
-          series: series
+        # taxonomies:
+        #   category: categories
+        #   tag: tags
+        #   series: series
         menu:
             main:
                 - name: 履歴書
@@ -66,7 +66,7 @@ languages:
         languageName: "English"
         weight: 2
         title: Tatsuya Gima
-        contentDir: content/english
+        contentDir: content/en
         menu:
             main:
                 - name: CV

@@ -1,0 +1,141 @@
+conference:
+  - author:
+      - Tatsuya Gima
+      - Yota Otachi
+    title: Extended MSO Model Checking via Small Vertex Integrity
+    booktitle: The 33rd International Symposium on Algorithms and Computation (ISAAC 2022)
+    series: LIPIcs
+    volume: '248'
+    pages: 20:1--20:15
+    place: Korea
+    year: '2022'
+    month: Dec
+    doi: https://doi.org/10.4230/LIPIcs.ISAAC.2022.20
+    arxiv: https://arxiv.org/abs/2202.08445
+
+  - author:
+      - Tatsuya Gima
+      - Takehiro Ito
+      - Yasuaki Kobayashi
+      - Yota Otachi
+    title: Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited
+    booktitle: The 30th Annual European Symposium on Algorithms (ESA 2022)
+    place: Potsdam, Germany
+    year: '2022'
+    month: Sep
+    series: LIPIcs
+    volume: '244'
+    pages: 61:1--61:15
+    doi: https://doi.org/10.4230/LIPIcs.ESA.2022.61
+    arxiv: https://arxiv.org/abs/2207.01024
+    
+  - author: 
+      - Tatsuya Gima
+      - Tesshu Hanaka
+      - Masashi Kiyomi
+      - Yasuaki Kobayashi
+      - Yota Otachi.
+    title: Exploring the gap between treedepth and vertex cover through vertex integrity
+    booktitle: The 12th International Conference on Algorithms and Complexity (CIAC 2021)
+    place: Online
+    year: '2021'
+    month: May
+    series: LNCS
+    volume: '12701'
+    pages: 271--285
+    doi: https://doi.org/10.1007/978-3-030-75242-2_19
+    arxiv: https://arxiv.org/abs/2101.09414
+
+
+
+
+journal:
+  - author: 
+      - Yuuki Aoike
+      - Tatsuya Gima
+      - Tesshu Hanaka
+      - Masashi Kiyomi
+      - Yasuaki Kobayashi
+      - Yusuke Kobayashi
+      - Kazuhiro Kurita
+      - Yota Otachi
+    title: An improved deterministic parameterized algorithm for cactus vertex deletion
+    journal: Theory of Computing Systems
+    volume: '66'
+    pages: 502--515
+    year: '2022'
+    doi: https://doi.org/10.1007/s00224-022-10076-x
+    arxiv: https://arxiv.org/abs/2012.04910
+
+  - author: 
+      - Tatsuya Gima
+      - Tesshu Hanaka
+      - Masashi Kiyomi
+      - Yasuaki Kobayashi
+      - Yota Otachi
+    title: Exploring the Gap Between Treedepth and Vertex Cover Through Vertex Integrity
+    journal: Theoretical Computer Science
+    volume: '918'
+    pages: 60--76
+    year: '2022'
+    doi: https://doi.org/10.1016/j.tcs.2022.03.021
+    arxiv: https://arxiv.org/abs/2101.09414
+
+domestic:
+  - author:
+      - 儀間 達也
+      - 伊藤 健洋
+      - 小林 靖明
+      - 大舘 陽太
+    title: Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited
+    booktitle:
+      - JCCA-2022 離散数学とその応用研究集会2022 ミニシンポジウム「組合せ遷移」, 成蹊大学 2022年 8月
+      - 最適化手法とアルゴリズム ─未来を担う若手研究者の集い 2022─, 東京大学, 2022年 6月
+    presenter: 儀間 達也
+
+  - author:
+      - 儀間 達也
+      - 大舘 陽太
+    title: Extended MSO model checking via small vertex integrity
+    booktitle:
+      - 2022年電子情報通信学会総合大会COMP学生シンポジウム, オンライン, 2022年 3月 (最優秀論文賞受賞)
+      - 2021年度冬のLAシンポジウム, オンライン, 2022年 2月
+    presenter: 儀間 達也
+
+  - author:
+      - 儀間 達也
+      - 大舘 陽太
+    title: Fair MSO evaluation problems parameterized by vertex integrity
+    booktitle:
+      - 2021年電子情報通信学会総合大会COMP学生シンポジウム, オンライン, 2021年 3月
+    presenter: 儀間 達也
+
+
+  - author: 
+      - 青池 宥希
+      - 儀間 達也
+      - 土中 哲秀
+      - 清見 礼
+      - 小林 靖明
+      - 小林 佑輔
+      - 栗田 和宏
+      - 大舘 陽太
+    title: An improved deterministic parameterized algorithm for cactus vertex deletion
+    booktitle:
+      - 電子情報通信学会コンピュテーション研究会, オンライン, 2020年 12月
+    presenter: 小林 靖明
+
+
+  - author:
+      - 儀間 達也
+      - 土中 哲秀
+      - 清見 礼
+      - 小林 靖明
+      - 大舘 陽太
+    title: Graph partitioning problems parameterized by vertex integrity
+    booktitle: 
+      - 2019年度冬のLAシンポジウム, 京都大学, 2020年2月
+    presenter: 儀間 達也
+
+
+  
