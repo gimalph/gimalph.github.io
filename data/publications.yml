@@ -35,7 +35,7 @@ conference:
       - Masashi Kiyomi
       - Yasuaki Kobayashi
       - Yota Otachi.
-    title: Exploring the gap between treedepth and vertex cover through vertex integrity
+    title: Exploring the Gap Between Treedepth and Vertex Cover Through Vertex Integrity
     booktitle: The 12th International Conference on Algorithms and Complexity (CIAC 2021)
     place: Online
     year: '2021'
@@ -96,7 +96,7 @@ domestic:
   - author:
       - 儀間 達也
       - 大舘 陽太
-    title: Extended MSO model checking via small vertex integrity
+    title: Extended MSO Model Checking via Small Vertex Integrity
     booktitle:
       - 2022年電子情報通信学会総合大会COMP学生シンポジウム, オンライン, 2022年 3月 (最優秀論文賞受賞)
       - 2021年度冬のLAシンポジウム, オンライン, 2022年 2月
@@ -105,7 +105,7 @@ domestic:
   - author:
       - 儀間 達也
       - 大舘 陽太
-    title: Fair MSO evaluation problems parameterized by vertex integrity
+    title: Fair MSO Evaluation Problems Parameterized by Vertex Integrity
     booktitle:
       - 2021年電子情報通信学会総合大会COMP学生シンポジウム, オンライン, 2021年 3月
     presenter: 儀間 達也
@@ -120,7 +120,7 @@ domestic:
       - 小林 佑輔
       - 栗田 和宏
       - 大舘 陽太
-    title: An improved deterministic parameterized algorithm for cactus vertex deletion
+    title: An Improved Deterministic Parameterized Algorithm for Cactus Vertex Deletion
     booktitle:
       - 電子情報通信学会コンピュテーション研究会, オンライン, 2020年 12月
     presenter: 小林 靖明
@@ -132,7 +132,7 @@ domestic:
       - 清見 礼
       - 小林 靖明
       - 大舘 陽太
-    title: Graph partitioning problems parameterized by vertex integrity
+    title: Graph Partitioning Problems Parameterized by Vertex Integrity
     booktitle: 
       - 2019年度冬のLAシンポジウム, 京都大学, 2020年2月
     presenter: 儀間 達也

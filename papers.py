@@ -11,7 +11,9 @@ outen = "content/en/research.md"
 publication_db = "data/publications.yml"
 
 def print_journal(x, out):
-    title = x['title'].capitalize()
+    # title = x['title'].capitalize() 
+    # MSO とかでダメになる
+    title = x['title']
     out.write('1. ')
     out.write(', '.join(x['author']) + '. ')
     out.write(title + '. ')
@@ -26,7 +28,8 @@ def print_journal(x, out):
     out.write('\n')
 
 def print_conference(x, out):
-    title = x['title'].capitalize()
+    # title = x['title'].capitalize()
+    title = x['title']
     out.write('1. ')
     # if title in jtitle:
     #     out.write('[[Link to journal ver](#j' + jtitle[title] + ')]')
@@ -36,7 +39,7 @@ def print_conference(x, out):
     out.write('_' + x['booktitle'] + '_. ')
     out.write(x['place'] + '. ')
     if 'series' in x:
-        out.write(x['series'] + ', ' + x['volume'] + ', pp. ' + x['pages'])
+        out.write(x['series'] + ', ' + x['volume'] + ', pp. ' + x['pages'] + '. ')
     else:
         out.write('accepted. ')
     out.write(x['year'] + ', ' + x['month'] + '. ')
@@ -52,7 +55,7 @@ def print_domestic(x, out):
     # pp = x['presenter']
     
     out.write(', '.join(x['author']) + '. ')
-    out.write(x['title'].capitalize() + '. ')
+    out.write(x['title'] + '. ')
     out.write(', '.join(x['booktitle']) + '.\n')
 
 
