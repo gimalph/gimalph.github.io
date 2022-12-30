@@ -1,7 +1,7 @@
 ---
 title: "My publications"
 summary: "My publications"
-date: 2022-12-31T01:26:34+09:00
+date: 2022-12-31T01:39:03+09:00
 ---
 ### Journal papers
 1. Yuuki Aoike, Tatsuya Gima, Tesshu Hanaka, Masashi Kiyomi, Yasuaki Kobayashi, Yusuke Kobayashi, Kazuhiro Kurita, Yota Otachi. An improved deterministic parameterized algorithm for cactus vertex deletion. _Theory of Computing Systems_, 66, pp. 502--515. 2022. [[📖doi link](https://doi.org/10.1007/s00224-022-10076-x)][[📝arXiv](https://arxiv.org/abs/2012.04910)]

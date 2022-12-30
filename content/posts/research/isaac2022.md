@@ -17,5 +17,5 @@ Tatsuya Gima, Yota Otachi. Extended MSO Model Checking via Small Vertex Integrit
 高速に解けること (FPT) を示したものです．
 
 {{< figure src="/images/isaac2022/isaac2022-1.jpg" width=256 >}} {{< figure src="/images/isaac2022/isaac2022-2.jpg" width=256 >}}
-（小野先生と上原先生に写真を取っていただきました）
+（小野先生と上原先生に写真を取っていただきました．ありがとうございます．）
 
