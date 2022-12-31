@@ -9,11 +9,11 @@
       <link>https://gimalph.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 31 Dec 2022 01:39:03 +0900</lastBuildDate><atom:link href="https://gimalph.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Dec 2022 11:50:42 +0900</lastBuildDate><atom:link href="https://gimalph.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My publications</title>
       <link>https://gimalph.github.io/en/research/</link>
-      <pubDate>Sat, 31 Dec 2022 01:39:03 +0900</pubDate>
+      <pubDate>Sat, 31 Dec 2022 11:50:42 +0900</pubDate>
       
       <guid>https://gimalph.github.io/en/research/</guid>
       <description>My publications</description>
@@ -22,7 +22,7 @@
     <item>
       <title>研究成果</title>
       <link>https://gimalph.github.io/research/</link>
-      <pubDate>Sat, 31 Dec 2022 01:39:03 +0900</pubDate>
+      <pubDate>Sat, 31 Dec 2022 11:50:42 +0900</pubDate>
       
       <guid>https://gimalph.github.io/research/</guid>
       <description>研究成果</description>
@@ -35,19 +35,6 @@
       
       <guid>https://gimalph.github.io/researchjp/</guid>
       <description>研究成果</description>
-    </item>
-    
-    <item>
-      <title>研究活動履歴をデータベースから自動生成させてみました</title>
-      <link>https://gimalph.github.io/posts/20221231/</link>
-      <pubDate>Sat, 31 Dec 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://gimalph.github.io/posts/20221231/</guid>
-      <description>なんか他にいい方法ありそうですが全部手作業フォーマットよりは良くなったと思う．
-ほしい要素としては，以下のようなイメージでした．
-bibtex ぽい情報から markdown のページを生成 hugo やめたくなっても移れるように出来るだけ hugo 依存しないこと できるだけフォーマットズレを起こさないように自動化 以下手法
-まず論文情報を yaml に書き込む
-conference: - author: - Tatsuya Gima - Yota Otachi title: Extended MSO Model Checking via Small Vertex Integrity booktitle: The 33rd International Symposium on Algorithms and Computation (ISAAC 2022) series: LIPIcs volume: &amp;#39;248&amp;#39; pages: 20:1--20:15 place: Korea year: &amp;#39;2022&amp;#39; month: Dec doi: https://doi.org/10.4230/LIPIcs.ISAAC.2022.20 arxiv: https://arxiv.org/abs/2202.08445 journal: - author: - Tatsuya Gima - Tesshu Hanaka - Masashi Kiyomi - Yasuaki Kobayashi - Yota Otachi title: Exploring the Gap Between Treedepth and Vertex Cover Through Vertex Integrity journal: Theoretical Computer Science volume: &amp;#39;918&amp;#39; pages: 60--76 year: &amp;#39;2022&amp;#39; doi: https://doi.</description>
     </item>
     
     <item>
