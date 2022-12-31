@@ -7,7 +7,7 @@ outen = "content/en/research.md"
 # outjp = "test/researchjp.md"
 # outen = "test/researchen.md"
 
-# データベースファイル
+# データファイル
 publication_db = "data/publications.yml"
 
 def print_journal(x, out):
