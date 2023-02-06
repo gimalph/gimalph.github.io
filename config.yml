@@ -50,7 +50,7 @@ languages:
             subtitle: "
                 名古屋大学博士後期課程の儀間です．
                 <br>
-                アルゴリズム理論，グラフアルゴリズム，FPTなどに関連した研究をしています．
+                理論計算機科学を専門に，グラフ構造パラメータを利用したアルゴリズム（FPT）などに関連した研究をしています．
                 <br>
                 最近は論理を用いたメタアルゴリズムなどに興味があります．"
             buttons:
@@ -79,7 +79,7 @@ languages:
             enabled: true
             title: "Tatsuya Gima"
             subtitle: "
-            I am a first year Ph.D student of Nagoya University. <br>
+            I am a Ph.D student of Nagoya University. <br>
             Keywords: graph algorithm, fixed-parameter tractability, 
             "
             buttons:

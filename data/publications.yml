@@ -12,6 +12,7 @@ conference:
     month: Dec
     doi: https://doi.org/10.4230/LIPIcs.ISAAC.2022.20
     arxiv: https://arxiv.org/abs/2202.08445
+    presenter: Tatsuya Gima
 
   - author:
       - Tatsuya Gima
@@ -28,6 +29,7 @@ conference:
     pages: 61:1--61:15
     doi: https://doi.org/10.4230/LIPIcs.ESA.2022.61
     arxiv: https://arxiv.org/abs/2207.01024
+    presenter: Tatsuya Gima
     
   - author: 
       - Tatsuya Gima
@@ -45,7 +47,7 @@ conference:
     pages: 271--285
     doi: https://doi.org/10.1007/978-3-030-75242-2_19
     arxiv: https://arxiv.org/abs/2101.09414
-
+    presenter: Tatsuya Gima
 
 
 
@@ -83,6 +85,29 @@ journal:
 
 domestic:
   - author:
+      - 村井 亮太
+      - 儀間 達也 
+      - 土中 哲秀 
+      - 小林 靖明 
+      - 小野 廣隆
+      - 大舘 陽太 
+    title: 頂点インテグリティのパラメータ化計算量
+    booktitle:
+      - 2022年度冬のLAシンポジウム, 2023年 1月 -- 2月
+    presenter: 村井 亮太
+
+  - author:
+      - 野呂 浩平
+      - 儀間 達也 
+      - 土中 哲秀 
+      - 大舘 陽太
+      - 小野 廣隆 
+    title: ラプラシアン行列の固有値に関する木幅の下界とその改善
+    booktitle:
+      - 2022年度冬のLAシンポジウム, 2023年 1月 -- 2月
+    presenter: 野呂 浩平
+
+  - author:
       - 儀間 達也
       - 伊藤 健洋
       - 小林 靖明
@@ -91,6 +116,7 @@ domestic:
     booktitle:
       - JCCA-2022 離散数学とその応用研究集会2022 ミニシンポジウム「組合せ遷移」, 成蹊大学 2022年 8月
       - 最適化手法とアルゴリズム ─未来を担う若手研究者の集い 2022─, 東京大学, 2022年 6月
+      - 2022年度冬のLAシンポジウム, 2023年 1月 -- 2月
     presenter: 儀間 達也
 
   - author:

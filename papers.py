@@ -8,7 +8,7 @@ outen = "content/en/research.md"
 # outen = "test/researchen.md"
 
 # データファイル
-publication_db = "data/publications.yml"
+publication_data = "data/publications.yml"
 
 def print_journal(x, out):
     # title = x['title'].capitalize() 
@@ -22,7 +22,7 @@ def print_journal(x, out):
     out.write('pp. ' + x['pages'] + '. ')
     out.write(x['year'] + '. ')
     if 'doi' in x:
-        out.write("[[📖doi link]("+ x['doi'] +")]")
+        out.write("[[📕doi link]("+ x['doi'] +")]")
     if 'arxiv' in x:
         out.write("[[📝arXiv]("+ x['arxiv'] +")]")
     out.write('\n')
@@ -45,19 +45,24 @@ def print_conference(x, out):
     out.write(x['year'] + ', ' + x['month'] + '. ')
 
     if 'doi' in x:
-        out.write("[[📖doi link]("+ x['doi'] +")]")
+        out.write("[[📕doi link]("+ x['doi'] +")]")
     if 'arxiv' in x:
         out.write("[[📝arXiv]("+ x['arxiv'] +")]")
     out.write('\n')
 
 def print_domestic(x, out):
     out.write('1. ')
-    # pp = x['presenter']
-    
+
     out.write(', '.join(x['author']) + '. ')
     out.write(x['title'] + '. ')
     out.write(', '.join(x['booktitle']) + '.\n')
 
+def author_mark(x):
+    pp = x['presenter']
+    ppidx = x['author'].index(pp)
+    x['author'][ppidx] = '__*' + pp + '__'
+
+# main part 
 
 with open(outjp, mode='w') as wjp, open(outen, mode='w') as wen:
     wjp.write(
@@ -69,8 +74,8 @@ with open(outjp, mode='w') as wjp, open(outen, mode='w') as wen:
         datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+09:00") + '\n---\n'
     )
 
-    with open(publication_db, mode='r') as cdb:
-        db = yaml.safe_load(cdb)
+    with open(publication_data, mode='r') as cd:
+        db = yaml.safe_load(cd)
         wjp.write("### Journal papers\n")
         wen.write("### Journal papers\n")
         for x in db["journal"]:
@@ -80,10 +85,12 @@ with open(outjp, mode='w') as wjp, open(outen, mode='w') as wen:
         wjp.write("### Conference papers\n")
         wen.write("### Conference papers\n")
         for x in db["conference"]:
+            author_mark(x)
             print_conference(x, wjp)
             print_conference(x, wen)
 
         wjp.write("### 国内研究会発表\n")
         for x in db["domestic"]:
+            author_mark(x)
             print_domestic(x, wjp)
 
