@@ -44,13 +44,11 @@ languages:
         profileMode:
             enabled: true
             title: "儀間 達也 (Tatsuya Gima)"
-            imageUrl: "images/profile.png"
-            imageWidth: 180
-            imageHeight: 180
             subtitle: "
-                名古屋大学D1の儀間です．
-                理論計算機科学を専門に，グラフ構造パラメータを利用したアルゴリズム（FPT）などに関連した研究をしています．
-                最近は論理を用いたメタアルゴリズムなどに興味があります．"
+                名古屋大学D1の儀間です． アルゴリズム理論についての研究をしています．
+                主に，一般グラフでNP困難な問題に対して，
+                グラフ構造パラメータを利用したFPTアルゴリズムの存在性について研究をしています．
+                特に論理を用いたメタアルゴリズムなどに興味があります．"
             buttons:
                 - name: 履歴書
                   url: about
