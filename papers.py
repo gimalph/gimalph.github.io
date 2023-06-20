@@ -20,11 +20,23 @@ def create_journal_list(xd) -> [str]:
     jlist = []
     for x in xd:
         title = x['title']
-        paper = ', '.join(x['author']) + '. ' + title + '. '\
+        paper = ', '.join(x['author']) + '.<br>' + title + '.<br>'\
               +  '_' + x['journal'] + '_, '\
               + x['volume'] + ', '\
               + 'pp. ' + x['pages'] + '. '\
               + x['year'] + '.'
+        if 'doi' in x:
+            paper += "[[📕doi]("+ x['doi'] +")]"
+        if 'arxiv' in x:
+            paper += "[[📝arXiv]("+ x['arxiv'] +")]"
+        jlist.append(paper)
+    return jlist
+
+def create_preprint_papers(xd) -> [str]:
+    jlist = []
+    for x in xd:
+        title = x['title']
+        paper = ', '.join(x['author']) + '.<br>' + title + '.<br>'
         if 'doi' in x:
             paper += "[[📕doi]("+ x['doi'] +")]"
         if 'arxiv' in x:
@@ -38,7 +50,7 @@ def create_conference_list(xd) -> [str]:
     for x in xd:
         title = x['title']
         author_mark(x)
-        paper = ', '.join(x['author']) + '. ' + title + '. '\
+        paper = ', '.join(x['author']) + '. <br>' + title + '.<br>'\
               +  '_' + x['booktitle'] + '_, '\
               + x['place'] + ', '
         if 'series' in x:
@@ -61,7 +73,7 @@ def create_domestic(xd) -> ([str], int):
 
     for x in xd:
         author_mark(x)
-        paper = ', '.join(x['author']) + '. ' + x['title'] + '. '
+        paper = ', '.join(x['author']) + '.<br>' + x['title'] + '.<br>'
         if myname == x['presenter']:
             count += len(x['booktitle'])
         for t in x['booktitle']:
@@ -71,15 +83,25 @@ def create_domestic(xd) -> ([str], int):
 # main part 
 
 with open(outjp, mode='w') as wjp, open(outen, mode='w') as wen:
+    nowdate = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+09:00")
     wjp.write(
         '---\ntitle: "研究成果"\nsummary: "研究成果"\ndate: ' + 
-        datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+09:00") +
+        nowdate +
          '\nShowToc: true\n---\n'
     )
     wen.write(
         '---\ntitle: "My publications"\nsummary: "My publications"\ndate: ' + 
-        datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+09:00") + 
+        nowdate +
         '\nShowToc: true\n---\n'
+    )
+
+    wjp.write('最終更新日: ' +
+     datetime.datetime.now().strftime("%Y年 %m月 %d日") +
+      '\n\n'
+    )
+    wen.write('Last update: ' +
+     datetime.datetime.now().strftime("%B, %d, %Y") +
+      '\n\n'
     )
     wjp.write('[DBLP](https://dblp.org/pid/281/6848.html)\n')
     wen.write('[DBLP](https://dblp.org/pid/281/6848.html)\n')
@@ -120,6 +142,18 @@ with open(outjp, mode='w') as wjp, open(outen, mode='w') as wen:
             wen.write(paper + '\n')
         wjp.write('{reversed="reversed"}\n')
         wen.write('{reversed="reversed"}\n')
+
+        # preprints
+        wjp.write("### プレプリント\n")
+        wen.write("### Preprint papers\n")
+        clist = create_preprint_papers(db['arxiv'])
+        for x in clist:
+            paper = '1. ' + x
+            wjp.write(paper + '\n')
+            wen.write(paper + '\n')
+        wjp.write('{reversed="reversed"}\n')
+        wen.write('{reversed="reversed"}\n')
+
 
         wjp.write("### 国内研究会\n")
         dlist, count = create_domestic(db["domestic"])

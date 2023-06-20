@@ -94,6 +94,16 @@ journal:
     doi: https://doi.org/10.1007/s00224-022-10076-x
     arxiv: https://arxiv.org/abs/2012.04910
 
+arxiv:
+  - author:
+      - Hiroki Arimura 
+      - Tatsuya Gima
+      - Yasuaki Kobayashi
+      - Hiroomi Nochide
+      - Yota Otachi
+    title: Minimum Consistent Subset for Trees Revisited
+    arxiv: https://doi.org/10.48550/arXiv.2305.07259
+
 
 workshop:
   - author:
