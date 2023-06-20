@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ja" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>研究活動履歴をデータベースから自動生成させてみました | 儀間 達也 (Tatsuya Gima)</title>
+<meta name="keywords" content="">
+<meta name="description" content="なんか他にいい方法ありそうですが全部手作業フォーマットよりは良くなったと思う．
+ほしい要素としては，以下のようなイメージでした．
+bibtex ぽい情報から markdown のページを生成 hugo やめたくなっても移れるように出来るだけ hugo 依存しないこと できるだけフォーマットズレを起こさないように自動化 以下手法
+まず論文情報を yaml に書き込む
+conference: - author: - Tatsuya Gima - Yota Otachi title: Extended MSO Model Checking via Small Vertex Integrity booktitle: The 33rd International Symposium on Algorithms and Computation (ISAAC 2022) series: LIPIcs volume: &#39;248&#39; pages: 20:1--20:15 place: Korea year: &#39;2022&#39; month: Dec doi: https://doi.org/10.4230/LIPIcs.ISAAC.2022.20 arxiv: https://arxiv.org/abs/2202.08445 journal: - author: - Tatsuya Gima - Tesshu Hanaka - Masashi Kiyomi - Yasuaki Kobayashi - Yota Otachi title: Exploring the Gap Between Treedepth and Vertex Cover Through Vertex Integrity journal: Theoretical Computer Science volume: &#39;918&#39; pages: 60--76 year: &#39;2022&#39; doi: https://doi.">
+<meta name="author" content="">
+<link rel="canonical" href="https://gimalph.github.io/posts/20221231/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.bccfefac377bc340f06c260aed1bddf49a4354816d7c570d6aac75a997986c95.css" integrity="sha256-vM/vrDd7w0DwbCYK7Rvd9JpDVIFtfFcNaqx1qZeYbJU=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://gimalph.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://gimalph.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://gimalph.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://gimalph.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://gimalph.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="ja" href="https://gimalph.github.io/posts/20221231/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EXH7LC79L6"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-EXH7LC79L6', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="研究活動履歴をデータベースから自動生成させてみました" />
+<meta property="og:description" content="なんか他にいい方法ありそうですが全部手作業フォーマットよりは良くなったと思う．
+ほしい要素としては，以下のようなイメージでした．
+bibtex ぽい情報から markdown のページを生成 hugo やめたくなっても移れるように出来るだけ hugo 依存しないこと できるだけフォーマットズレを起こさないように自動化 以下手法
+まず論文情報を yaml に書き込む
+conference: - author: - Tatsuya Gima - Yota Otachi title: Extended MSO Model Checking via Small Vertex Integrity booktitle: The 33rd International Symposium on Algorithms and Computation (ISAAC 2022) series: LIPIcs volume: &#39;248&#39; pages: 20:1--20:15 place: Korea year: &#39;2022&#39; month: Dec doi: https://doi.org/10.4230/LIPIcs.ISAAC.2022.20 arxiv: https://arxiv.org/abs/2202.08445 journal: - author: - Tatsuya Gima - Tesshu Hanaka - Masashi Kiyomi - Yasuaki Kobayashi - Yota Otachi title: Exploring the Gap Between Treedepth and Vertex Cover Through Vertex Integrity journal: Theoretical Computer Science volume: &#39;918&#39; pages: 60--76 year: &#39;2022&#39; doi: https://doi." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gimalph.github.io/posts/20221231/" /><meta property="og:image" content="https://gimalph.github.io/papermod-cover.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-12-31T00:00:00+09:00" />
+<meta property="article:modified_time" content="2022-12-31T00:00:00+09:00" /><meta property="og:site_name" content="儀間 達也 (Tatsuya Gima)" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://gimalph.github.io/papermod-cover.png"/>
+
+<meta name="twitter:title" content="研究活動履歴をデータベースから自動生成させてみました"/>
+<meta name="twitter:description" content="なんか他にいい方法ありそうですが全部手作業フォーマットよりは良くなったと思う．
+ほしい要素としては，以下のようなイメージでした．
+bibtex ぽい情報から markdown のページを生成 hugo やめたくなっても移れるように出来るだけ hugo 依存しないこと できるだけフォーマットズレを起こさないように自動化 以下手法
+まず論文情報を yaml に書き込む
+conference: - author: - Tatsuya Gima - Yota Otachi title: Extended MSO Model Checking via Small Vertex Integrity booktitle: The 33rd International Symposium on Algorithms and Computation (ISAAC 2022) series: LIPIcs volume: &#39;248&#39; pages: 20:1--20:15 place: Korea year: &#39;2022&#39; month: Dec doi: https://doi.org/10.4230/LIPIcs.ISAAC.2022.20 arxiv: https://arxiv.org/abs/2202.08445 journal: - author: - Tatsuya Gima - Tesshu Hanaka - Masashi Kiyomi - Yasuaki Kobayashi - Yota Otachi title: Exploring the Gap Between Treedepth and Vertex Cover Through Vertex Integrity journal: Theoretical Computer Science volume: &#39;918&#39; pages: 60--76 year: &#39;2022&#39; doi: https://doi."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://gimalph.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "研究活動履歴をデータベースから自動生成させてみました",
+      "item": "https://gimalph.github.io/posts/20221231/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "研究活動履歴をデータベースから自動生成させてみました",
+  "name": "研究活動履歴をデータベースから自動生成させてみました",
+  "description": "なんか他にいい方法ありそうですが全部手作業フォーマットよりは良くなったと思う．\nほしい要素としては，以下のようなイメージでした．\nbibtex ぽい情報から markdown のページを生成 hugo やめたくなっても移れるように出来るだけ hugo 依存しないこと できるだけフォーマットズレを起こさないように自動化 以下手法\nまず論文情報を yaml に書き込む\nconference: - author: - Tatsuya Gima - Yota Otachi title: Extended MSO Model Checking via Small Vertex Integrity booktitle: The 33rd International Symposium on Algorithms and Computation (ISAAC 2022) series: LIPIcs volume: \u0026#39;248\u0026#39; pages: 20:1--20:15 place: Korea year: \u0026#39;2022\u0026#39; month: Dec doi: https://doi.org/10.4230/LIPIcs.ISAAC.2022.20 arxiv: https://arxiv.org/abs/2202.08445 journal: - author: - Tatsuya Gima - Tesshu Hanaka - Masashi Kiyomi - Yasuaki Kobayashi - Yota Otachi title: Exploring the Gap Between Treedepth and Vertex Cover Through Vertex Integrity journal: Theoretical Computer Science volume: \u0026#39;918\u0026#39; pages: 60--76 year: \u0026#39;2022\u0026#39; doi: https://doi.",
+  "keywords": [
+    
+  ],
+  "articleBody": "なんか他にいい方法ありそうですが全部手作業フォーマットよりは良くなったと思う．\nほしい要素としては，以下のようなイメージでした．\nbibtex ぽい情報から markdown のページを生成 hugo やめたくなっても移れるように出来るだけ hugo 依存しないこと できるだけフォーマットズレを起こさないように自動化 以下手法\nまず論文情報を yaml に書き込む\nconference: - author: - Tatsuya Gima - Yota Otachi title: Extended MSO Model Checking via Small Vertex Integrity booktitle: The 33rd International Symposium on Algorithms and Computation (ISAAC 2022) series: LIPIcs volume: '248' pages: 20:1--20:15 place: Korea year: '2022' month: Dec doi: https://doi.org/10.4230/LIPIcs.ISAAC.2022.20 arxiv: https://arxiv.org/abs/2202.08445 journal: - author: - Tatsuya Gima - Tesshu Hanaka - Masashi Kiyomi - Yasuaki Kobayashi - Yota Otachi title: Exploring the Gap Between Treedepth and Vertex Cover Through Vertex Integrity journal: Theoretical Computer Science volume: '918' pages: 60--76 year: '2022' doi: https://doi.org/10.1016/j.tcs.2022.03.021 arxiv: https://arxiv.org/abs/2101.09414 python でがんばる．\nimport yaml import datetime # 出力先ファイル outjp = \"content/research.md\" outen = \"content/en/research.md\" # outjp = \"test/researchjp.md\" # outen = \"test/researchen.md\" # データベースファイル publication_db = \"data/publications.yml\" def print_journal(x, out): title = x['title'].capitalize() out.write('1. ') out.write(', '.join(x['author']) + '. ') out.write(title + '. ') out.write('_' + x['journal'] + '_, ') out.write(x['volume'] + ', ') out.write('pp. ' + x['pages'] + '. ') out.write(x['year'] + '. ') if 'doi' in x: out.write(\"[[📖doi link](\"+ x['doi'] +\")]\") if 'arxiv' in x: out.write(\"[[📝arXiv](\"+ x['arxiv'] +\")]\") out.write('\\n') def print_conference(x, out): title = x['title'].capitalize() out.write('1. ') # if title in jtitle: # out.write('[[Link to journal ver](#j' + jtitle[title] + ')]') out.write(', '.join(x['author']) + '. ') out.write(title + '. ') out.write('_' + x['booktitle'] + '_. ') out.write(x['place'] + '. ') if 'series' in x: out.write(x['series'] + ', ' + x['volume'] + ', pp. ' + x['pages']) else: out.write('accepted. ') out.write(x['year'] + ', ' + x['month'] + '. ') if 'doi' in x: out.write(\"[[📖doi link](\"+ x['doi'] +\")]\") if 'arxiv' in x: out.write(\"[[📝arXiv](\"+ x['arxiv'] +\")]\") out.write('\\n') def print_domestic(x, out): out.write('1. ') # pp = x['presenter'] out.write(', '.join(x['author']) + '. ') out.write(x['title'].capitalize() + '. ') out.write(', '.join(x['booktitle']) + '.\\n') with open(outjp, mode='w') as wjp, open(outen, mode='w') as wen: wjp.write( '---\\ntitle: \"研究成果\"\\nsummary: \"研究成果\"\\ndate: ' + datetime.datetime.now().strftime(\"%Y-%m-%dT%H:%M:%S+09:00\") + '\\n---\\n' ) wen.write( '---\\ntitle: \"My publications\"\\nsummary: \"My publications\"\\ndate: ' + datetime.datetime.now().strftime(\"%Y-%m-%dT%H:%M:%S+09:00\") + '\\n---\\n' ) with open(publication_db, mode='r') as cdb: db = yaml.safe_load(cdb) wjp.write(\"### Journal papers\\n\") wen.write(\"### Journal papers\\n\") for x in db[\"journal\"]: print_journal(x, wjp) print_journal(x, wen) wjp.write(\"### Conference papers\\n\") wen.write(\"### Conference papers\\n\") for x in db[\"conference\"]: print_conference(x, wjp) print_conference(x, wen) wjp.write(\"### 国内研究会発表\\n\") for x in db[\"domestic\"]: print_domestic(x, wjp) ( hugo の python のハイライトがうまくいかないな…)\n",
+  "wordCount" : "372",
+  "inLanguage": "ja",
+  "datePublished": "2022-12-31T00:00:00+09:00",
+  "dateModified": "2022-12-31T00:00:00+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://gimalph.github.io/posts/20221231/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "儀間 達也 (Tatsuya Gima)",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://gimalph.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://gimalph.github.io/" accesskey="h" title="儀間 達也 (Tatsuya Gima) (Alt + H)">儀間 達也 (Tatsuya Gima)</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://gimalph.github.io/en/" title="English"
+                            aria-label="English">En</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://gimalph.github.io/about/" title="履歴書">
+                    <span>履歴書</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://gimalph.github.io/research/" title="研究">
+                    <span>研究</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://gimalph.github.io/news/" title="活動履歴">
+                    <span>活動履歴</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://gimalph.github.io/">ホーム</a>&nbsp;»&nbsp;<a href="https://gimalph.github.io/posts/">Posts</a></div>
+    <h1 class="post-title">
+      研究活動履歴をデータベースから自動生成させてみました
+    </h1>
+    <div class="post-meta"><span title='2022-12-31 00:00:00 +0900 +0900'>12月 31, 2022</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>なんか他にいい方法ありそうですが全部手作業フォーマットよりは良くなったと思う．</p>
+<p>ほしい要素としては，以下のようなイメージでした．</p>
+<ol>
+<li>bibtex ぽい情報から markdown のページを生成</li>
+<li>hugo やめたくなっても移れるように出来るだけ hugo 依存しないこと</li>
+<li>できるだけフォーマットズレを起こさないように自動化</li>
+</ol>
+<p>以下手法</p>
+<hr>
+<p>まず論文情報を yaml に書き込む</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">conference</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">author</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">Tatsuya Gima</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">Yota Otachi</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l">Extended MSO Model Checking via Small Vertex Integrity</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">booktitle</span><span class="p">:</span><span class="w"> </span><span class="l">The 33rd International Symposium on Algorithms and Computation (ISAAC 2022)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">series</span><span class="p">:</span><span class="w"> </span><span class="l">LIPIcs</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volume</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;248&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">pages</span><span class="p">:</span><span class="w"> </span><span class="m">20</span><span class="p">:</span><span class="m">1</span>--<span class="m">20</span><span class="p">:</span><span class="m">15</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">place</span><span class="p">:</span><span class="w"> </span><span class="l">Korea</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">year</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;2022&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">month</span><span class="p">:</span><span class="w"> </span><span class="l">Dec</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">doi</span><span class="p">:</span><span class="w"> </span><span class="l">https://doi.org/10.4230/LIPIcs.ISAAC.2022.20</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">arxiv</span><span class="p">:</span><span class="w"> </span><span class="l">https://arxiv.org/abs/2202.08445</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">journal</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">author</span><span class="p">:</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">Tatsuya Gima</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">Tesshu Hanaka</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">Masashi Kiyomi</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">Yasuaki Kobayashi</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">Yota Otachi</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l">Exploring the Gap Between Treedepth and Vertex Cover Through Vertex Integrity</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">journal</span><span class="p">:</span><span class="w"> </span><span class="l">Theoretical Computer Science</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volume</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;918&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">pages</span><span class="p">:</span><span class="w"> </span><span class="m">60</span>--<span class="m">76</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">year</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;2022&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">doi</span><span class="p">:</span><span class="w"> </span><span class="l">https://doi.org/10.1016/j.tcs.2022.03.021</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">arxiv</span><span class="p">:</span><span class="w"> </span><span class="l">https://arxiv.org/abs/2101.09414</span></span></span></code></pre></div>
+<p>python でがんばる．</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python3" data-lang="python3"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">yaml</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">datetime</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 出力先ファイル</span>
+</span></span><span class="line"><span class="cl"><span class="n">outjp</span> <span class="o">=</span> <span class="s2">&#34;content/research.md&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">outen</span> <span class="o">=</span> <span class="s2">&#34;content/en/research.md&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># outjp = &#34;test/researchjp.md&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># outen = &#34;test/researchen.md&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># データベースファイル</span>
+</span></span><span class="line"><span class="cl"><span class="n">publication_db</span> <span class="o">=</span> <span class="s2">&#34;data/publications.yml&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">print_journal</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">out</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">title</span> <span class="o">=</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;title&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;1. &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;, &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;author&#39;</span><span class="p">])</span> <span class="o">+</span> <span class="s1">&#39;. &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">title</span> <span class="o">+</span> <span class="s1">&#39;. &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;_&#39;</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;journal&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;_, &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;volume&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;, &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;pp. &#39;</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;pages&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;. &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;. &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="s1">&#39;doi&#39;</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;[[📖doi link](&#34;</span><span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;doi&#39;</span><span class="p">]</span> <span class="o">+</span><span class="s2">&#34;)]&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="s1">&#39;arxiv&#39;</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;[[📝arXiv](&#34;</span><span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;arxiv&#39;</span><span class="p">]</span> <span class="o">+</span><span class="s2">&#34;)]&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">print_conference</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">out</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">title</span> <span class="o">=</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;title&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;1. &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># if title in jtitle:</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">#     out.write(&#39;[[Link to journal ver](#j&#39; + jtitle[title] + &#39;)]&#39;)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;, &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;author&#39;</span><span class="p">])</span> <span class="o">+</span> <span class="s1">&#39;. &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">title</span> <span class="o">+</span> <span class="s1">&#39;. &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;_&#39;</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;booktitle&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;_. &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;place&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;. &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="s1">&#39;series&#39;</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;series&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;, &#39;</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;volume&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;, pp. &#39;</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;pages&#39;</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;accepted. &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;, &#39;</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;month&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;. &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="s1">&#39;doi&#39;</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;[[📖doi link](&#34;</span><span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;doi&#39;</span><span class="p">]</span> <span class="o">+</span><span class="s2">&#34;)]&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="s1">&#39;arxiv&#39;</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;[[📝arXiv](&#34;</span><span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;arxiv&#39;</span><span class="p">]</span> <span class="o">+</span><span class="s2">&#34;)]&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">print_domestic</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">out</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;1. &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># pp = x[&#39;presenter&#39;]</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;, &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;author&#39;</span><span class="p">])</span> <span class="o">+</span> <span class="s1">&#39;. &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;title&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span> <span class="o">+</span> <span class="s1">&#39;. &#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;, &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;booktitle&#39;</span><span class="p">])</span> <span class="o">+</span> <span class="s1">&#39;.</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">outjp</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">wjp</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="n">outen</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">wen</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">wjp</span><span class="o">.</span><span class="n">write</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;---</span><span class="se">\n</span><span class="s1">title: &#34;研究成果&#34;</span><span class="se">\n</span><span class="s1">summary: &#34;研究成果&#34;</span><span class="se">\n</span><span class="s1">date: &#39;</span> <span class="o">+</span> 
+</span></span><span class="line"><span class="cl">        <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">&#34;%Y-%m-</span><span class="si">%d</span><span class="s2">T%H:%M:%S+09:00&#34;</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">---</span><span class="se">\n</span><span class="s1">&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">wen</span><span class="o">.</span><span class="n">write</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;---</span><span class="se">\n</span><span class="s1">title: &#34;My publications&#34;</span><span class="se">\n</span><span class="s1">summary: &#34;My publications&#34;</span><span class="se">\n</span><span class="s1">date: &#39;</span> <span class="o">+</span> 
+</span></span><span class="line"><span class="cl">        <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">&#34;%Y-%m-</span><span class="si">%d</span><span class="s2">T%H:%M:%S+09:00&#34;</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">---</span><span class="se">\n</span><span class="s1">&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">publication_db</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">cdb</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">db</span> <span class="o">=</span> <span class="n">yaml</span><span class="o">.</span><span class="n">safe_load</span><span class="p">(</span><span class="n">cdb</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">wjp</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;### Journal papers</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">wen</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;### Journal papers</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">db</span><span class="p">[</span><span class="s2">&#34;journal&#34;</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">print_journal</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">wjp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">print_journal</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">wen</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">wjp</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;### Conference papers</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">wen</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;### Conference papers</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">db</span><span class="p">[</span><span class="s2">&#34;conference&#34;</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">print_conference</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">wjp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">print_conference</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">wen</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">wjp</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;### 国内研究会発表</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">db</span><span class="p">[</span><span class="s2">&#34;domestic&#34;</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">print_domestic</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">wjp</span><span class="p">)</span></span></span></code></pre></div>
+<p>( hugo の python のハイライトがうまくいかないな…)</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://gimalph.github.io/posts/research/isaac2022/">
+    <span class="title">次のページ »</span>
+    <br>
+    <span>ISAAC 2022で &#34;Extended mso model checking via small vertex integrity&#34; について発表しました． </span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://gimalph.github.io/">儀間 達也 (Tatsuya Gima)</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'コピー';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'コピーされました!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'コピー';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
