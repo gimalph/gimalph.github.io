@@ -2,38 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gimalph.github.io/research/</loc>
-    <lastmod>2022-08-26T12:00:00+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gimalph.github.io/en/research/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://gimalph.github.io/research/"
-                />
-  </url><url>
-    <loc>https://gimalph.github.io/posts/research/jcca2022/</loc>
-    <lastmod>2022-08-17T10:00:00+09:00</lastmod>
+    <loc>https://gimalph.github.io/en/</loc>
+    <lastmod>2023-06-21T01:09:50+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://gimalph.github.io/posts/</loc>
-    <lastmod>2022-08-17T10:00:00+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://gimalph.github.io/posts/research/</loc>
-    <lastmod>2022-08-17T10:00:00+09:00</lastmod>
+    <loc>https://gimalph.github.io/en/research/</loc>
+    <lastmod>2023-06-21T01:09:50+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gimalph.github.io/</loc>
-    <lastmod>2022-08-17T10:00:00+09:00</lastmod>
+    <lastmod>2023-06-21T01:09:50+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -47,13 +27,43 @@
                 href="https://gimalph.github.io/"
                 />
   </url><url>
-    <loc>https://gimalph.github.io/english/</loc>
-    <lastmod>2022-07-01T20:10:46+09:00</lastmod>
+    <loc>https://gimalph.github.io/research/</loc>
+    <lastmod>2023-06-21T01:09:50+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gimalph.github.io/en/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gimalph.github.io/research/"
+                />
+  </url><url>
+    <loc>https://gimalph.github.io/posts/research/la2022winter/</loc>
+    <lastmod>2023-02-03T00:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://gimalph.github.io/english/research/</loc>
-    <lastmod>2022-07-01T20:10:46+09:00</lastmod>
+    <loc>https://gimalph.github.io/posts/</loc>
+    <lastmod>2023-02-03T00:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://gimalph.github.io/posts/research/</loc>
+    <lastmod>2023-02-03T00:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://gimalph.github.io/posts/research/isaac2022/</loc>
+    <lastmod>2022-12-19T20:04:47+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://gimalph.github.io/posts/research/jcca2022/</loc>
+    <lastmod>2022-08-17T10:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -67,7 +77,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://gimalph.github.io/english/about/</loc>
+    <loc>https://gimalph.github.io/en/about/</loc>
     <lastmod>2022-05-12T00:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -165,10 +175,6 @@
                 hreflang="ja"
                 href="https://gimalph.github.io/categories/"
                 />
-  </url><url>
-    <loc>https://gimalph.github.io/series/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url><url>
     <loc>https://gimalph.github.io/news/</loc>
     <changefreq>monthly</changefreq>

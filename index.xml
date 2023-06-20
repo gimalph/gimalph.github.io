@@ -9,14 +9,46 @@
       <link>https://gimalph.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 17 Aug 2022 10:00:00 +0900</lastBuildDate><atom:link href="https://gimalph.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jun 2023 01:09:50 +0900</lastBuildDate><atom:link href="https://gimalph.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>研究</title>
+      <title>My publications</title>
+      <link>https://gimalph.github.io/en/research/</link>
+      <pubDate>Wed, 21 Jun 2023 01:09:50 +0900</pubDate>
+      
+      <guid>https://gimalph.github.io/en/research/</guid>
+      <description>My publications</description>
+    </item>
+    
+    <item>
+      <title>研究成果</title>
       <link>https://gimalph.github.io/research/</link>
-      <pubDate>Fri, 26 Aug 2022 12:00:00 +0900</pubDate>
+      <pubDate>Wed, 21 Jun 2023 01:09:50 +0900</pubDate>
       
       <guid>https://gimalph.github.io/research/</guid>
-      <description>研究活動履歴など</description>
+      <description>研究成果</description>
+    </item>
+    
+    <item>
+      <title>2022年度冬のLAシンポジウム（京都）に参加しました</title>
+      <link>https://gimalph.github.io/posts/research/la2022winter/</link>
+      <pubDate>Fri, 03 Feb 2023 00:00:00 +0900</pubDate>
+      
+      <guid>https://gimalph.github.io/posts/research/la2022winter/</guid>
+      <description>交通に影響が出ないレベルに雪が積もっていて，とても風流な京都が味わえました． （一週間前だったら大変だったかもしれませんね）
+コロナの影響で，実はこれまで直接会っていなかった研究室メンバーとも直接会えたり， 同年代の Dの学生とも出会えたりと楽しく過ごせました．
+儀間は Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited について発表しました．</description>
+    </item>
+    
+    <item>
+      <title>ISAAC 2022で &#34;Extended mso model checking via small vertex integrity&#34; について発表しました． </title>
+      <link>https://gimalph.github.io/posts/research/isaac2022/</link>
+      <pubDate>Mon, 19 Dec 2022 20:04:47 +0900</pubDate>
+      
+      <guid>https://gimalph.github.io/posts/research/isaac2022/</guid>
+      <description>以下の論文について，ISAAC2022 (韓国) で発表しました． ESA2022に続いて人生で2度目の国際会議参加でした．
+Tatsuya Gima, Yota Otachi. Extended MSO Model Checking via Small Vertex Integrity. The 33rd International Symposium on Algorithms and Computation (ISAAC 2022). Korea. LIPIcs, 248, pp. 20:1&amp;ndash;20:15, 2022, Dec. [📖doi link][📝arXiv]
+内容としては，それなりに（計算理論的に）難しいような最適化問題であっても, ある程度疎で特殊なグラフ（vertex integrity というものが小さいグラフ）であれば， 高速に解けること (FPT) を示したものです．
+（小野先生と上原先生に写真を取っていただきました．ありがとうございます．）</description>
     </item>
     
     <item>
@@ -26,15 +58,6 @@
       
       <guid>https://gimalph.github.io/posts/research/jcca2022/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>My publications</title>
-      <link>https://gimalph.github.io/english/research/</link>
-      <pubDate>Fri, 01 Jul 2022 20:10:46 +0900</pubDate>
-      
-      <guid>https://gimalph.github.io/english/research/</guid>
-      <description>my publications</description>
     </item>
     
     <item>
@@ -57,10 +80,10 @@
     
     <item>
       <title>My CV</title>
-      <link>https://gimalph.github.io/english/about/</link>
+      <link>https://gimalph.github.io/en/about/</link>
       <pubDate>Thu, 12 May 2022 00:00:00 +0900</pubDate>
       
-      <guid>https://gimalph.github.io/english/about/</guid>
+      <guid>https://gimalph.github.io/en/about/</guid>
       <description> Name: Tatsuya Gima E-mail: gima [at] nagoya-u.jp Affiliation: Doctoral Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University. Supervisor: Yota Otachi Career April 2022 &amp;ndash; Now: Doctoral Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University. December 2020 &amp;ndash; Now: Graduate Program for Lifestyle Revolution based on Transdisciplinary Mobility Innovation (TMI) in Nagoya University. April 2020 &amp;ndash; March 2022: Master&amp;rsquo;s Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University (Master of Informatics) April 2016 &amp;ndash; March 2020: Department of Computer Science and Electrical Engineering, Kumamoto University (Bachelor of Engineering) Awards March 2022: IEICE General Conference COMP Students Symposium Best Paper Award </description>
     </item>
     
