@@ -53,6 +53,7 @@ def create_conference_list(xd) -> [str]:
         clist.append(paper)
     return clist
 
+
 def create_domestic(xd) -> ([str], int):
     dlist = []
     myname = "儀間 達也"
@@ -102,6 +103,17 @@ with open(outjp, mode='w') as wjp, open(outen, mode='w') as wen:
         wjp.write("### Conference papers\n")
         wen.write("### Conference papers\n")
         clist = create_conference_list(db['conference'])
+        for x in clist:
+            paper = '1. ' + x
+            wjp.write(paper + '\n')
+            wen.write(paper + '\n')
+        wjp.write('{reversed="reversed"}\n')
+        wen.write('{reversed="reversed"}\n')
+
+        # Workshop
+        wjp.write("### 国際ワークショップでの発表\n")
+        wen.write("### Presentations on International Workshops\n")
+        clist = create_conference_list(db['workshop'])
         for x in clist:
             paper = '1. ' + x
             wjp.write(paper + '\n')

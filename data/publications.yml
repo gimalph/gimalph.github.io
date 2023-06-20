@@ -50,8 +50,33 @@ conference:
     presenter: Tatsuya Gima
 
 
-
 journal:
+  - author:
+      - Tatsuya Gima
+      - Tesshu Hanaka
+      - Kohei Noro
+      - Hirotaka Ono
+      - Yota Otachi
+    title: On a spectral lower bound of treewidth
+    journal: IEICE Transactions
+    volume: E107-D
+    pages: (to appear)
+    year: '2024'
+
+  - author: 
+      - Tatsuya Gima
+      - Tesshu Hanaka
+      - Masashi Kiyomi
+      - Yasuaki Kobayashi
+      - Yota Otachi
+    title: Exploring the Gap Between Treedepth and Vertex Cover Through Vertex Integrity
+    journal: Theoretical Computer Science
+    volume: '918'
+    pages: 60--76
+    year: '2022'
+    doi: https://doi.org/10.1016/j.tcs.2022.03.021
+    arxiv: https://arxiv.org/abs/2101.09414
+
   - author: 
       - Yuuki Aoike
       - Tatsuya Gima
@@ -69,21 +94,71 @@ journal:
     doi: https://doi.org/10.1007/s00224-022-10076-x
     arxiv: https://arxiv.org/abs/2012.04910
 
-  - author: 
+
+workshop:
+  - author:
+      - Hiroki Arimura 
+      - Tatsuya Gima
+      - Yasuaki Kobayashi
+      - Hiroomi Nochide
+      - Yota Otachi
+    title: Minimum Consistent Subset for Trees Revisited
+    booktitle: The 23rd Japan-Korea Joint Workshop on Algorithms and Computation (WAAC 2023)
+    presenter: Hiroomi Nochide
+    month: June
+    year: '2023'
+    place: Nagoya, Japan
+
+  - author:
+      - Ryota Murai
       - Tatsuya Gima
       - Tesshu Hanaka
-      - Masashi Kiyomi
       - Yasuaki Kobayashi
+      - Hirotaka Ono
       - Yota Otachi
-    title: Exploring the Gap Between Treedepth and Vertex Cover Through Vertex Integrity
-    journal: Theoretical Computer Science
-    volume: '918'
-    pages: 60--76
-    year: '2022'
-    doi: https://doi.org/10.1016/j.tcs.2022.03.021
-    arxiv: https://arxiv.org/abs/2101.09414
+    title: Structural parameterizations of vertex integrity
+    booktitle: The 23rd Japan-Korea Joint Workshop on Algorithms and Computation (WAAC 2023)
+    presenter: Ryota Murai
+    month: June
+    year: '2023'
+    place: Nagoya, Japan
+
+  - author:
+      - Tatsuya Gima
+      - Tesshu Hanaka
+      - Kohei Noro
+      - Hirotaka Ono
+      - Yota Otachi
+    title: On a spectral lower bound of treewidth
+    booktitle: The 23rd Japan-Korea Joint Workshop on Algorithms and Computation (WAAC 2023)
+    presenter: Kohei Noro
+    month: June
+    year: '2023'
+    place: Nagoya, Japan
 
 domestic:
+  - author:
+      - 儀間 達也
+      - 土中 哲秀 
+      - 野呂 浩平
+      - 小野 廣隆
+      - 大舘 陽太 
+    title: 続・ラプラシアン行列の固有値に関する木幅の下界とその改善
+    booktitle:
+      - 2023年度夏のLAシンポジウム, サンリフレ函館, 2023年 7月
+    presenter: 野呂 浩平
+
+  - author:
+      - 儀間 達也
+      - 隈部 壮
+      - 栗田 和宏
+      - 岡田 優斗
+      - 大舘 陽太
+    title: Dichotomies for Tree Minor Containment with Structural Parameters
+    booktitle:
+      - 2023年度夏のLAシンポジウム, サンリフレ函館, 2023年 7月
+    presenter: 岡田 優斗
+
   - author:
       - 村井 亮太
       - 儀間 達也 
@@ -93,7 +168,7 @@ domestic:
       - 大舘 陽太 
     title: 頂点インテグリティのパラメータ化計算量
     booktitle:
-      - 2022年度冬のLAシンポジウム, 2023年 1月 -- 2月
+      - 2022年度冬のLAシンポジウム, 京都大学, 2023年 1月 -- 2月
     presenter: 村井 亮太
 
   - author:
@@ -104,7 +179,7 @@ domestic:
       - 小野 廣隆 
     title: ラプラシアン行列の固有値に関する木幅の下界とその改善
     booktitle:
-      - 2022年度冬のLAシンポジウム, 2023年 1月 -- 2月
+      - 2022年度冬のLAシンポジウム, 京都大学, 2023年 1月 -- 2月
     presenter: 野呂 浩平
 
   - author:
@@ -114,8 +189,8 @@ domestic:
       - 大舘 陽太
     title: Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited
     booktitle:
-      - 2022年度冬のLAシンポジウム, 2023年 1月 -- 2月
-      - JCCA-2022 離散数学とその応用研究集会2022 ミニシンポジウム「組合せ遷移」, 成蹊大学 2022年 8月
+      - 2022年度冬のLAシンポジウム, 京都大学, 2023年 1月 -- 2月
+      - JCCA-2022 離散数学とその応用研究集会2022 ミニシンポジウム「組合せ遷移」, 成蹊大学, 2022年 8月
       - 最適化手法とアルゴリズム ─未来を担う若手研究者の集い 2022─, 東京大学, 2022年 6月
     presenter: 儀間 達也
 
