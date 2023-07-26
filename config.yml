@@ -35,9 +35,9 @@ languages:
                 - name: 研究
                   url: research/
                   weight: 3
-                - name: 活動履歴
-                  url: news/
-                  weight: 10
+                # - name: 活動履歴
+                #   url: news/
+                #   weight: 10
                 # - name: リンク
                 #   url: link/
                 #   weight: 100
@@ -45,17 +45,14 @@ languages:
             enabled: true
             title: "儀間 達也 (Tatsuya Gima)"
             subtitle: "
-                名古屋大学D2の儀間です． アルゴリズム理論についての研究をしています．
-                主に，一般グラフでNP困難な問題に対して，
-                グラフ構造パラメータを利用したFPTアルゴリズムの存在性について研究をしています．
-                特に論理を用いたメタアルゴリズムなどにあります．"
+                名古屋大学D2の儀間です．
+                研究興味： アルゴリズム理論, グラフ構造パラメータ, 固定パラメータ容易性, 有限モデル理論
+                "
             buttons:
                 - name: 履歴書
                   url: about
                 - name: 研究業績
                   url: research
-                - name: 活動履歴
-                  url: news
                 - name: "English"
                   url: /en/
     en:
@@ -76,7 +73,7 @@ languages:
             title: "Tatsuya Gima"
             subtitle: "
             I am a Ph.D student of Nagoya University. <br>
-            Keywords: graph algorithm, fixed-parameter tractability, 
+            Keywords: graph algorithm, fixed-parameter tractability, structural graph parameters, finite model theory
             "
             buttons:
                 - name: CV
