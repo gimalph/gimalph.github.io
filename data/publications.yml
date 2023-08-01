@@ -53,6 +53,14 @@ conference:
 journal:
   - author:
       - Tatsuya Gima
+      - Yota Otachi
+    title: Extended MSO Model Checking via Small Vertex Integrity
+    journal: Algorithmica
+    pages: (to appear)
+    arxiv: https://arxiv.org/abs/2202.08445
+
+  - author:
+      - Tatsuya Gima
       - Tesshu Hanaka
       - Kohei Noro
       - Hirotaka Ono

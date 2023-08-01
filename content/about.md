@@ -4,7 +4,7 @@ date: 2023-06-21T00:00:00+09:00
 sitemap:
     changefreq: yearly
 ---
-- 氏名: 儀間 達也 (ぎま たつや）
+- 氏名: 儀間 達也 （ぎま たつや）
 - メール: gima [at] nagoya-u.jp
 - 所属: 名古屋大学 大学院情報学研究科 数理情報学専攻 博士後期課程 
 - 指導教員: [大舘 陽太](https://www.math.mi.i.nagoya-u.ac.jp/~otachi) 准教授
