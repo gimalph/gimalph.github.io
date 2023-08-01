@@ -12,9 +12,10 @@ publication_data = "data/publications.yml"
 
 
 def author_mark(x):
-    pp = x['presenter']
-    ppidx = x['author'].index(pp)
-    x['author'][ppidx] = '__*' + pp + '__'
+    if 'presenter' in x:
+        pp = x['presenter']
+        ppidx = x['author'].index(pp)
+        x['author'][ppidx] = '__*' + pp + '__'
 
 def create_journal_list(xd) -> [str]:
     jlist = []

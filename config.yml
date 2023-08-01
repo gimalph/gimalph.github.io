@@ -35,9 +35,9 @@ languages:
                 - name: 研究
                   url: research/
                   weight: 3
-                # - name: 活動履歴
-                #   url: news/
-                #   weight: 10
+                - name: News
+                  url: news/
+                  weight: 10
                 # - name: リンク
                 #   url: link/
                 #   weight: 100
@@ -55,6 +55,8 @@ languages:
                   url: research
                 - name: "English"
                   url: /en/
+                - name: News
+                  url: news/
     en:
         languageName: "English"
         weight: 2
@@ -68,6 +70,9 @@ languages:
                 - name: Publications
                   url: research/
                   weight: 3
+                - name: News
+                  url: news/
+                  weight: 10
         profileMode:
             enabled: true
             title: "Tatsuya Gima"
@@ -81,7 +86,9 @@ languages:
                 - name: Publications
                   url: research
                 - name: "Japanese"
-                  url: /ja/
+                  url: /ja/ 
+                - name: News
+                  url: news/
     
 
 outputs:
