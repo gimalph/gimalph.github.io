@@ -1,13 +1,25 @@
 conference:
   - author:
       - Tatsuya Gima
+      - Eun Jung Kim
+      - Noleen Köhler
+      - Nikolaos Melissinos
+      - Manolis Vasilakis
+    title: Bandwidth Parameterized by Cluster Vertex Deletion Number
+    booktitle: The 18th International Symposium on Parameterized and Exact Computation (IPEC 2023)
+    year: '2023'
+    place: Amsterdam, Netherlands
+    month: Sep
+    
+  - author:
+      - Tatsuya Gima
       - Yota Otachi
     title: Extended MSO Model Checking via Small Vertex Integrity
     booktitle: The 33rd International Symposium on Algorithms and Computation (ISAAC 2022)
     series: LIPIcs
     volume: '248'
     pages: 20:1--20:15
-    place: Korea
+    place: Seoul, Korea
     year: '2022'
     month: Dec
     doi: https://doi.org/10.4230/LIPIcs.ISAAC.2022.20
@@ -66,7 +78,7 @@ journal:
       - Hirotaka Ono
       - Yota Otachi
     title: On a spectral lower bound of treewidth
-    journal: IEICE Transactions
+    journal: IEICE Transactions on Information and Systems
     volume: E107-D
     pages: (to appear)
     doi: 10.1587/transinf.2023FCL0002
