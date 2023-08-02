@@ -20,11 +20,13 @@ def create_journal_list(xd) -> [str]:
     jlist = []
     for x in xd:
         title = x['title']
-        paper = ', '.join(x['author']) + '.<br>' + title + '.<br>'\
-              +  '_' + x['journal'] + '_, '\
-              + x['volume'] + ', '\
-              + 'pp. ' + x['pages'] + '. '\
-              + x['year'] + '.'
+        paper = ', '.join(x['author']) + '.<br>' + title + '.<br>' +  '_' + x['journal'] + '_, '
+        if 'volume' in x:
+              paper += x['volume'] + ', '
+        if 'pages' in x:
+              paper += 'pp. ' + x['pages'] + '. '
+        if 'year' in x:
+              paper += x['year'] + '. '
         if 'doi' in x:
             paper += "[[📕doi]("+ x['doi'] +")]"
         if 'arxiv' in x:
