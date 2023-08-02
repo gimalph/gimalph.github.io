@@ -12,7 +12,7 @@
     <item>
       <title>My publications</title>
       <link>https://gimalph.github.io/en/research/</link>
-      <pubDate>Wed, 26 Jul 2023 18:47:06 +0900</pubDate>
+      <pubDate>Wed, 02 Aug 2023 13:04:19 +0900</pubDate>
       
       <guid>https://gimalph.github.io/en/research/</guid>
       <description>My publications</description>
@@ -25,6 +25,15 @@
       
       <guid>https://gimalph.github.io/en/about/</guid>
       <description> Name: Tatsuya Gima E-mail: gima [at] nagoya-u.jp Affiliation: Doctoral Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University. Supervisor: Yota Otachi Career April 2022 &amp;ndash; Now: Doctoral Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University. December 2020 &amp;ndash; Now: Graduate Program for Lifestyle Revolution based on Transdisciplinary Mobility Innovation (TMI) in Nagoya University. April 2020 &amp;ndash; March 2022: Master&amp;rsquo;s Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University (Master of Informatics) April 2016 &amp;ndash; March 2020: Department of Computer Science and Electrical Engineering, Kumamoto University (Bachelor of Engineering) Awards March 2022: IEICE General Conference COMP Students Symposium Best Paper Award </description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://gimalph.github.io/en/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gimalph.github.io/en/news/</guid>
+      <description>Update log and research news</description>
     </item>
     
   </channel>
