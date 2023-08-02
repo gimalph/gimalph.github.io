@@ -60,7 +60,7 @@ def create_conference_list(xd) -> [str]:
             paper += x['series'] + ', ' + x['volume'] + ', pp. ' + x['pages'] + '. '
         else:
             paper += 'accepted. '
-        paper += x['year'] + ', ' + x['month'] + '. '
+        paper += x['month'] + ', ' + x['year'] + '. '
         if 'doi' in x:
             paper += "[[📘doi]("+ x['doi'] +")]"
         if 'arxiv' in x:
