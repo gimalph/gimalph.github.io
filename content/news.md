@@ -14,7 +14,7 @@ changefreq: monthly
 ## 2023
 1. 📘August 2nd: "Bandwidth Parameterized by Cluster Vertex Deletion Number" 
 	 with Eun Jung Kim, Noleen Köhler, Nikolaos Melissinos, and Manolis Vasilakis has been accepted to [_IPEC 2023_](https://algo-conference.org/2023/ipec/)
-1. 📕July 26th: "Extended MSO Model Checking via Small Vertex Integrity"  with Yota Otachi has been accepted to [_Algorithmica_](https://www.springer.com/journal/453)
+1. 📕July 26th: "Extended MSO Model Checking via Small Vertex Integrity"  with Yota Otachi has been accepted to [_Algorithmica_](https://doi.org/10.1007/s00453-023-01161-9)
 1. 🗾July 3-5th: [_2023年度夏のLAシンポジウム_](https://la-symposium.github.io/2023/summer.html) で2件の発表に関わりました
 1. 🧑‍🤝‍🧑June 24-25th: Three presentations have been accepted to _The 23rd Japan-Korea Joint Workshop on 
 [_Algorithms and Computation (WAAC 2023)_](https://www.math.mi.i.nagoya-u.ac.jp/~otachi/events/waac23/) at Nagoya, Japan

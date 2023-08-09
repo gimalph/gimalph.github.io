@@ -31,13 +31,13 @@ languages:
             main:
                 - name: 履歴書
                   url: about/
-                  weight: 1
+                  weight: 2
                 - name: 研究
                   url: research/
                   weight: 3
                 - name: News
                   url: news/
-                  weight: 10
+                  weight: 1
                 # - name: リンク
                 #   url: link/
                 #   weight: 100
@@ -66,13 +66,13 @@ languages:
             main:
                 - name: CV
                   url: about/
-                  weight: 1
+                  weight: 2
                 - name: Publications
                   url: research/
                   weight: 3
                 - name: News
                   url: news/
-                  weight: 10
+                  weight: 1
         profileMode:
             enabled: true
             title: "Tatsuya Gima"
