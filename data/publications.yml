@@ -10,6 +10,8 @@ conference:
     year: '2023'
     place: Amsterdam, Netherlands
     month: Sep
+    presenter: Manolis Vasilakis
+
     
   - author:
       - Tatsuya Gima
@@ -48,7 +50,7 @@ conference:
       - Tesshu Hanaka
       - Masashi Kiyomi
       - Yasuaki Kobayashi
-      - Yota Otachi.
+      - Yota Otachi
     title: Exploring the Gap Between Treedepth and Vertex Cover Through Vertex Integrity
     booktitle: The 12th International Conference on Algorithms and Complexity (CIAC 2021)
     place: Online
@@ -83,13 +85,13 @@ journal:
     volume: E107-D
     pages: (to appear)
     year: '2024'
+    doi: https://doi.org/10.1587/transinf.2023FCL0002
 
   - author: 
       - Tatsuya Gima
       - Tesshu Hanaka
       - Masashi Kiyomi
       - Yasuaki Kobayashi
-      - Yota Otachi
     title: Exploring the Gap Between Treedepth and Vertex Cover Through Vertex Integrity
     journal: Theoretical Computer Science
     volume: '918'
