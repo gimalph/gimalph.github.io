@@ -89,12 +89,12 @@ with open(outjp, mode='w') as wjp, open(outen, mode='w') as wen:
     nowdate = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+09:00")
     wjp.write(
         '---\ntitle: "研究成果"\nsummary: "研究成果"\ndate: ' + 
-        nowdate +
+        nowdate + '\nmath: true\n'
          '\nShowToc: true\n---\n'
     )
     wen.write(
         '---\ntitle: "My publications"\nsummary: "My publications"\ndate: ' + 
-        nowdate +
+        nowdate + '\nmath: true\n'
         '\nShowToc: true\n---\n'
     )
 

@@ -105,7 +105,7 @@ with open(out, mode='w') as wj, open(template, mode='r') as tpl:
 
 
         # Conference
-        wj.write('\\section{査読付き国際会議論文}\n' + '*付きは発表者を表す\n' + '\\begin{enumerate}\n')
+        wj.write('\\section{査読付き国際会議論文}\n' + '*付きは発表者を表す．\n' + '\\begin{enumerate}\n')
         clist = create_conference_list(db['conference'])
         for x in clist:
             paper = '\t\\item ' + x
@@ -113,7 +113,7 @@ with open(out, mode='w') as wj, open(template, mode='r') as tpl:
         wj.write('\\end{enumerate}\n')
 
         # Workshop
-        wj.write('\\section{国際ワークショップ等での発表}\n' + '*付きは発表者を表す\n''\\begin{enumerate}\n')
+        wj.write('\\section{国際ワークショップ等での発表}\n' + '*付きは発表者を表す．\n''\\begin{enumerate}\n')
         clist = create_conference_list(db['workshop'])
         for x in clist:
             paper = '\t\\item ' + x
@@ -134,7 +134,7 @@ with open(out, mode='w') as wj, open(template, mode='r') as tpl:
 
         wj.write("\\section{国内研究会等での発表}\n")
         dlist, count = create_domestic(db["domestic"])
-        wj.write("儀間発表 " + str(count) + "件\n" + '\n\n*付きは発表者を表す\n' +'\\begin{enumerate}')
+        wj.write("うち，儀間発表 " + str(count) + "件\n" + '\n\n*付きは発表者を表す．\n' +'\\begin{enumerate}')
         for x in dlist:
             paper = '\t\\item ' + x
             wj.write(paper + '\n')
