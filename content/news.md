@@ -12,6 +12,7 @@ changefreq: monthly
 - マークなし: その他
 
 ## 2023
+1. 📕November 4th: Four papers has been accepted to [_WALCOM 2024_](https://www.kono.cis.iwate-u.ac.jp/~yamanaka/walcom2024/)
 1. 📘August 2nd: "Bandwidth Parameterized by Cluster Vertex Deletion Number" 
 	 with Eun Jung Kim, Noleen Köhler, Nikolaos Melissinos, and Manolis Vasilakis has been accepted to [_IPEC 2023_](https://algo-conference.org/2023/ipec/)
 1. 📕July 26th: "Extended MSO Model Checking via Small Vertex Integrity"  with Yota Otachi has been accepted to [_Algorithmica_](https://doi.org/10.1007/s00453-023-01161-9)

@@ -9,6 +9,7 @@ Legends
 - 🧑‍🤝‍🧑: attendance of International workshop
 
 ## 2023
+1. 📕November 4th: Four papers has been accepted to [_WALCOM 2024_](https://www.kono.cis.iwate-u.ac.jp/~yamanaka/walcom2024/)
 1. 📘August 2nd: "Bandwidth Parameterized by Cluster Vertex Deletion Number" 
 	 with Eun Jung Kim, Noleen Köhler, Nikolaos Melissinos, Manolis Vasilakis has been accepted to [_IPEC 2023_](https://algo-conference.org/2023/ipec/)
 1. 📕July 26th: "Extended MSO Model Checking via Small Vertex Integrity" with Yota Otachi has been accepted to [_Algorithmica_](https://www.springer.com/journal/453)
