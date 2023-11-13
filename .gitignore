@@ -1,8 +1,9 @@
-.idea/*
+.idea/
 .hugo_build.lock
-public/*
+public/
 resources/*
+themes/
 content/research.md
 content/en/research.md
 list.tex
-.out/*
+.out/

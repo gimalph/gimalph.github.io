@@ -50,6 +50,7 @@ conference:
     year: '2024'
     place: Kanazawa, Japan
     month: March
+    arxiv: https://doi.org/10.48550/arXiv.2311.03225
 
   - author:
       - Tatsuya Gima
@@ -135,8 +136,7 @@ journal:
       - Yota Otachi
     title: On a spectral lower bound of treewidth
     journal: IEICE Transactions on Information and Systems
-    volume: E107-D
-    pages: (to appear)
+    volume: E107-D (in press)
     year: '2024'
     doi: https://doi.org/10.1587/transinf.2023FCL0002
 
