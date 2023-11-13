@@ -38,120 +38,12 @@
     </item>
     
     <item>
-      <title>2022年度冬のLAシンポジウム（京都）に参加しました</title>
-      <link>https://gimalph.github.io/posts/research/la2022winter/</link>
-      <pubDate>Fri, 03 Feb 2023 00:00:00 +0900</pubDate>
-      
-      <guid>https://gimalph.github.io/posts/research/la2022winter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ISAAC 2022で &#34;Extended mso model checking via small vertex integrity&#34; について発表しました． </title>
-      <link>https://gimalph.github.io/posts/research/isaac2022/</link>
-      <pubDate>Mon, 19 Dec 2022 20:04:47 +0900</pubDate>
-      
-      <guid>https://gimalph.github.io/posts/research/isaac2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JCCA-DMIA-2022のミニシンポジウム「組合せ遷移」で &#34;Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited&#34; について発表しました． </title>
-      <link>https://gimalph.github.io/posts/research/jcca2022/</link>
-      <pubDate>Wed, 17 Aug 2022 10:00:00 +0900</pubDate>
-      
-      <guid>https://gimalph.github.io/posts/research/jcca2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ESA 2022に， &#34;Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited&#34; が採択されました． </title>
-      <link>https://gimalph.github.io/posts/research/esa2022/</link>
-      <pubDate>Wed, 22 Jun 2022 20:04:47 +0900</pubDate>
-      
-      <guid>https://gimalph.github.io/posts/research/esa2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>&#34;Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited&#34;について，最適化手法とアルゴリズム (SOMA) —未来を担う若手研究者の集い 2022— (東京大学)で発表しました． </title>
-      <link>https://gimalph.github.io/posts/research/soma2022/</link>
-      <pubDate>Sun, 12 Jun 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://gimalph.github.io/posts/research/soma2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>My CV</title>
       <link>https://gimalph.github.io/en/about/</link>
       <pubDate>Thu, 12 May 2022 00:00:00 +0900</pubDate>
       
       <guid>https://gimalph.github.io/en/about/</guid>
       <description> Name: Tatsuya Gima E-mail: gima [at] nagoya-u.jp Affiliation: Doctoral Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University. Supervisor: Yota Otachi Career April 2022 &amp;ndash; Now: Doctoral Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University. December 2020 &amp;ndash; Now: Graduate Program for Lifestyle Revolution based on Transdisciplinary Mobility Innovation (TMI) in Nagoya University. April 2020 &amp;ndash; March 2022: Master&amp;rsquo;s Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University (Master of Informatics) April 2016 &amp;ndash; March 2020: Department of Computer Science and Electrical Engineering, Kumamoto University (Bachelor of Engineering) Awards March 2022: IEICE General Conference COMP Students Symposium Best Paper Award </description>
-    </item>
-    
-    <item>
-      <title>HPを公開しました</title>
-      <link>https://gimalph.github.io/posts/init/</link>
-      <pubDate>Wed, 04 May 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://gimalph.github.io/posts/init/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>名古屋大学大学院情報学研究科の博士後期課程に入学しました</title>
-      <link>https://gimalph.github.io/posts/doctor/</link>
-      <pubDate>Fri, 01 Apr 2022 03:48:46 +0900</pubDate>
-      
-      <guid>https://gimalph.github.io/posts/doctor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>&#34;An improved deterministic parameterized algorithm for cactus vertex deletion&#34; by Y. Aoike, T. Gima, T. Hanaka, M. Kiyomi, Y. Kobayashi, Y. Kobayashi, K. Kurita, and Y. Otachi が Theory of Computing System誌に採択されました</title>
-      <link>https://gimalph.github.io/posts/research/an_improved_deterministic_parameterized_algorithm_for_cactus_vertex_deletion/</link>
-      <pubDate>Wed, 16 Mar 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://gimalph.github.io/posts/research/an_improved_deterministic_parameterized_algorithm_for_cactus_vertex_deletion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2022年電子情報通信学会総合大会COMP学生シンポジウムでの発表 &#34;Extended MSO model checking via small vertex integrity&#34; が最優秀論文賞を受賞しました</title>
-      <link>https://gimalph.github.io/posts/research/compstsymp2022/</link>
-      <pubDate>Tue, 15 Mar 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://gimalph.github.io/posts/research/compstsymp2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>&#34;Exploaring the gap between treedepth and vertex cover through vertex integrity&#34; by T. Gima, T. Hanaka, M. Kiyomi, Y. Kobayashi, and Y. Otach が Theoreteical Computer Science 誌に採択されました</title>
-      <link>https://gimalph.github.io/posts/research/exploaring_the_gap_between_treedepth_and_vertex_cover_through_vertex_integrity/</link>
-      <pubDate>Sun, 13 Mar 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://gimalph.github.io/posts/research/exploaring_the_gap_between_treedepth_and_vertex_cover_through_vertex_integrity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2021年度冬のLAシンポジウムで &#34;Extended MSO model checking via small vertex integrity&#34; の発表をしました</title>
-      <link>https://gimalph.github.io/posts/research/la2021winter/</link>
-      <pubDate>Thu, 03 Feb 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://gimalph.github.io/posts/research/la2021winter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2021年電子情報通信学会総合大会COMP学生シンポジウムで &#34;Fair MSO evaluation problems parameterized by vertex integrity&#34; の発表をしました</title>
-      <link>https://gimalph.github.io/posts/research/compstsymp2021/</link>
-      <pubDate>Wed, 10 Mar 2021 00:00:00 +0900</pubDate>
-      
-      <guid>https://gimalph.github.io/posts/research/compstsymp2021/</guid>
-      <description></description>
     </item>
     
     <item>
