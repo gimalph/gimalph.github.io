@@ -27,7 +27,7 @@ def create_journal_list(xd) -> [str]:
         if 'pages' in x:
               paper += 'pp. ' + x['pages'] + '. '
         if 'year' in x:
-              paper += x['year'] + '. '
+              paper += x['year'] + '.<br>'
         if 'doi' in x:
             paper += "[[📕doi]("+ x['doi'] +")]"
         if 'arxiv' in x:
@@ -40,8 +40,6 @@ def create_preprint_papers(xd) -> [str]:
     for x in xd:
         title = x['title']
         paper = ', '.join(x['author']) + '.<br>' + title + '.<br>'
-        if 'doi' in x:
-            paper += "[[📕doi]("+ x['doi'] +")]"
         if 'arxiv' in x:
             paper += "[[📝arXiv]("+ x['arxiv'] +")]"
         jlist.append(paper)
@@ -60,7 +58,7 @@ def create_conference_list(xd) -> [str]:
             paper += x['series'] + ', ' + x['volume'] + ', pp. ' + x['pages'] + '. '
         else:
             paper += 'accepted. '
-        paper += x['month'] + ', ' + x['year'] + '. '
+        paper += x['month'] + ', ' + x['year'] + '.<br>'
         if 'doi' in x:
             paper += "[[📘doi]("+ x['doi'] +")]"
         if 'arxiv' in x:
