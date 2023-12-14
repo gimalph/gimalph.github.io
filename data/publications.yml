@@ -28,7 +28,7 @@ conference:
     month: March
     presenter: Tatsuya Gima
     arxiv: https://arxiv.org/abs/2311.13132
-    
+
 
   - author:
       - Tatsuya Gima
@@ -67,6 +67,9 @@ conference:
       - Manolis Vasilakis
     title: Bandwidth Parameterized by Cluster Vertex Deletion Number
     booktitle: The 18th International Symposium on Parameterized and Exact Computation (IPEC 2023)
+    series: LIPIcs
+    volume: '285'
+    pages: 21:1-21:15
     year: '2023'
     place: Amsterdam, Netherlands
     month: September
