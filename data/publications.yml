@@ -70,6 +70,7 @@ conference:
     month: September
     presenter: Manolis Vasilakis
     arxiv: https://arxiv.org/abs/2309.17204
+    doi: https://doi.org/10.4230/LIPIcs.IPEC.2023.21
 
     
   - author:
