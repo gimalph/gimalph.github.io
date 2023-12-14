@@ -27,6 +27,8 @@ conference:
     place: Kanazawa, Japan
     month: March
     presenter: Tatsuya Gima
+    arxiv: https://arxiv.org/abs/2311.13132
+    
 
   - author:
       - Tatsuya Gima
