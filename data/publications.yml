@@ -136,7 +136,9 @@ journal:
       - Yota Otachi
     title: Extended MSO Model Checking via Small Vertex Integrity
     journal: Algorithmica
-    year: '2023'
+    volume: '86'
+    pages: 147--170
+    year: '2024'
     doi: https://doi.org/10.1007/s00453-023-01161-9
     arxiv: https://arxiv.org/abs/2202.08445
 
