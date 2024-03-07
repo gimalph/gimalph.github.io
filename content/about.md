@@ -19,5 +19,6 @@ sitemap:
 - 2023年 4月 -- 2025年 3月 日本学術振興会特別研究員DC2 <br> グラフ構造パラメータと述語論理を用いた高速メタアルゴリズム
 
 ### 受賞歴
+1. 2024年 3月: [Best paper of WALCOM2024](https://www.kono.cis.iwate-u.ac.jp/~yamanaka/walcom2024/index.html)
 1. 2022年 3月: [電子情報通信学会総合大会 COMP学生シンポジウム 最優秀論文賞](https://www.ieice.org/~comp/student-sympo/2022.html)
 2. 2020年 3月: 熊本大学工学部 情報電気電子工学科 学科学業奨励賞
