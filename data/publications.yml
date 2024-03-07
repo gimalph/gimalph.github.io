@@ -45,6 +45,7 @@ conference:
     month: March
     arxiv: https://arxiv.org/abs/2311.05892
     presenter: Ryota Murai
+    award: Best paper
 
   - author:
       - Tatsuya Gima
@@ -240,13 +241,62 @@ workshop:
 domestic:
   - author:
       - 儀間 達也
+      - 岩政 勇仁
+      - 小林 靖明 
+      - 栗田 和宏
+      - 大舘 陽太
+      - 斉藤 凜
+    title: Computing diverse pair of solutions for SAT
+    booktitle: 2023年電子情報通信学会総合大会COMP-AFSA学生シンポジウム, 広島大学, 2024年 3月
+    presenter: 斉藤 凜
+
+  - author:
+      - 儀間 達也
+      - 土中 哲秀 
+      - 野呂 浩平
+      - 小野 廣隆
+      - 大舘 陽太 
+    title: ラプラシアン行列の固有値に関する木幅の下界とその改善
+    booktitle: 2023年電子情報通信学会総合大会COMP-AFSA学生シンポジウム, 広島大学, 2024年 3月
+    presenter: 野呂 浩平
+    award: 最優秀論文賞
+
+  - author:
+      - 儀間 達也
+    title: 組合せ遷移問題に対するメタアルゴリズム
+    booktitle: ワークショップ「組合せ最適化」, 京都大学数理解析研究所, 2024年 2月
+    presenter: 儀間 達也
+    invite: yes
+
+  - author:
+      - 儀間 達也
+      - 岩政 勇仁
+      - 小林 靖明 
+      - 栗田 和宏
+      - 大舘 陽太
+      - 斉藤 凜
+    title: Computing diverse pair of solutions for SAT
+    booktitle: 2024年度冬のLAシンポジウム, 京都大学, 2024年 2月
+    presenter: 斉藤 凜
+
+  - author:
+      - 儀間 達也
+      - 土中 哲秀 
+      - 野呂 浩平
+      - 小野 廣隆
+      - 大舘 陽太 
+    title: ラプラシアン行列の固有値に関する木幅の下界とそのさらなる改善
+    booktitle: 2024年度冬のLAシンポジウム, 京都大学, 2024年 2月
+    presenter: 野呂 浩平
+
+  - author:
+      - 儀間 達也
       - 土中 哲秀 
       - 野呂 浩平
       - 小野 廣隆
       - 大舘 陽太 
     title: 続・ラプラシアン行列の固有値に関する木幅の下界とその改善
-    booktitle:
-      - 2023年度夏のLAシンポジウム, サンリフレ函館, 2023年 7月
+    booktitle: 2023年度夏のLAシンポジウム, サンリフレ函館, 2023年 7月
     presenter: 野呂 浩平
 
   - author:
@@ -256,8 +306,7 @@ domestic:
       - 岡田 優斗
       - 大舘 陽太
     title: Dichotomies for Tree Minor Containment with Structural Parameters
-    booktitle:
-      - 2023年度夏のLAシンポジウム, サンリフレ函館, 2023年 7月
+    booktitle: 2023年度夏のLAシンポジウム, サンリフレ函館, 2023年 7月
     presenter: 岡田 優斗
 
   - author:
@@ -268,8 +317,7 @@ domestic:
       - 小野 廣隆
       - 大舘 陽太 
     title: 頂点インテグリティのパラメータ化計算量
-    booktitle:
-      - 2022年度冬のLAシンポジウム, 京都大学, 2023年 1月 -- 2月
+    booktitle: 2022年度冬のLAシンポジウム, 京都大学, 2023年 1月 -- 2月
     presenter: 村井 亮太
 
   - author:
@@ -279,8 +327,7 @@ domestic:
       - 大舘 陽太
       - 小野 廣隆 
     title: ラプラシアン行列の固有値に関する木幅の下界とその改善
-    booktitle:
-      - 2022年度冬のLAシンポジウム, 京都大学, 2023年 1月 -- 2月
+    booktitle: 2022年度冬のLAシンポジウム, 京都大学, 2023年 1月 -- 2月
     presenter: 野呂 浩平
 
   - author:
@@ -289,27 +336,48 @@ domestic:
       - 小林 靖明
       - 大舘 陽太
     title: Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited
-    booktitle:
-      - 2022年度冬のLAシンポジウム, 京都大学, 2023年 1月 -- 2月
-      - JCCA-2022 離散数学とその応用研究集会2022 ミニシンポジウム「組合せ遷移」, 成蹊大学, 2022年 8月
-      - 最適化手法とアルゴリズム ─未来を担う若手研究者の集い 2022─, 東京大学, 2022年 6月
+    booktitle: 2022年度冬のLAシンポジウム, 京都大学, 2023年 1月 -- 2月
+    presenter: 儀間 達也
+
+  - author:
+      - 儀間 達也
+      - 伊藤 健洋
+      - 小林 靖明
+      - 大舘 陽太
+    title: Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited
+    booktitle: JCCA-2022 離散数学とその応用研究集会2022 ミニシンポジウム「組合せ遷移」, 成蹊大学, 2022年 8月
+    presenter: 儀間 達也
+    invite: yes
+
+  - author:
+      - 儀間 達也
+      - 伊藤 健洋
+      - 小林 靖明
+      - 大舘 陽太
+    title: Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited
+    booktitle: 最適化手法とアルゴリズム ─未来を担う若手研究者の集い 2022─, 東京大学, 2022年 6月
     presenter: 儀間 達也
 
   - author:
       - 儀間 達也
       - 大舘 陽太
     title: Extended MSO Model Checking via Small Vertex Integrity
-    booktitle:
-      - 2022年電子情報通信学会総合大会COMP学生シンポジウム, オンライン, 2022年 3月 (最優秀論文賞受賞)
-      - 2021年度冬のLAシンポジウム, オンライン, 2022年 2月
+    booktitle: 2022年電子情報通信学会総合大会COMP学生シンポジウム, オンライン, 2022年 3月
+    presenter: 儀間 達也
+    award: 最優秀論文賞
+
+  - author:
+      - 儀間 達也
+      - 大舘 陽太
+    title: Extended MSO Model Checking via Small Vertex Integrity
+    booktitle: 2021年度冬のLAシンポジウム, オンライン, 2022年 2月
     presenter: 儀間 達也
 
   - author:
       - 儀間 達也
       - 大舘 陽太
     title: Fair MSO Evaluation Problems Parameterized by Vertex Integrity
-    booktitle:
-      - 2021年電子情報通信学会総合大会COMP学生シンポジウム, オンライン, 2021年 3月
+    booktitle: 2021年電子情報通信学会総合大会COMP学生シンポジウム, オンライン, 2021年 3月
     presenter: 儀間 達也
 
 
@@ -323,8 +391,7 @@ domestic:
       - 栗田 和宏
       - 大舘 陽太
     title: An Improved Deterministic Parameterized Algorithm for Cactus Vertex Deletion
-    booktitle:
-      - 電子情報通信学会コンピュテーション研究会, オンライン, 2020年 12月
+    booktitle: 電子情報通信学会コンピュテーション研究会, オンライン, 2020年 12月
     presenter: 小林 靖明
 
 
@@ -335,9 +402,7 @@ domestic:
       - 小林 靖明
       - 大舘 陽太
     title: Graph Partitioning Problems Parameterized by Vertex Integrity
-    booktitle: 
-      - 2019年度冬のLAシンポジウム, 京都大学, 2020年2月
+    booktitle: 2019年度冬のLAシンポジウム, 京都大学, 2020年2月
     presenter: 儀間 達也
-
 
   

@@ -10,6 +10,8 @@ Legends
 - 🧑‍🤝‍🧑: attendance of International workshop
 
 # 2024
+1. 🎉February: The following paper was selected as the **Best paper of WALCOM2024**!
+   - ``Structural Parameterizations of Vertex Integrity'' with Tesshu Hanaka, Yasuaki Kobayashi, Ryota Murai, Hirotaka Ono, and Yota Otachi. 
 1. 📖January 4th: ``Extended MSO Model Checking via Small Vertex Integrity'' with Yota Otachi has been published in [_Algorithmica (2024) 86:147--170_](https://doi.org/10.1007/s00453-023-01161-9)
 
 ## 2023

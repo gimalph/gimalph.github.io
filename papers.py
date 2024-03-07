@@ -59,6 +59,8 @@ def create_conference_list(xd) -> [str]:
         else:
             paper += 'accepted. '
         paper += x['month'] + ', ' + x['year'] + '.<br>'
+        if 'award' in x:
+            paper += "🎉 __"+ x['award'] + '__ <br>'
         if 'doi' in x:
             paper += "[[📘doi]("+ x['doi'] +")]"
         if 'arxiv' in x:
@@ -73,12 +75,18 @@ def create_domestic(xd) -> ([str], int):
     count = 0
 
     for x in xd:
-        author_mark(x)
-        paper = ', '.join(x['author']) + '.<br>' + x['title'] + '.<br>'
-        if myname == x['presenter']:
-            count += len(x['booktitle'])
-        for t in x['booktitle']:
-            dlist.append(paper + t )
+      author_mark(x)
+      paper = ', '.join(x['author']) + '.<br>' + x['title'] + '.'
+      if 'invite' in x:
+          paper += "（招待講演）<br>"
+      else:
+         paper += "<br>"
+      if myname == x['presenter']:
+          count += 1
+      paper += x['booktitle'] + '.<br>'
+      if 'award' in x:
+          paper += "🎉 __"+ x['award'] + '__ 受賞<br>'
+      dlist.append(paper)
     return dlist, count
 
 # main part 

@@ -28,7 +28,7 @@ def create_journal_list(xd) -> [str]:
     for x in xd:
         title = x['title']
         author_mark(x)
-        paper = ', '.join(x['author']) + '. ``' + title + ".'' " + '\\textit{' + x['journal'] + '}, '
+        paper = ', '.join(x['author']) + '.\n\t``' + title + ".''\n\t" + '\\textit{' + x['journal'] + '}, '
         if 'volume' in x:
               paper += x['volume'] + ', '
         if 'pages' in x:
@@ -40,17 +40,17 @@ def create_journal_list(xd) -> [str]:
         jlist.append(paper)
     return jlist
 
-def create_preprint_papers(xd) -> [str]:
-    jlist = []
-    for x in xd:
-        title = x['title']
-        paper = ', '.join(x['author']) + '.<br>' + title + '.<br>'
-        if 'doi' in x:
-            paper += "[[📕doi]("+ x['doi'] +")]"
-        if 'arxiv' in x:
-            paper += "[[📝arXiv]("+ x['arxiv'] +")]"
-        jlist.append(paper)
-    return jlist
+# def create_preprint_papers(xd) -> [str]:
+#     jlist = []
+#     for x in xd:
+#         title = x['title']
+#         paper = ', '.join(x['author']) + '.<br>' + title + '.<br>'
+#         if 'doi' in x:
+#             paper += "[[📕doi]("+ x['doi'] +")]"
+#         if 'arxiv' in x:
+#             paper += "[[📝arXiv]("+ x['arxiv'] +")]"
+#         jlist.append(paper)
+#     return jlist
 
 def create_conference_list(xd) -> [str]:
     clist = []
@@ -58,7 +58,7 @@ def create_conference_list(xd) -> [str]:
     for x in xd:
         title = x['title']
         author_mark(x)
-        paper = ', '.join(x['author']) + '. ``' + title + ".'' "\
+        paper = ', '.join(x['author']) + '.\n\t``' + title + ".''\n\t"\
               +  '\\textit{' + x['booktitle'] + '}, '\
               + x['place'] + '. '
         if 'series' in x:
@@ -79,7 +79,7 @@ def create_domestic(xd) -> ([str], int):
 
     for x in xd:
         author_mark(x)
-        paper = ', '.join(x['author']) + '. ``' + x['title'] + ".'' "
+        paper = ', '.join(x['author']) + '.\n\t``' + x['title'] + ".''\n\t"
         if myname == x['presenter']:
             count += len(x['booktitle'])
         for t in x['booktitle']:
