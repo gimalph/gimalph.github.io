@@ -45,7 +45,7 @@ languages:
             enabled: true
             title: "儀間 達也 (Tatsuya Gima)"
             subtitle: "
-                名古屋大学D2の儀間です．
+                北海道大学助教の儀間です．
                 研究興味： アルゴリズム理論, グラフ構造パラメータ, 固定パラメータ容易性, 有限モデル理論
                 "
             buttons:
@@ -77,7 +77,7 @@ languages:
             enabled: true
             title: "Tatsuya Gima"
             subtitle: "
-            I am a Ph.D student of Nagoya University. <br>
+            I am an Associate Professor of Hokkaido University. <br>
             Keywords: graph algorithm, fixed-parameter tractability, structural graph parameters, finite model theory
             "
             buttons:
