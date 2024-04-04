@@ -7,7 +7,7 @@ changefreq: yearly
 - 氏名: 儀間 達也 （ぎま たつや）
 - メール: gima [at] nagoya-u.jp
 - 所属: 北海道大学 大学院情報科学研究院 助教 
-
+    - 情報理工学部門 知識ソフトウェア科学分野 [情報知識ネットワーク研究室(IKN)](https://www-ikn.ist.hokudai.ac.jp)
 ### 学位
 - 2024年 3月25日: 名古屋大学 大学院情報学研究科 数理情報学専攻 博士（情報学）
     - タイトル: Algorithms for graph problems with monadic second-order properties via structural graph parameters
