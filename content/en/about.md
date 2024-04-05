@@ -5,7 +5,7 @@ sitemap:
 changefreq: yearly
 ---
 - Name: Tatsuya Gima
-- E-mail: gima [at] nagoya-u.jp
+- E-mail: gima [at] ist.hokudai.ac.jp
 - Affiliation: Assistant Professor,
 	 Faculty of Information Science and Technology, Hokkaido University.
 - Supervisor: [Yota Otachi](https://www.math.mi.i.nagoya-u.ac.jp/~otachi)

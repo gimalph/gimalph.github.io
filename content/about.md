@@ -5,7 +5,7 @@ sitemap:
 changefreq: yearly
 ---
 - 氏名: 儀間 達也 （ぎま たつや）
-- メール: gima [at] nagoya-u.jp
+- メール: gima [at] ist.hokudai.ac.jp
 - 所属: 北海道大学 大学院情報科学研究院 助教 
     - 情報理工学部門 知識ソフトウェア科学分野 [情報知識ネットワーク研究室(IKN)](https://www-ikn.ist.hokudai.ac.jp)
 
