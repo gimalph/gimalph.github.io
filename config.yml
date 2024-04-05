@@ -19,28 +19,29 @@ minify:
 
 languages:
     ja:
-        languageName: "日本語"
+      languageName: "日本語"
+      weight: 1
+      title: 儀間 達也 (Tatsuya Gima)
+      # taxonomies:
+      #   category: categories
+      #   tag: tags
+      #   series: series
+      menu:
+          main:
+              - name: 履歴書
+                url: about/
+                weight: 2
+              - name: 研究
+                url: research/
+                weight: 3
+              - name: News
+                url: news/
+                weight: 1
+              # - name: リンク
+              #   url: link/
+              #   weight: 100
+      params:
         languageAltTitle: Japanese
-        weight: 1
-        title: 儀間 達也 (Tatsuya Gima)
-        # taxonomies:
-        #   category: categories
-        #   tag: tags
-        #   series: series
-        menu:
-            main:
-                - name: 履歴書
-                  url: about/
-                  weight: 2
-                - name: 研究
-                  url: research/
-                  weight: 3
-                - name: News
-                  url: news/
-                  weight: 1
-                # - name: リンク
-                #   url: link/
-                #   weight: 100
         profileMode:
             enabled: true
             title: "儀間 達也 (Tatsuya Gima)"
@@ -58,21 +59,22 @@ languages:
                 - name: News
                   url: news/
     en:
-        languageName: "English"
-        weight: 2
-        title: Tatsuya Gima
-        contentDir: content/en
-        menu:
-            main:
-                - name: CV
-                  url: about/
-                  weight: 2
-                - name: Publications
-                  url: research/
-                  weight: 3
-                - name: News
-                  url: news/
-                  weight: 1
+      languageName: "English"
+      weight: 2
+      title: Tatsuya Gima
+      contentDir: content/en
+      menu:
+          main:
+              - name: CV
+                url: about/
+                weight: 2
+              - name: Publications
+                url: research/
+                weight: 3
+              - name: News
+                url: news/
+                weight: 1
+      params:
         profileMode:
             enabled: true
             title: "Tatsuya Gima"
@@ -81,20 +83,19 @@ languages:
             Keywords: graph algorithm, fixed-parameter tractability, structural graph parameters, finite model theory
             "
             buttons:
-                - name: CV
-                  url: about
-                - name: Publications
-                  url: research
-                - name: "Japanese"
-                  url: /ja/ 
-                - name: News
-                  url: news/
+              - name: CV
+                url: about
+              - name: Publications
+                url: research
+              - name: "Japanese"
+                url: /ja/ 
+              - name: News
+                url: news/
     
 
 outputs:
     home:
         - HTML
-        - RSS
         - JSON
 
 params:
