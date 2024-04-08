@@ -164,7 +164,7 @@ with open(outjp, mode='w') as wjp, open(outen, mode='w') as wen:
         wen.write('{reversed="reversed"}\n')
 
 
-        wjp.write("### 国内研究会\n")
+        wjp.write("### 国内研究会等での発表\n")
         dlist, count = create_domestic(db["domestic"])
         wjp.write("儀間発表 " + str(count) + "件\n")
         for x in dlist:
