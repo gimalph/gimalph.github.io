@@ -18,7 +18,7 @@ changefreq: yearly
 - March, 2020: Bachelor of Engineering in Kumamoto University.
 
 ### Career
-- April 2022 -- March 2024: Doctoral Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University.
+- April 2022 -- March 2024: Doctoral Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University (Doctor of Informatics)
 - December 2020 -- Now: [Graduate Program for Lifestyle Revolution based on Transdisciplinary Mobility Innovation (TMI)](https://www.tmi.mirai.nagoya-u.ac.jp) in Nagoya University.
 - April 2020 -- March 2022: Master's Course of Department of Mathematical Informatics, Graduate School of Informatics, Nagoya University (Master of Informatics)
 - April 2016 -- March 2020: Department of Computer Science and Electrical Engineering, Kumamoto University (Bachelor of Engineering)

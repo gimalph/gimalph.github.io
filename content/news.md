@@ -16,14 +16,14 @@ math: true
 
 
 ## 2024
-1. April: 北海道大学大学院情報科学研究院 助教に着任しました．
-1. March: 名古屋大学大学院情報学研究科博士後期課程（博士（情報学））を修了しました．
-1. 🎉March: 名古屋大学大学院情報学研究科からエクセレントドクター賞を受賞しました!
-1. 🎉March: 以下の野呂さんの発表が[**COMP-AFSA学生シンポジウム最優秀論文賞**](https://www.ieice.org/~comp/student-sympo/2024.html)に選ばれました!
+1. 4月1日: 北海道大学大学院情報科学研究院 助教に着任しました．
+1. 3月25日: 名古屋大学大学院情報学研究科博士後期課程（博士（情報学））を修了しました．
+1. 🎉3月25日: 名古屋大学大学院情報学研究科からエクセレントドクター賞を受賞しました!
+1. 🎉3月6日: 以下の野呂さんの発表が[**COMP-AFSA学生シンポジウム最優秀論文賞**](https://www.ieice.org/~comp/student-sympo/2024.html)に選ばれました!
     - 「ラプラシアン行列の固有値を用いた木幅の下界とその改善」 儀間達也 (名大)・土中哲秀 (九大)・◎野呂浩平 (名大)・小野廣隆(名大)・大舘陽太(名大)
-1. 🎉February: The following paper was selected as the [**Best paper of WALCOM2024**](https://www.kono.cis.iwate-u.ac.jp/~yamanaka/walcom2024/index.html)!
+1. 🎉2月: The following paper was selected as the [**Best paper of WALCOM2024**](https://www.kono.cis.iwate-u.ac.jp/~yamanaka/walcom2024/index.html)!
    - ``Structural Parameterizations of Vertex Integrity'' with Tesshu Hanaka, Yasuaki Kobayashi, Ryota Murai, Hirotaka Ono, and Yota Otachi. 
-1. 📖January 4th: ``Extended MSO Model Checking via Small Vertex Integrity'' with Yota Otachi has been published in [_Algorithmica (2024) 86:147--170_](https://doi.org/10.1007/s00453-023-01161-9)
+1. 📖1月 4日: ``Extended MSO Model Checking via Small Vertex Integrity'' with Yota Otachi has been published in [_Algorithmica (2024) 86:147--170_](https://doi.org/10.1007/s00453-023-01161-9)
 
 ## 2023
 1. 📖December 13: ``Bandwidth Parameterized by Cluster Vertex Deletion Number'' has been officially published. (doi: [10.4230/LIPIcs.IPEC.2023.21](https://doi.org/10.4230/LIPIcs.IPEC.2023.21))

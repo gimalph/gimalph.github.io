@@ -46,7 +46,7 @@ languages:
             enabled: true
             title: "儀間 達也 (Tatsuya Gima)"
             subtitle: "
-                北海道大学助教の儀間です．
+                北海道大学助教の儀間です．<br>
                 研究興味： アルゴリズム理論, グラフ構造パラメータ, 固定パラメータ容易性, 有限モデル理論
                 "
             buttons:
