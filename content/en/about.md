@@ -1,14 +1,16 @@
 ---
 title: "My CV"
-date: 2024-04-05T00:00:00+09:00
+date: 2024-05-07T00:00:00+09:00
 sitemap:
 changefreq: yearly
 ---
 - Name: Tatsuya Gima
 - E-mail: gima [at] ist.hokudai.ac.jp
 - Affiliation: Assistant Professor,
-	 Faculty of Information Science and Technology, Hokkaido University.
-- Supervisor: [Yota Otachi](https://www.math.mi.i.nagoya-u.ac.jp/~otachi)
+  Information Knowledge Network Laboratory [HP (japanese only)](https://www-ikn.ist.hokudai.ac.jp),
+  Division of Computer Science and Information Technology,
+	[Faculty of Information Science and Technology, Hokkaido University](https://www.ist.hokudai.ac.jp/eng/)
+
 
 ### Degree
 - March, 2024: Doctor of Informatics in Nagoya University
