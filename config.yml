@@ -79,7 +79,7 @@ languages:
             enabled: true
             title: "Tatsuya Gima"
             subtitle: "
-            I am an Associate Professor of Hokkaido University. <br>
+            I am an Assistant Professor of Hokkaido University. <br>
             Keywords: graph algorithm, fixed-parameter tractability, structural graph parameters, finite model theory
             "
             buttons:
