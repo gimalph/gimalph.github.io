@@ -204,14 +204,6 @@ journal:
 
 arxiv:
   - author:
-      - Hiroki Arimura 
-      - Tatsuya Gima
-      - Yasuaki Kobayashi
-      - Hiroomi Nochide
-      - Yota Otachi
-    title: Minimum Consistent Subset for Trees Revisited
-    arxiv: https://doi.org/10.48550/arXiv.2305.07259
-  - author:
       - Tatsuya Gima
       - Tesshu Hanaka
       - Kohei Noro
@@ -219,6 +211,14 @@ arxiv:
       - Yota Otachi
     title: An improved spectral lower bound of treewidth
     arxiv: https://doi.org/10.48550/arXiv.2404.08520
+  - author:
+      - Hiroki Arimura 
+      - Tatsuya Gima
+      - Yasuaki Kobayashi
+      - Hiroomi Nochide
+      - Yota Otachi
+    title: Minimum Consistent Subset for Trees Revisited
+    arxiv: https://doi.org/10.48550/arXiv.2305.07259
 
 workshop:
   - author:
