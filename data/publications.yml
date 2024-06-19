@@ -211,7 +211,14 @@ arxiv:
       - Yota Otachi
     title: Minimum Consistent Subset for Trees Revisited
     arxiv: https://doi.org/10.48550/arXiv.2305.07259
-
+  - author:
+      - Tatsuya Gima
+      - Tesshu Hanaka
+      - Kohei Noro
+      - Hirotaka Ono
+      - Yota Otachi
+    title: An improved spectral lower bound of treewidth
+    arxiv: https://doi.org/10.48550/arXiv.2404.08520
 
 workshop:
   - author:
