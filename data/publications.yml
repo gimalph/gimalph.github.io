@@ -149,6 +149,16 @@ conference:
 journal:
   - author:
       - Tatsuya Gima
+      - Takehiro Ito
+      - Yasuaki Kobayashi
+      - Yota Otachi
+    title: Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited
+    journal: Algorithmica
+    year: 'to appear'
+    arxiv: https://arxiv.org/abs/2207.01024
+
+  - author:
+      - Tatsuya Gima
       - Yota Otachi
     title: Extended MSO Model Checking via Small Vertex Integrity
     journal: Algorithmica
