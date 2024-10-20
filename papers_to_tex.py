@@ -81,9 +81,9 @@ def create_domestic(xd) -> ([str], int):
         author_mark(x)
         paper = ', '.join(x['author']) + '.\n\t``' + x['title'] + ".''\n\t"
         if myname == x['presenter']:
-            count += len(x['booktitle'])
-        for t in x['booktitle']:
-            dlist.append(paper +  t )
+            count += 1
+        # for t in x['booktitle']:
+        dlist.append(paper +  x['booktitle'])
     return dlist, count
 
 # main part 

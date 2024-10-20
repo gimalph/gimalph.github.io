@@ -10,7 +10,10 @@ Legends
 - 🧑‍🤝‍🧑: attendance of International workshop
 
 ## 2024
-1. 📕August 15: "Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited" with Yota Otachi, Yasuaki Kobayashi, and Takehiro Ito has been accepted to Algorithmica.
+1. 📕October: The following four papers has been accepted to _Information Processing Letters_ [📕link](https://doi.org/10.1016/j.ipl.2024.106536).
+   - ``An improved spectral lower bound of treewidth'' with Tesshu Hanaka, Kohei Noro, Hirotaka Ono, Yota Otachi.
+1. 📕August: The following four papers has been accepted to _Algorithmica_ [📕link](https://doi.org/10.1007/s00453-024-01261-0)．
+	-	``Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited''  with Takehiro Ito, Yasuaki Kobayashi, Yota Otachi.
 1. April: I have been assigned to the Assistant Professor of Faculty of Information Science and Technology, Hokkaido University.
 1. March: I have been awarded a doctoral degree (Doctor of Informatics) by Nagoya University.
 1. 🎉February: The following paper was selected as the **Best paper of WALCOM2024**!

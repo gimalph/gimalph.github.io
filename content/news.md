@@ -16,7 +16,10 @@ math: true
 
 
 ## 2024
-1. 📕8月15日: 組合せ遷移についての論文: "Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited" with Yota Otachi, Yasuaki Kobayashi, and Takehiro Ito が Algorithmica に採択されました．
+1. 📕10月: 以下の論文が _Information Processing Letters_ に採択されました [📕link](https://doi.org/10.1016/j.ipl.2024.106536).
+   - ``An improved spectral lower bound of treewidth'' with Tesshu Hanaka, Kohei Noro, Hirotaka Ono, Yota Otachi.
+1. 📕8月: 以下の論文が _Algorithmica_ に採択されました [📕link](https://doi.org/10.1007/s00453-024-01261-0)．
+	-	``Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited''  with Takehiro Ito, Yasuaki Kobayashi, Yota Otachi.
 1. 4月1日: 北海道大学大学院情報科学研究院 助教に着任しました．
 1. 3月25日: 名古屋大学大学院情報学研究科博士後期課程（博士（情報学））を修了しました．
 1. 🎉3月25日: 名古屋大学大学院情報学研究科からエクセレントドクター賞を受賞しました!

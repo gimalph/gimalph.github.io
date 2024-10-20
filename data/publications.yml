@@ -149,12 +149,30 @@ conference:
 journal:
   - author:
       - Tatsuya Gima
+      - Tesshu Hanaka
+      - Kohei Noro
+      - Hirotaka Ono
+      - Yota Otachi
+    title: An improved spectral lower bound of treewidth
+    journal: Information Processing Letters
+    volume: '188'
+    pages: '106536'
+    year: '2025'
+    doi: https://doi.org/10.1016/j.ipl.2024.106536
+    arxiv: https://doi.org/10.48550/arXiv.2404.08520
+
+
+  - author:
+      - Tatsuya Gima
       - Takehiro Ito
       - Yasuaki Kobayashi
       - Yota Otachi
     title: Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited
     journal: Algorithmica
-    year: 'to appear'
+    volume: '86'
+    pages: 3395--3424
+    year: '2024'
+    doi: https://doi.org/10.1007/s00453-024-01261-0
     arxiv: https://arxiv.org/abs/2207.01024
 
   - author:
@@ -213,14 +231,6 @@ journal:
     arxiv: https://arxiv.org/abs/2012.04910
 
 arxiv:
-  - author:
-      - Tatsuya Gima
-      - Tesshu Hanaka
-      - Kohei Noro
-      - Hirotaka Ono
-      - Yota Otachi
-    title: An improved spectral lower bound of treewidth
-    arxiv: https://doi.org/10.48550/arXiv.2404.08520
   - author:
       - Hiroki Arimura 
       - Tatsuya Gima
