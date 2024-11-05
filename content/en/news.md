@@ -1,6 +1,7 @@
 ---
 title: "News"
 summary: "Update log and research news"
+changefreq: monthly
 ---
 
 Legends
@@ -10,9 +11,11 @@ Legends
 - 🧑‍🤝‍🧑: attendance of International workshop
 
 ## 2024
-1. 📕October: The following four papers has been accepted to _Information Processing Letters_ [📕link](https://doi.org/10.1016/j.ipl.2024.106536).
+1. 📕11月: The following paper has been accepted to _Theoretical Computer Science_  [📕link](https://doi.org/10.1016/j.tcs.2024.114954).
+	- ``Structural Parameterizations of Vertex Integrity'' with Tesshu Hanaka, Yasuaki Kobayashi, Ryota Murai, Hirotaka Ono, and Yota Otachi.
+1. 📕October: The following paper has been accepted to _Information Processing Letters_ [📕link](https://doi.org/10.1016/j.ipl.2024.106536).
    - ``An improved spectral lower bound of treewidth'' with Tesshu Hanaka, Kohei Noro, Hirotaka Ono, Yota Otachi.
-1. 📕August: The following four papers has been accepted to _Algorithmica_ [📕link](https://doi.org/10.1007/s00453-024-01261-0)．
+1. 📕August: The following paper has been accepted to _Algorithmica_ [📕link](https://doi.org/10.1007/s00453-024-01261-0)．
 	-	``Algorithmic Meta-Theorems for Combinatorial Reconfiguration Revisited''  with Takehiro Ito, Yasuaki Kobayashi, Yota Otachi.
 1. April: I have been assigned to the Assistant Professor of Faculty of Information Science and Technology, Hokkaido University.
 1. March: I have been awarded a doctoral degree (Doctor of Informatics) by Nagoya University.

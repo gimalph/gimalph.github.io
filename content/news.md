@@ -16,6 +16,8 @@ math: true
 
 
 ## 2024
+1. 📕11月: 以下の論文が _Theoretical Computer Science_ に採択されました [📕link](https://doi.org/10.1016/j.tcs.2024.114954).
+	- ``Structural Parameterizations of Vertex Integrity'' with Tesshu Hanaka, Yasuaki Kobayashi, Ryota Murai, Hirotaka Ono, and Yota Otachi.
 1. 📕10月: 以下の論文が _Information Processing Letters_ に採択されました [📕link](https://doi.org/10.1016/j.ipl.2024.106536).
    - ``An improved spectral lower bound of treewidth'' with Tesshu Hanaka, Kohei Noro, Hirotaka Ono, Yota Otachi.
 1. 📕8月: 以下の論文が _Algorithmica_ に採択されました [📕link](https://doi.org/10.1007/s00453-024-01261-0)．

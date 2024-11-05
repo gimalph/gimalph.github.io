@@ -150,6 +150,20 @@ journal:
   - author:
       - Tatsuya Gima
       - Tesshu Hanaka
+      - Yasuaki Kobayashi
+      - Ryota Murai
+      - Hirotaka Ono 
+      - Yota Otachi
+    title: Structural Parameterizations of Vertex Integrity
+    journal: "Theoretical Computer Science"
+    year: '2024'
+    volume: "In Press"
+    arxiv: https://arxiv.org/abs/2311.05892
+    doi: https://doi.org/10.1016/j.tcs.2024.114954
+
+  - author:
+      - Tatsuya Gima
+      - Tesshu Hanaka
       - Kohei Noro
       - Hirotaka Ono
       - Yota Otachi
@@ -160,7 +174,6 @@ journal:
     year: '2025'
     doi: https://doi.org/10.1016/j.ipl.2024.106536
     arxiv: https://doi.org/10.48550/arXiv.2404.08520
-
 
   - author:
       - Tatsuya Gima
