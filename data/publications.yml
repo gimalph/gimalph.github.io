@@ -260,6 +260,16 @@ journal:
 
 arxiv:
   - author:
+      - Tatsuya Gima
+      - Yuni Iwamasa
+      - Yasuaki Kobayashi
+      - Kazuhiro Kurita
+      - Yota Otachi
+      - Rin Saito
+    title: Computing diverse pair of solutions for tractable SAT
+    arxiv: https://arxiv.org/abs/2412.04016
+
+  - author:
       - Hiroki Arimura 
       - Tatsuya Gima
       - Yasuaki Kobayashi
