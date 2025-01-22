@@ -321,6 +321,23 @@ workshop:
 
 domestic:
   - author:
+      - 儀間 達也
+      - 小林 靖明 
+      - 斉藤 凜
+    title: ラベル付き組合せ遷移問題
+    booktitle: 情報処理学会 第202回アルゴリズム研究会 福井工業大学 2025年3月
+    presenter: 儀間 達也
+
+  - author:
+      - 儀間 達也
+      - 森元 拓
+      - 岡田 優斗
+      - 大舘 陽太
+    title: トーラス格子グラフの木幅について
+    booktitle: 2024年度冬のLAシンポジウム, 京都大学, 2025年 1月
+    presenter: 森元 拓
+
+  - author:
       - 後出 祥臣
       - 儀間 達也
       - 小林 靖明
@@ -382,7 +399,7 @@ domestic:
       - 大舘 陽太
       - 斉藤 凜
     title: Computing diverse pair of solutions for SAT
-    booktitle: 2024年度冬のLAシンポジウム, 京都大学, 2024年 2月
+    booktitle: 2023年度冬のLAシンポジウム, 京都大学, 2024年 2月
     presenter: 斉藤 凜
 
   - author:
@@ -392,7 +409,7 @@ domestic:
       - 小野 廣隆
       - 大舘 陽太 
     title: ラプラシアン行列の固有値に関する木幅の下界とそのさらなる改善
-    booktitle: 2024年度冬のLAシンポジウム, 京都大学, 2024年 2月
+    booktitle: 2023年度冬のLAシンポジウム, 京都大学, 2024年 2月
     presenter: 野呂 浩平
 
   - author:
