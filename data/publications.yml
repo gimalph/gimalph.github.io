@@ -148,6 +148,20 @@ conference:
 
 journal:
   - author:
+      - Julien Courtiel
+      - Paul Dorbec
+      - Tatsuya Gima
+      - Romain Lecoq
+      - Yota Otachi
+    title: Orientable burning number of graphs
+    journal: "Discrete Applied Mathematics"
+    year: '2025'
+    volume: '367'
+    pages: '116-128'
+    arxiv: https://arxiv.org/abs/2311.13132
+    doi: https://doi.org/10.1016/j.dam.2025.02.004
+
+  - author:
       - Tatsuya Gima
       - Soh Kumabe
       - Kazuhiro Kurita
