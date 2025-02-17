@@ -14,6 +14,9 @@ math: true
 - 🎉: 受賞等
 - マークなし: その他
 
+## 2025 
+1. 📕2月: 以下の論文が _Discrete Applied Mathematics_ に採択されました.
+  - ``Orientable burning number of graphs'' with Julien Courtiel, Paul Dorbec, Tatsuya Gima, Romain Lecoq, and Yota Otachi.
 
 ## 2024
 1. 📕11月: 以下の論文が _Theoretical Computer Science_ に採択されました.
