@@ -148,6 +148,16 @@ conference:
 
 journal:
   - author:
+      - Tatsuya Gima
+      - Eun Jung Kim
+      - Noleen Köhler
+      - Nikolaos Melissinos
+      - Manolis Vasilakis
+    title: Bandwidth Parameterized by Cluster Vertex Deletion Number
+    journal: "Discrete Applied Mathematics"
+    arxiv: https://arxiv.org/abs/2311.13132
+
+  - author:
       - Julien Courtiel
       - Paul Dorbec
       - Tatsuya Gima

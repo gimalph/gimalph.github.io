@@ -15,12 +15,15 @@ math: true
 - マークなし: その他
 
 ## 2025 
+1. 📕4月: 以下の論文が _Algorithmica_ に採択されました.
+	- ``Bandwidth Parameterized by Cluster Vertex Deletion Number'' 
+	 with Eun Jung Kim, Noleen Köhler, Nikolaos Melissinos, and Manolis Vasilakis
 1. 📕2月: 以下の論文が _Discrete Applied Mathematics_ に採択されました.
-  - ``Orientable burning number of graphs'' with Julien Courtiel, Paul Dorbec, Tatsuya Gima, Romain Lecoq, and Yota Otachi.
+	- ``Orientable burning number of graphs'' with Julien Courtiel, Paul Dorbec, Tatsuya Gima, Romain Lecoq, and Yota Otachi.
 
 ## 2024
 1. 📕11月: 以下の論文が _Theoretical Computer Science_ に採択されました.
-  - ``Dichotomies for Tree Minor Containment with Structural Parameters'' with Soh Kumabe, Kazuhiro Kurita, Yuto Okada, and Yota Otachi.
+	- ``Dichotomies for Tree Minor Containment with Structural Parameters'' with Soh Kumabe, Kazuhiro Kurita, Yuto Okada, and Yota Otachi.
 1. 📕11月: 以下の論文が _Theoretical Computer Science_ に採択されました [📕link](https://doi.org/10.1016/j.tcs.2024.114954).
 	- ``Structural Parameterizations of Vertex Integrity'' with Tesshu Hanaka, Yasuaki Kobayashi, Ryota Murai, Hirotaka Ono, and Yota Otachi.
 1. 📕10月: 以下の論文が _Information Processing Letters_ に採択されました [📕link](https://doi.org/10.1016/j.ipl.2024.106536).

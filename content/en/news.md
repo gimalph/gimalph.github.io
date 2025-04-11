@@ -11,6 +11,9 @@ Legends
 - 🧑‍🤝‍🧑: attendance of International workshop
 
 ## 2025 
+1. 📕April: The following paper has been accepted to _Algorithmica_.
+	- ``Bandwidth Parameterized by Cluster Vertex Deletion Number'' 
+	 with Eun Jung Kim, Noleen Köhler, Nikolaos Melissinos, and Manolis Vasilakis
 1. 📕February: The following paper has been accepted to _Discrete Applied Mathematics_.
   - ``Orientable burning number of graphs'' with Julien Courtiel, Paul Dorbec, Tatsuya Gima, Romain Lecoq, and Yota Otachi.
 
