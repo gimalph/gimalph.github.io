@@ -154,7 +154,7 @@ journal:
       - Nikolaos Melissinos
       - Manolis Vasilakis
     title: Bandwidth Parameterized by Cluster Vertex Deletion Number
-    journal: "Discrete Applied Mathematics"
+    journal: "Algorithmica"
     arxiv: https://arxiv.org/abs/2311.13132
 
   - author:

@@ -18,8 +18,8 @@ Legends
   - ``Orientable burning number of graphs'' with Julien Courtiel, Paul Dorbec, Tatsuya Gima, Romain Lecoq, and Yota Otachi.
 
 ## 2024
-1. 📕November: The following paper has been accepted to _Theoretical Computer Science_ .
-  - ``Dichotomies for Tree Minor Containment with Structural Parameters'' with Soh Kumabe, Kazuhiro Kurita, Yuto Okada, and Yota Otachi.
+1. 📕November: The following paper has been accepted to _Theoretical Computer Science_.
+	- ``Dichotomies for Tree Minor Containment with Structural Parameters'' with Soh Kumabe, Kazuhiro Kurita, Yuto Okada, and Yota Otachi.
 1. 📕November: The following paper has been accepted to _Theoretical Computer Science_  [📕link](https://doi.org/10.1016/j.tcs.2024.114954).
 	- ``Structural Parameterizations of Vertex Integrity'' with Tesshu Hanaka, Yasuaki Kobayashi, Ryota Murai, Hirotaka Ono, and Yota Otachi.
 1. 📕October: The following paper has been accepted to _Information Processing Letters_ [📕link](https://doi.org/10.1016/j.ipl.2024.106536).
