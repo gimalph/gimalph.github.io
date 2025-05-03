@@ -156,6 +156,7 @@ journal:
     title: Bandwidth Parameterized by Cluster Vertex Deletion Number
     journal: "Algorithmica"
     arxiv: https://arxiv.org/abs/2309.17204
+    doi: https://doi.org/10.1007/s00453-025-01315-x
 
   - author:
       - Julien Courtiel
