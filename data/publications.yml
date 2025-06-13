@@ -286,6 +286,12 @@ journal:
 arxiv:
   - author:
       - Tatsuya Gima
+      - Yuto Okada
+      - Yasuaki Kobayashi
+    title: Structural Parameterizations of k-Planarity
+    arxiv: https://arxiv.org/abs/2506.10717
+  - author:
+      - Tatsuya Gima
       - Yuni Iwamasa
       - Yasuaki Kobayashi
       - Kazuhiro Kurita
