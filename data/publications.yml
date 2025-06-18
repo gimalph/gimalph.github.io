@@ -325,6 +325,30 @@ arxiv:
 
 workshop:
   - author:
+    - Tatsuya Gima
+    - Yasuaki Kobayashi
+    - Yuto Okada
+    - Yota Otachi 
+    - Hayato Takaike
+    title:  Hitting Geodesic Intervals in Structurally Restricted Graphs
+    booktitle: The 25rd Japan-Korea Joint Workshop on Algorithms and Computation (WAAC 2025)
+    presenter: Hayato Takaike
+    month: August
+    year: '2025'
+    place: Hokkaido, Japan
+
+  - author:
+    - Tatsuya Gima
+    - Yasuaki Kobayashi 
+    - Yuto Okada
+    title: New Hardness Results for k-Planarity
+    booktitle: The 25rd Japan-Korea Joint Workshop on Algorithms and Computation (WAAC 2025)
+    presenter: Yuto Okada
+    month: August
+    year: '2025'
+    place: Hokkaido, Japan
+
+  - author:
       - Hiroki Arimura 
       - Tatsuya Gima
       - Yasuaki Kobayashi
@@ -365,6 +389,14 @@ workshop:
     place: Nagoya, Japan
 
 domestic:
+  - author:
+    - 藤原 優
+    - 儀間 達也
+    - 小林 靖明
+    title: グラフの辺カット幅に対する近似アルゴリズム
+    booktitle: 情報処理学会 第203回アルゴリズム研究会 九州大学 西新プラザ 2025年5月
+    presenter: 藤原 優
+
   - author:
       - 儀間 達也
       - 小林 靖明 
