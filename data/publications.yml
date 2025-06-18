@@ -147,6 +147,20 @@ conference:
 
 
 journal:
+  - author: 
+      - Tatsuya Gima
+      - Tesshu Hanaka
+      - Yasuaki Kobayashi
+      - Yota Otachi
+      - Tomohito Shirai
+      - Akira Suzuki
+      - Yuma Tamura 
+      - Xiao Zhou
+    title: On the Complexity of List $\mathcal H$-Packing for Sparse Graph Classes
+    journal: "Theoretical Computer Science (to appear)"
+    year: '2025'
+    arxiv: https://doi.org/10.48550/arXiv.2312.08639
+
   - author:
       - Tatsuya Gima
       - Eun Jung Kim
