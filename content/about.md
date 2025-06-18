@@ -1,5 +1,5 @@
 ---
-title: "履歴書"
+title: "CV"
 date: 2024-04-05T00:00:00+09:00
 sitemap:
 changefreq: yearly
