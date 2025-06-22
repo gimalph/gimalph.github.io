@@ -8,13 +8,17 @@ math: true
 凡例
 - 📕: 国際論文誌の採択結果
 - 📘: 国際会議論文の採択結果
-- 📖: 論文の出版
+- 📘📖: 論文の出版
 - 🧑‍🤝‍🧑: 国際ワークショップでの発表
 - 🗾: 国内研究会での発表
 - 🎉: 受賞等
 - マークなし: その他
 
 ## 2025 
+1. 📘6月: 以下の論文が _MFCS 2025_ に採択されました.
+	- ``Broadcasting under Structural Restrictions'' with Yudai Egami, Tatsuya Gima, Tesshu Hanaka, Yasuaki Kobayashi, Michael Lampis, Valia Mitsou, Edouard Nemery, Yota Otachi, Manolis Vasilakis, Daniel Vaz
+1. 📕6月: 以下の論文が _Theoretical Computer Science_ に採択されました.
+	- ``On the Complexity of List $\mathcal H$-Packing for Sparse Graph Classes'' with Tesshu Hanaka, Yasuaki Kobayashi, Yota Otachi, Tomohito Shirai, Akira Suzuki, Yuma Tamura, and Xiao Zhou.
 1. 📕4月: 以下の論文が _Algorithmica_ に採択されました.
 	- ``Bandwidth Parameterized by Cluster Vertex Deletion Number'' 
 	 with Eun Jung Kim, Noleen Köhler, Nikolaos Melissinos, and Manolis Vasilakis

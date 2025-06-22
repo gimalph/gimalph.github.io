@@ -1,4 +1,20 @@
 conference:
+  - author:
+      - Yudai Egami
+      - Tatsuya Gima
+      - Tesshu Hanaka
+      - Yasuaki Kobayashi
+      - Michael Lampis
+      - Valia Mitsou
+      - Edouard Nemery
+      - Yota Otachi
+      - Manolis Vasilakis
+      - Daniel Vaz
+    title: Broadcasting under Structural Restrictions
+    booktitle: 50th International Symposium on Mathematical Foundations of Computer Science (MFCS 2025)
+    year: '2025'
+    series: to appear
+
   - author: 
       - Tatsuya Gima
       - Tesshu Hanaka
