@@ -13,6 +13,8 @@ conference:
     title: Broadcasting under Structural Restrictions
     booktitle: 50th International Symposium on Mathematical Foundations of Computer Science (MFCS 2025)
     year: '2025'
+    place: Warsaw, Poland
+    month: August
 
   - author: 
       - Tatsuya Gima
