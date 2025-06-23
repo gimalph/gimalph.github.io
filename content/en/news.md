@@ -11,6 +11,8 @@ Legends
 - 🧑‍🤝‍🧑: attendance of International workshop
 
 ## 2025 
+1. 📘June: The following paper has been accepted to _ESA 2025_.
+  - ``Courcelle's Theorem for Lipschitz Continuity'' with Soh Kumabe, Yuichi Yoshida.
 1. 📘June: The following paper has been accepted to _MFCS 2025_. 
 	- ``Broadcasting under Structural Restrictions'' with Yudai Egami, Tatsuya Gima, Tesshu Hanaka, Yasuaki Kobayashi, Michael Lampis, Valia Mitsou, Edouard Nemery, Yota Otachi, Manolis Vasilakis, Daniel Vaz
 1. 📕June: The following paper has been accepted to _Theoretical Computer Science_.

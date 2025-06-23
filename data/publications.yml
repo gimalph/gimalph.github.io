@@ -1,5 +1,15 @@
 conference:
   - author:
+      - Tatsuya Gima
+      - Soh Kumabe
+      - Yuichi Yoshida
+    title: Courcelle's Theorem for Lipschitz Continuity
+    booktitle: European Symposium on Algorithms 2025 (ESA 2025)
+    year: '2025'
+    place: Warsaw, Poland
+    month: September
+
+  - author:
       - Yudai Egami
       - Tatsuya Gima
       - Tesshu Hanaka
