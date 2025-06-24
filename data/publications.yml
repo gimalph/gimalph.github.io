@@ -21,7 +21,7 @@ conference:
       - Manolis Vasilakis
       - Daniel Vaz
     title: Broadcasting under Structural Restrictions
-    booktitle: 50th International Symposium on Mathematical Foundations of Computer Science (MFCS 2025)
+    booktitle: The 50th International Symposium on Mathematical Foundations of Computer Science (MFCS 2025)
     year: '2025'
     place: Warsaw, Poland
     month: August
@@ -44,7 +44,7 @@ conference:
     place: Kanazawa, Japan
     month: March
     presenter: Yuma Tamura
-    arxiv: https://doi.org/10.48550/arXiv.2312.08639
+    arxiv: https://doi.org/／ES10.u48550/arXiv.2312.08639
     doi: https://doi.org/10.1007/978-981-97-0566-5_30
 
   - author:
@@ -358,7 +358,7 @@ workshop:
     - Yota Otachi 
     - Hayato Takaike
     title:  Hitting Geodesic Intervals in Structurally Restricted Graphs
-    booktitle: The 25rd Japan-Korea Joint Workshop on Algorithms and Computation (WAAC 2025)
+    booktitle: The 25th Japan-Korea Joint Workshop on Algorithms and Computation (WAAC 2025)
     presenter: Hayato Takaike
     month: August
     year: '2025'
@@ -369,7 +369,7 @@ workshop:
     - Yasuaki Kobayashi 
     - Yuto Okada
     title: New Hardness Results for k-Planarity
-    booktitle: The 25rd Japan-Korea Joint Workshop on Algorithms and Computation (WAAC 2025)
+    booktitle: The 25th Japan-Korea Joint Workshop on Algorithms and Computation (WAAC 2025)
     presenter: Yuto Okada
     month: August
     year: '2025'
