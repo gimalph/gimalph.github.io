@@ -184,8 +184,11 @@ journal:
       - Yuma Tamura 
       - Xiao Zhou
     title: On the Complexity of List $\mathcal H$-Packing for Sparse Graph Classes
-    journal: "Theoretical Computer Science (to appear)"
+    journal: "Theoretical Computer Science"
+    volume: '1052'
+    pages: '115425'
     year: '2025'
+    doi: https://doi.org/10.1016/j.tcs.2025.115425
     arxiv: https://doi.org/10.48550/arXiv.2312.08639
 
   - author:
