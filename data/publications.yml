@@ -8,6 +8,7 @@ conference:
     year: '2025'
     place: Warsaw, Poland
     month: September
+    arxiv: https://arxiv.org/abs/2506.21118
 
   - author:
       - Yudai Egami
@@ -25,6 +26,7 @@ conference:
     year: '2025'
     place: Warsaw, Poland
     month: August
+    arxiv: https://arxiv.org/abs/2504.13669
 
   - author: 
       - Tatsuya Gima
