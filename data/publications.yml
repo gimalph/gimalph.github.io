@@ -357,6 +357,16 @@ arxiv:
 
 workshop:
   - author:
+      - Yu Fujiwara 
+      - Tatsuya Gima
+      - Yasuaki Kobayashi
+    title: Computing the edge-cut width of a graph
+    booktitle: The 27th China-Japan Conference on Discrete and Computational Geometry, Graphs, and Games (CJCDCG^3 2025)
+    presenter: Yu Fujiwara
+    month: September
+    year: '2025'
+    place: Guangzhou, China
+  - author:
     - Tatsuya Gima
     - Yasuaki Kobayashi
     - Yuto Okada
