@@ -1,6 +1,17 @@
 conference:
   - author:
       - Tatsuya Gima
+      - Yuto Okada
+      - Yasuaki Kobayashi
+    title: Structural Parameterizations of k-Planarity
+    arxiv: https://arxiv.org/abs/2506.10717
+    booktitle: The 33rd International Symposium on Graph Drawing and Network Visualization (GD 2025)
+    year: '2025'
+    place: Norrköping, Sweden
+    month: September
+
+  - author:
+      - Tatsuya Gima
       - Soh Kumabe
       - Yuichi Yoshida
     title: Courcelle's Theorem for Lipschitz Continuity
@@ -330,12 +341,6 @@ journal:
     arxiv: https://arxiv.org/abs/2012.04910
 
 arxiv:
-  - author:
-      - Tatsuya Gima
-      - Yuto Okada
-      - Yasuaki Kobayashi
-    title: Structural Parameterizations of k-Planarity
-    arxiv: https://arxiv.org/abs/2506.10717
   - author:
       - Tatsuya Gima
       - Yuni Iwamasa

@@ -11,9 +11,11 @@ Legends
 - 🧑‍🤝‍🧑: attendance of International workshop
 
 ## 2025 
-1. 📘June: The following paper has been accepted to _ESA 2025_.
-  - ``Courcelle's Theorem for Lipschitz Continuity'' with Soh Kumabe, Yuichi Yoshida.
-1. 📘June: The following paper has been accepted to _MFCS 2025_. 
+1. 📘July: The following paper has been accepted to [_GD 2025_](https://graphdrawing.github.io/gd2025/pages/accepted_papers/).
+	- ``Structural Parameterizations of k-Planarity'' with Yuto Okada, Yasuaki Kobayashi.
+1. 📘June: The following paper has been accepted to [_ESA 2025_](https://algo-conference.org/2025/esa/).
+	- ``Courcelle's Theorem for Lipschitz Continuity'' with Soh Kumabe, Yuichi Yoshida.
+1. 📘June: The following paper has been accepted to [_MFCS 2025_](https://mfcs2025.mimuw.edu.pl/#accepted). 
 	- ``Broadcasting under Structural Restrictions'' with Yudai Egami, Tatsuya Gima, Tesshu Hanaka, Yasuaki Kobayashi, Michael Lampis, Valia Mitsou, Edouard Nemery, Yota Otachi, Manolis Vasilakis, Daniel Vaz
 1. 📕June: The following paper has been accepted to _Theoretical Computer Science_.
 	- ``On the Complexity of List $\mathcal H$-Packing for Sparse Graph Classes'' with Tesshu Hanaka, Yasuaki Kobayashi, Yota Otachi, Tomohito Shirai, Akira Suzuki, Yuma Tamura, and Xiao Zhou.

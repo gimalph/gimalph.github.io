@@ -15,9 +15,11 @@ math: true
 - マークなし: その他
 
 ## 2025 
-1. 📘6月: 以下の論文が _ESA 2025_ に採択されました.
-  - ``Courcelle's Theorem for Lipschitz Continuity'' with Soh Kumabe, Yuichi Yoshida.
-1. 📘6月: 以下の論文が _MFCS 2025_ に採択されました.
+1. 📘7月: 以下の論文が [_GD 2025_](https://graphdrawing.github.io/gd2025/pages/accepted_papers/) に採択されました.
+	- ``Structural Parameterizations of k-Planarity'' with Yuto Okada, Yasuaki Kobayashi.
+1. 📘6月: 以下の論文が [_ESA 2025_](https://algo-conference.org/2025/esa/) に採択されました.
+	- ``Courcelle's Theorem for Lipschitz Continuity'' with Soh Kumabe, Yuichi Yoshida.
+1. 📘6月: 以下の論文が [_MFCS 2025_](https://mfcs2025.mimuw.edu.pl/#accepted) に採択されました.
 	- ``Broadcasting under Structural Restrictions'' with Yudai Egami, Tatsuya Gima, Tesshu Hanaka, Yasuaki Kobayashi, Michael Lampis, Valia Mitsou, Edouard Nemery, Yota Otachi, Manolis Vasilakis, Daniel Vaz.
 1. 📕6月: 以下の論文が _Theoretical Computer Science_ に採択されました.
 	- ``On the Complexity of List $\mathcal H$-Packing for Sparse Graph Classes'' with Tesshu Hanaka, Yasuaki Kobayashi, Yota Otachi, Tomohito Shirai, Akira Suzuki, Yuma Tamura, and Xiao Zhou.
