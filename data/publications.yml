@@ -1,8 +1,20 @@
 conference:
   - author:
       - Tatsuya Gima
-      - Yuto Okada
       - Yasuaki Kobayashi
+      - Yuto Okada
+      - Yota Otachi 
+      - Hayato Takaike
+    title:  Hitting Geodesic Intervals in Structurally Restricted Graphs
+    booktitle: The 20th International Symposium on Parameterized and Exact Computation (IPEC 2025)
+    year: '2025'
+    place: Warsaw, Poland
+    month: September
+
+  - author:
+      - Tatsuya Gima
+      - Yasuaki Kobayashi
+      - Yuto Okada
     title: Structural Parameterizations of k-Planarity
     arxiv: https://arxiv.org/abs/2506.10717
     booktitle: The 33rd International Symposium on Graph Drawing and Network Visualization (GD 2025)

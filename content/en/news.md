@@ -11,8 +11,10 @@ Legends
 - 🧑‍🤝‍🧑: attendance of International workshop
 
 ## 2025 
+1. 📘August: The following paper has been accepted to [_IPEC 2025_](https://algo-conference.org/2025/ipec/). 
+	- ``Hitting Geodesic Intervals in Structurally Restricted Graphs'' with Yasuaki Kobayashi, Yuto Okada, Yota Otachi, Hayato Takaike.
 1. 📘July: The following paper has been accepted to [_GD 2025_](https://graphdrawing.github.io/gd2025/pages/accepted_papers/).
-	- ``Structural Parameterizations of k-Planarity'' with Yuto Okada, Yasuaki Kobayashi.
+	- ``Structural Parameterizations of k-Planarity'' with Yasuaki Kobayashi, Yuto Okada.
 1. 📘June: The following paper has been accepted to [_ESA 2025_](https://algo-conference.org/2025/esa/).
 	- ``Courcelle's Theorem for Lipschitz Continuity'' with Soh Kumabe, Yuichi Yoshida.
 1. 📘June: The following paper has been accepted to [_MFCS 2025_](https://mfcs2025.mimuw.edu.pl/#accepted). 
