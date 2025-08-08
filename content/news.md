@@ -17,7 +17,6 @@ math: true
 ## 2025 
 1. 📘8月: 以下の論文が [_IPEC 2025_](https://algo-conference.org/2025/ipec/) に採択されました.
 	- ``Hitting Geodesic Intervals in Structurally Restricted Graphs'' with Yasuaki Kobayashi, Yuto Okada, Yota Otachi, Hayato Takaike.
-    title:  Hitting Geodesic Intervals in Structurally Restricted Graphs
 1. 📘7月: 以下の論文が [_GD 2025_](https://graphdrawing.github.io/gd2025/pages/accepted_papers/) に採択されました.
 	- ``Structural Parameterizations of k-Planarity'' with Yasuaki Kobayashi, Yuto Okada.
 1. 📘6月: 以下の論文が [_ESA 2025_](https://algo-conference.org/2025/esa/) に採択されました.
