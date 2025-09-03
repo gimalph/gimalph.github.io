@@ -10,6 +10,7 @@ conference:
     year: '2025'
     place: Warsaw, Poland
     month: September
+    arxiv: https://arxiv.org/abs/2509.01413
 
   - author:
       - Tatsuya Gima
