@@ -33,6 +33,7 @@ conference:
     place: Warsaw, Poland
     month: September
     arxiv: https://arxiv.org/abs/2506.21118
+    doi: https://doi.org/10.4230/LIPIcs.ESA.2025.11
 
   - author:
       - Yudai Egami
@@ -51,6 +52,7 @@ conference:
     place: Warsaw, Poland
     month: August
     arxiv: https://arxiv.org/abs/2504.13669
+    doi: https://doi.org/10.4230/LIPIcs.MFCS.2025.42
 
   - author: 
       - Tatsuya Gima
