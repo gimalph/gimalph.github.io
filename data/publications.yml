@@ -32,6 +32,9 @@ conference:
     year: '2025'
     place: Warsaw, Poland
     month: September
+    series: LIPIcs
+    volume: '351'
+    pages: 11:1--11:14
     arxiv: https://arxiv.org/abs/2506.21118
     doi: https://doi.org/10.4230/LIPIcs.ESA.2025.11
 
@@ -51,6 +54,9 @@ conference:
     year: '2025'
     place: Warsaw, Poland
     month: August
+    series: LIPIcs
+    volume: '345'
+    pages: 42:1--42:18
     arxiv: https://arxiv.org/abs/2504.13669
     doi: https://doi.org/10.4230/LIPIcs.MFCS.2025.42
 
