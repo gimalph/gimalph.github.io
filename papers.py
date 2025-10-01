@@ -11,13 +11,12 @@ outen = "content/en/research.md"
 publication_data = "data/publications.yml"
 
 
+# labels the presenter with __* ... *__
 def author_mark(x):
-    # if 'presenter' in x:
-    #     pp = x['presenter']
-    #     ppidx = x['author'].index(pp)
-    #     x['author'][ppidx] = '__*' + pp + '__'
-    return 
-
+    if 'presenter' in x:
+        pp = x['presenter']
+        ppidx = x['author'].index(pp)
+        x['author'][ppidx] = '__*' + pp + '__'
 
 def create_journal_list(xd) -> [str]:
     jlist = []
@@ -52,7 +51,7 @@ def create_conference_list(xd) -> [str]:
 
     for x in xd:
         title = x['title']
-        author_mark(x)
+        # author_mark(x)
         paper = ', '.join(x['author']) + '. <br>' + title + '.<br>'\
               +  '_' + x['booktitle'] + '_, '\
               + x['place'] + ', '
