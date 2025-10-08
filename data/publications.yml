@@ -233,6 +233,8 @@ journal:
       - Manolis Vasilakis
     title: Bandwidth Parameterized by Cluster Vertex Deletion Number
     journal: "Algorithmica"
+    volume: '87' 
+    pages: '1146--1177'
     arxiv: https://arxiv.org/abs/2309.17204
     doi: https://doi.org/10.1007/s00453-025-01315-x
 
