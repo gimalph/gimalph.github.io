@@ -472,72 +472,72 @@ workshop:
     place: Nagoya, Japan
 
 domestic:
-  - titel: Courcelleʼs Theorem for Lipschitz Continuity
+  - title: Courcelleʼs Theorem for Lipschitz Continuity
     author:
-    - 儀間 達也
-    - 隈部 壮 
-    - 𠮷⽥ 悠⼀
+      - 儀間 達也
+      - 隈部 壮 
+      - 𠮷⽥ 悠⼀
     booktitle: 2025年度 冬のLAシンポジウム 京都大学 2026年1月
     presenter: 隈部 壮 
 
 
-  - title: ⽀配集合を最⼤化するグラフ向き付けについて
-    author: 
-    - Hans L. Bodlaender 
-    - 儀間 達也
-    - ⼩林 靖明
-    - ⽔野 双葉
-    - 岡⽥ 優⽃
-    - ⼤舘 陽太
+  - author: 
+      - Hans L. Bodlaender 
+      - 儀間 達也
+      - ⼩林 靖明
+      - ⽔野 双葉
+      - 岡⽥ 優⽃
+      - ⼤舘 陽太
+    title: ⽀配集合を最⼤化するグラフ向き付けについて
     booktitle: 2025年度 冬のLAシンポジウム 京都大学 2026年1月
     presenter: ⽔野 双葉
 
   - title: Hitting Geodesic Intervals in Structurally Restricted Graphs
     author:
-    - 儀間 達也
-    - 小林 靖明
-    - 岡田 優斗
-    - 大舘 陽太
-    - 髙池 颯⽃
+      - 儀間 達也
+      - 小林 靖明
+      - 岡田 優斗
+      - 大舘 陽太
+      - 髙池 颯⽃
     booktitle: 2025年度 冬のLAシンポジウム 京都大学 2026年1月
     presenter: 髙池 颯⽃
 
   - author:
-    - 儀間 達也
-    - 森元 拓
-    - 岡田 優斗
-    - 大舘 陽太
+      - 儀間 達也
+      - 森元 拓
+      - 岡田 優斗
+      - 大舘 陽太
     title:  $n \times n$ トーラス格⼦グラフの⽊幅
     booktitle: 2025年度 冬のLAシンポジウム 京都大学 2026年1月
     presenter: 森元 拓
 
   - author:
-    - 儀間 達也
+      - 儀間 達也
     title:  Evaluating Monadic Second-Order Queries with Optimal-Set Quantifiers on Bounded Clique-Width 
     booktitle: 2025年度 冬のLAシンポジウム 京都大学 2026年1月
     presenter: 儀間 達也
 
   - author:
-    - 平野 司
-    - 儀間 達也
-    - ⼩林 靖明
+      - 平野 司
+      - 儀間 達也
+      - ⼩林 靖明
     title: 連結頂点インテグリティ問題のパラメータ化計算量  
     booktitle: 2025年度 夏のLAシンポジウム アイーナ・いわて県民情報交流センター 2025年7月
     presenter: 平野 司
 
   - author:
-    - 佐藤 拓海
-    - 儀間 達也
-    - ⼩林 靖明
-    - ⼤舘 陽太
+      - 佐藤 拓海
+      - 儀間 達也
+      - ⼩林 靖明
+      - ⼤舘 陽太
     title: 最短経路問題と最⼩全域⽊問題に対する事前割当による解唯⼀化 
     booktitle: 2025年度 夏のLAシンポジウム アイーナ・いわて県民情報交流センター 2025年7月
     presenter: 佐藤 拓海
 
   - author:
-    - 藤原 優
-    - 儀間 達也
-    - 小林 靖明
+      - 藤原 優
+      - 儀間 達也
+      - 小林 靖明
     title: グラフの辺カット幅に対する近似アルゴリズム
     booktitle: 情報処理学会 第203回アルゴリズム研究会 九州大学 西新プラザ 2025年5月
     presenter: 藤原 優
@@ -577,9 +577,9 @@ domestic:
     presenter: 森元 拓
 
   - author:
-    - 藤原 優
-    - 儀間 達也
-    - 小林 靖明
+      - 藤原 優
+      - 儀間 達也
+      - 小林 靖明
     title: 辺カット型グラフパラメータに基づく最大出次数最小化問題と標的集合選択問題の計算複雑性
     booktitle: 情報処理学会 第199回アルゴリズム研究会 広島工業大学 2024年9月
     presenter: 藤原 優
