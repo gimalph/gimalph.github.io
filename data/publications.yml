@@ -474,45 +474,45 @@ workshop:
 domestic:
   - titel: Courcelleʼs Theorem for Lipschitz Continuity
     author:
-      - 儀間 達也
-      - 隈部 壮 
-      - 𠮷⽥ 悠⼀
+    - 儀間 達也
+    - 隈部 壮 
+    - 𠮷⽥ 悠⼀
     booktitle: 2025年度 冬のLAシンポジウム 京都大学 2026年1月
     presenter: 隈部 壮 
 
 
   - title: ⽀配集合を最⼤化するグラフ向き付けについて
     author: 
-      - Hans L. Bodlaender 
-      - 儀間 達也
-      - ⼩林 靖明
-      - ⽔野 双葉
-      - 岡⽥ 優⽃
-      - ⼤舘 陽太
+    - Hans L. Bodlaender 
+    - 儀間 達也
+    - ⼩林 靖明
+    - ⽔野 双葉
+    - 岡⽥ 優⽃
+    - ⼤舘 陽太
     booktitle: 2025年度 冬のLAシンポジウム 京都大学 2026年1月
     presenter: ⽔野 双葉
 
   - title: Hitting Geodesic Intervals in Structurally Restricted Graphs
     author:
-      - 儀間 達也
-      - 小林 靖明
-      - 岡田 優斗
-      - 大舘 陽太
-      - 髙池 颯⽃
+    - 儀間 達也
+    - 小林 靖明
+    - 岡田 優斗
+    - 大舘 陽太
+    - 髙池 颯⽃
     booktitle: 2025年度 冬のLAシンポジウム 京都大学 2026年1月
     presenter: 髙池 颯⽃
 
   - author:
-      - 儀間 達也
-      - 森元 拓
-      - 岡田 優斗
-      - 大舘 陽太
+    - 儀間 達也
+    - 森元 拓
+    - 岡田 優斗
+    - 大舘 陽太
     title:  $n \times n$ トーラス格⼦グラフの⽊幅
     booktitle: 2025年度 冬のLAシンポジウム 京都大学 2026年1月
     presenter: 森元 拓
 
   - author:
-      - 儀間 達也
+    - 儀間 達也
     title:  Evaluating Monadic Second-Order Queries with Optimal-Set Quantifiers on Bounded Clique-Width 
     booktitle: 2025年度 冬のLAシンポジウム 京都大学 2026年1月
     presenter: 儀間 達也
