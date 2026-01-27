@@ -23,6 +23,7 @@ conference:
     place: Warsaw, Poland
     month: September
     arxiv: https://arxiv.org/abs/2509.01413
+    doi: https://doi.org/10.4230/LIPIcs.IPEC.2025.29
 
   - author:
       - Tatsuya Gima
@@ -34,6 +35,7 @@ conference:
     year: '2025'
     place: Norrköping, Sweden
     month: September
+    doi: https://doi.org/10.4230/LIPIcs.GD.2025.16
 
   - author:
       - Tatsuya Gima
