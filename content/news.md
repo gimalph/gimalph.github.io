@@ -17,6 +17,7 @@ math: true
 ## 2026
 1.  🎉📘3月: 以下の論文が [_WALCOM 2026_](https://mozart.diei.unipg.it/walcom2026/) に採択され，``Best Student Paper Award'' に選ばれました!
 	- ``Forcing a unique minimum spanning tree and a unique shortest path'' with Yasuaki Kobayashi, Yota Otachi, Takumi Sato
+1. 🗾1月: 2025年度 冬のLAシンポジウム 京都大学 2026年1月にて5件の発表に関わりました．
 
 ## 2025 
 1. 📘8月: 以下の論文が [_IPEC 2025_](https://algo-conference.org/2025/ipec/) に採択されました.
