@@ -10,6 +10,10 @@ Legends
 - 📖: publication of papers
 - 🧑‍🤝‍🧑: attendance of International workshop
 
+## 2026
+1.  🎉📘March: The following paper has been accepted to [_WALCOM 2026_](https://mozart.diei.unipg.it/walcom2026/) and received the ``Best Student Paper Award''!
+	- ``Forcing a unique minimum spanning tree and a unique shortest path'' with Yasuaki Kobayashi, Yota Otachi, Takumi Sato
+
 ## 2025 
 1. 📘August: The following paper has been accepted to [_IPEC 2025_](https://algo-conference.org/2025/ipec/). 
 	- ``Hitting Geodesic Intervals in Structurally Restricted Graphs'' with Yasuaki Kobayashi, Yuto Okada, Yota Otachi, Hayato Takaike.
@@ -18,7 +22,7 @@ Legends
 1. 📘June: The following paper has been accepted to [_ESA 2025_](https://algo-conference.org/2025/esa/).
 	- ``Courcelle's Theorem for Lipschitz Continuity'' with Soh Kumabe, Yuichi Yoshida.
 1. 📘June: The following paper has been accepted to [_MFCS 2025_](https://mfcs2025.mimuw.edu.pl/#accepted). 
-	- ``Broadcasting under Structural Restrictions'' with Yudai Egami, Tatsuya Gima, Tesshu Hanaka, Yasuaki Kobayashi, Michael Lampis, Valia Mitsou, Edouard Nemery, Yota Otachi, Manolis Vasilakis, Daniel Vaz
+	- ``Broadcasting under Structural Restrictions'' with Yudai Egami, Tatsuya Gima, Tesshu Hanaka, Yasuaki Kobayashi, Michael Lampis, Valia Mitsou, Edouard Nemery, Yota Otachi, Manolis Vasilakis, Daniel Vaz.
 1. 📕June: The following paper has been accepted to _Theoretical Computer Science_.
 	- ``On the Complexity of List $\mathcal H$-Packing for Sparse Graph Classes'' with Tesshu Hanaka, Yasuaki Kobayashi, Yota Otachi, Tomohito Shirai, Akira Suzuki, Yuma Tamura, and Xiao Zhou.
 1. 📕April: The following paper has been accepted to _Algorithmica_.

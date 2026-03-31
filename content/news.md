@@ -14,6 +14,10 @@ math: true
 - 🎉: 受賞等
 - マークなし: その他
 
+## 2026
+1.  🎉📘3月: 以下の論文が [_WALCOM 2026_](https://mozart.diei.unipg.it/walcom2026/) に採択され，``Best Student Paper Award'' に選ばれました!
+	- ``Forcing a unique minimum spanning tree and a unique shortest path'' with Yasuaki Kobayashi, Yota Otachi, Takumi Sato
+
 ## 2025 
 1. 📘8月: 以下の論文が [_IPEC 2025_](https://algo-conference.org/2025/ipec/) に採択されました.
 	- ``Hitting Geodesic Intervals in Structurally Restricted Graphs'' with Yasuaki Kobayashi, Yuto Okada, Yota Otachi, Hayato Takaike.
