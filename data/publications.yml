@@ -6,10 +6,14 @@ conference:
       - Takumi Sato
     title: Forcing a unique minimum spanning tree and a unique shortest path
     booktitle: the 20th International Conference and Workshops on Algorithms and Computation (WALCOM 2026)
+    series: Lecture Notes in Computer Science
+    volume: '16444'
     year: '2026'
     place: Perugia, Italy
     month: March
+    pages: 371-385
     arxiv: https://arxiv.org/abs/2509.24309
+    doi:  https://doi.org/10.1007/978-981-95-7127-7_25
     award: Best Student Paper
 
   - author:
