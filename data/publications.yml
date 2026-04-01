@@ -21,6 +21,9 @@ conference:
     title:  Hitting Geodesic Intervals in Structurally Restricted Graphs
     booktitle: The 20th International Symposium on Parameterized and Exact Computation (IPEC 2025)
     year: '2025'
+    series: LIPIcs
+    volume: '358'
+    pages: 29:1--29:16
     place: Warsaw, Poland
     month: September
     arxiv: https://arxiv.org/abs/2509.01413
@@ -34,6 +37,9 @@ conference:
     arxiv: https://arxiv.org/abs/2506.10717
     booktitle: The 33rd International Symposium on Graph Drawing and Network Visualization (GD 2025)
     year: '2025'
+    series: LIPIcs
+    volume: '357'
+    pages: 16:1--16:17
     place: Norrköping, Sweden
     month: September
     doi: https://doi.org/10.4230/LIPIcs.GD.2025.16
