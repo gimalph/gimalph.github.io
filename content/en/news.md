@@ -11,6 +11,8 @@ Legends
 - 🧑‍🤝‍🧑: attendance of International workshop
 
 ## 2026
+1. 📘June: The following paper has been accepted to [_MFCS2026_](https://mfcs2026.irif.fr).
+	- ``Lower Bounds for Meta-Reconfiguration'' with Kord Eickmeyer, Michael Lampis, Valia Mitsou, Edouard Nemery, Yota Otachi, Manolis Vasilakis, and Daniel Vaz
 1.  🎉📘March: The following paper has been accepted to [_WALCOM 2026_](https://mozart.diei.unipg.it/walcom2026/) and received the ``Best Student Paper Award''!
 	- ``Forcing a unique minimum spanning tree and a unique shortest path'' with Yasuaki Kobayashi, Yota Otachi, Takumi Sato
 

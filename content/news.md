@@ -15,6 +15,14 @@ math: true
 - マークなし: その他
 
 ## 2026
+1. 📘6月: 以下の論文が [_MFCS2026_](https://mfcs2026.irif.fr) に採択されました.
+	- ``Lower Bounds for Meta-Reconfiguration'' with Kord Eickmeyer, Michael Lampis, Valia Mitsou, Edouard Nemery, Yota Otachi, Manolis Vasilakis, and Daniel Vaz
+1. 🧑‍🤝‍🧑6月: 以下の発表が [_WAAC 2026_](https://algo.postech.ac.kr/workshops/waac26/) に採択されました.
+	- ``On the Parameterized Complexity of Orientable Domination Number'' with Hans L. Bodlaender, Yasuaki Kobayashi, Futaba Mizuno, Yuto Okada, and Yota Otachi
+	- ``On the Parameterized Complexity of Orientable Domination Number'' with Hans L. Bodlaender, Yasuaki Kobayashi, Futaba Mizuno, Yuto Okada, and Yota Otachi
+	- ``Structural Parameterizations of Crossing Minimization Problems for 2-Layer Drawings'' with Yasuaki Kobayashi and Hankyeol Lee
+1. 5月: 以下の論文を arXiv に公開しました.
+	- ``Treewidth of the $n \times n$ toroidal grid'' with Hiraku Morimoto, Yuto Okada, and Yota Otachi
 1.  🎉📘3月: 以下の論文が [_WALCOM 2026_](https://mozart.diei.unipg.it/walcom2026/) に採択され，``Best Student Paper Award'' に選ばれました!
 	- ``Forcing a unique minimum spanning tree and a unique shortest path'' with Yasuaki Kobayashi, Yota Otachi, Takumi Sato
 1. 🗾1月: 2025年度 冬のLAシンポジウム 京都大学 2026年1月にて5件の発表に関わりました．
