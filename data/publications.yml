@@ -1,5 +1,20 @@
 conference:
   - author:
+      - Kord Eickmeyer 
+      - Tatsuya Gima 
+      - Michael Lampis 
+      - Valia Mitsou 
+      - Edouard Nemery 
+      - Yota Otachi 
+      - Manolis Vasilakis 
+      - Daniel Vaz 
+    title: Lower Bounds for Meta-Reconfiguration
+    booktitle: 51st International Symposium on Mathematical Foundations of Computer Science
+    year: '2026'
+    place: Paris, France
+    month: August
+    
+  - author:
       - Tatsuya Gima 
       - Yasuaki Kobayashi
       - Yota Otachi
@@ -391,6 +406,13 @@ journal:
 arxiv:
   - author:
       - Tatsuya Gima
+      - Hiraku Morimoto
+      - Yuto Okada
+      - Yota Otachi
+    title: Treewidth of the $n \times n$ toroidal grid
+    arxiv: https://arxiv.org/abs/2605.21015
+  - author:
+      - Tatsuya Gima
       - Yuni Iwamasa
       - Yasuaki Kobayashi
       - Kazuhiro Kurita
@@ -409,6 +431,43 @@ arxiv:
     arxiv: https://doi.org/10.48550/arXiv.2305.07259
 
 workshop:
+  - author: 
+      - Tatsuya Gima
+      - Yasuaki Kobayashi
+      - Hankyeol Lee
+    title: Structural Parameterizations of Crossing Minimization Problems for 2-Layer Drawings
+    booktitle: The 26th Korea-Japan Joint Workshop on Algorithms and Computation (WAAC 2026)
+    presenter: Hankyeol Lee
+    month: August
+    year: '2026'
+    place: Busan, Korea
+
+  - author: 
+      - Hans L. Bodlaender
+      - Tatsuya Gima
+      - Yasuaki Kobayashi
+      - Futaba Mizuno
+      - Yuto Okada
+      - Yota Otachi
+    title: On the Parameterized Complexity of Orientable Domination Number
+    booktitle: The 26th Korea-Japan Joint Workshop on Algorithms and Computation (WAAC 2026)
+    presenter: Futaba Mizuno
+    month: August
+    year: '2026'
+    place: Busan, Korea
+
+  - author:
+      - Tatsuya Gima
+      - Yasuaki Kobayashi
+      - Hiraku Morimoto
+      - Yota Otachi
+    title: On Structural Parameterizations of Minimum $(s,t)$-Cut Prevention
+    booktitle: The 26th Korea-Japan Joint Workshop on Algorithms and Computation (WAAC 2026)
+    presenter: Hiraku Morimoto
+    month: August
+    year: '2026'
+    place: Busan, Korea
+
   - author:
       - Yu Fujiwara 
       - Tatsuya Gima
@@ -420,6 +479,7 @@ workshop:
     month: September
     year: '2025'
     place: Guangzhou, China
+
   - author:
     - Tatsuya Gima
     - Yasuaki Kobayashi
