@@ -11,6 +11,8 @@ Legends
 - 🧑‍🤝‍🧑: attendance of International workshop
 
 ## 2026
+1. 📕June: The following paper has been accepted/published in _Theoretical Computer Science_ ([link](https://doi.org/10.7155/jgaa.v30i1.3095)).
+        - ``Structural Parameterizations of k-Planarity'' with Yasuaki Kobayashi and Yuto Okada
 1. 📘June: The following paper has been accepted to [_MFCS2026_](https://mfcs2026.irif.fr).
 	- ``Lower Bounds for Meta-Reconfiguration'' with Kord Eickmeyer, Michael Lampis, Valia Mitsou, Edouard Nemery, Yota Otachi, Manolis Vasilakis, and Daniel Vaz
 1.  🎉📘March: The following paper has been accepted to [_WALCOM 2026_](https://mozart.diei.unipg.it/walcom2026/) and received the ``Best Student Paper Award''!

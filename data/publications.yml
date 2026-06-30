@@ -248,6 +248,18 @@ conference:
 
 
 journal:
+  - author:
+      - Tatsuya Gima
+      - Yasuaki Kobayashi
+      - Yuto Okada
+    title: Structural Parameterizations of k-Planarity
+    arxiv: https://arxiv.org/abs/2506.10717
+    journal: "Theoretical Computer Science"
+    volume: '30(1)'
+    pages: '273--294'
+    year: '2026'
+    doi: https://doi.org/10.7155/jgaa.v30i1.3095
+
   - author: 
       - Tatsuya Gima
       - Tesshu Hanaka
