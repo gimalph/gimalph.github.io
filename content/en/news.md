@@ -11,6 +11,8 @@ Legends
 - 🧑‍🤝‍🧑: attendance of International workshop
 
 ## 2026
+1. August: The following paper has been published on arXiv.
+	- ``Quantifying over Optimal MSO-Definable Sets on Graphs of Bounded Clique-Width''
 1. 📕June: The following paper has been accepted/published in _Theoretical Computer Science_ ([link](https://doi.org/10.7155/jgaa.v30i1.3095)).
         - ``Structural Parameterizations of k-Planarity'' with Yasuaki Kobayashi and Yuto Okada
 1. 📘June: The following paper has been accepted to [_MFCS2026_](https://mfcs2026.irif.fr).

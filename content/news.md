@@ -15,6 +15,8 @@ math: true
 - マークなし: その他
 
 ## 2026
+1. 8月: 以下の論文を arXiv に公開しました.
+	- ``Quantifying over Optimal MSO-Definable Sets on Graphs of Bounded Clique-Width'' 
 1. 📕6月: 以下の論文が _Theoretical Computer Science_ ([link](https://doi.org/10.7155/jgaa.v30i1.3095)) に採択・出版されました.
         - ``Structural Parameterizations of k-Planarity'' with Yasuaki Kobayashi and Yuto Okada
 1. 📘6月: 以下の論文が [_MFCS2026_](https://mfcs2026.irif.fr) に採択されました.
