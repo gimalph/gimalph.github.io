@@ -13,6 +13,10 @@ conference:
     year: '2026'
     place: Paris, France
     month: August
+    series: LIPIcs
+    volume: '386'
+    pages: 55:1--55:17
+    doi: https://doi.org/10.4230/LIPIcs.MFCS.2026.55
     
   - author:
       - Tatsuya Gima 
@@ -416,6 +420,10 @@ journal:
     arxiv: https://arxiv.org/abs/2012.04910
 
 arxiv:
+  - author:
+      - Tatsuya Gima
+    title: Quantifying over Optimal MSO-Definable Sets on Graphs of Bounded Clique-Width
+    arxiv: http://arxiv.org/abs/2608.20175
   - author:
       - Tatsuya Gima
       - Hiraku Morimoto
