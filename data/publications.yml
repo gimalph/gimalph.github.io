@@ -422,7 +422,7 @@ journal:
 arxiv:
   - author:
       - Tatsuya Gima
-    title: Quantifying over Optimal MSO-Definable Sets on Graphs of Bounded Clique-Width
+    title: Extending Courcelle's Theorem with Optimality Predicates
     arxiv: http://arxiv.org/abs/2608.20175
   - author:
       - Tatsuya Gima
