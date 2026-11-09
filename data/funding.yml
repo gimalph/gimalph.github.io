@@ -1,6 +1,5 @@
 # yaml-language-server: $schema=../schemas/funding.schema.json
 - title: "説明可能AIのための多様な予測モデルの大域的解析技術の理論的基盤"
-  title_en: "Theoretical foundations of global analysis of diverse predictive models for explainable AI"
   agency: "日本学術振興会 科学研究費助成事業（基盤研究(B)）"
   agency_en: "JSPS KAKENHI, Grant-in-Aid for Scientific Research (B)"
   period: "2026–2030年度"
@@ -11,7 +10,6 @@
   url: "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-26K02980/"
 
 - title: "木状構造に基づくグラフアルゴリズム高速化とメタ定理"
-  title_en: "Faster graph algorithms and meta-theorems based on tree structures"
   agency: "日本学術振興会 科学研究費助成事業（若手研究）"
   agency_en: "JSPS KAKENHI, Grant-in-Aid for Early-Career Scientists"
   period: "2026–2029年度"
@@ -22,7 +20,6 @@
   url: "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-26K21161/"
 
 - title: "超高速高精度パラメータ化アルゴリズム：グラフ最適化における計算限界の打破"
-  title_en: "Fast and accurate parameterized algorithms: Breaking computational limits in graph optimization"
   agency: "日本学術振興会 科学研究費助成事業（基盤研究(B)）"
   agency_en: "JSPS KAKENHI, Grant-in-Aid for Scientific Research (B)"
   period: "2025–2029年度"
@@ -44,7 +41,6 @@
   url: "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-24K23847/"
 
 - title: "グラフ構造パラメータと述語論理を用いた高速メタアルゴリズム"
-  title_en: "Fast meta-algorithms using structural graph parameters and predicate logic"
   agency: "日本学術振興会 科学研究費助成事業（特別研究員奨励費）"
   agency_en: "JSPS KAKENHI, Grant-in-Aid for JSPS Fellows"
   period: "2023–2024年度（2024年度に中途終了）"
