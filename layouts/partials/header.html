@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="site-name" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
+    <nav aria-label="{{ i18n "main_navigation" }}">
+      {{ range site.Menus.main }}
+        {{ $name := .Name }}
+        {{ with .Page }}
+          <a href="{{ .RelPermalink }}"{{ if eq . $ }} aria-current="page"{{ end }}>{{ $name }}</a>
+        {{ end }}
+      {{ end }}
+      {{ $translations := .Translations }}
+      {{ if not $translations }}{{ $translations = site.Home.Translations }}{{ end }}
+      {{ range $translations }}
+        <a class="language-link" href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}">{{ .Language.Label }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

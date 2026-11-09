@@ -1,0 +1,36 @@
+{{- $source := .Get 0 -}}
+{{- $isPosition := eq $source "positions" -}}
+{{- $labelField := cond $isPosition "title" "award" -}}
+{{- $dateField := cond $isPosition "started_on" "received_on" -}}
+{{- $english := eq .Page.Language.Lang "en" -}}
+{{- $monthFormat := i18n "news_month_format" -}}
+{{- $yearFormat := i18n "cv_year_format" -}}
+{{- with index hugo.Data $source }}
+  <ul>
+    {{ range . }}
+      {{ $label := index . $labelField }}
+      {{ $details := .details }}
+      {{ if $english }}
+        {{ $label = default $label (index . (printf "%s_en" $labelField)) }}
+        {{ $details = default $details .details_en }}
+      {{ end }}
+      {{ $start := "" }}
+      {{ $date := index . $dateField }}
+      {{ if $date }}
+        {{ $start = time.Format $monthFormat $date }}
+      {{ else if and .year .month }}
+        {{ $start = time.Format $monthFormat (printf "%04d-%02d-01" (int .year) (int .month)) }}
+      {{ else if .year }}
+        {{ $start = printf $yearFormat (int .year) }}
+      {{ end }}
+      <li>
+        {{ if $start -}}
+          {{ $start -}}
+          {{ if and .end_year .end_month }} – {{ time.Format $monthFormat (printf "%04d-%02d-01" (int .end_year) (int .end_month)) }}{{ end }}:
+        {{ end }}
+        {{ with .url }}<a href="{{ . }}">{{ $label }}</a>{{ else }}{{ $label }}{{ end }}
+        {{ with $details }}<br>{{ . }}{{ end }}
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

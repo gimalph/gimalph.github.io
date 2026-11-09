@@ -56,7 +56,7 @@ class ValidateDataTests(unittest.TestCase):
 
     def test_duplicate_id_across_categories(self):
         self.publications["journal"][0]["id"] = self.paper["id"]
-        self.assert_publication_error()
+        self.assert_publication_error("duplicate publication ID")
 
     def test_unusual_bibliographic_link_is_a_warning(self):
         self.paper["arxiv"] = "https://doi.org/／ES10.u48550/arXiv.2312.08639"
@@ -71,12 +71,12 @@ class ValidateDataTests(unittest.TestCase):
 
     def test_self_reference(self):
         self.paper["related_publication_ids"] = [self.paper["id"]]
-        self.assert_publication_error("related_publication_ids")
+        self.assert_publication_error("related_publication_ids", "cannot reference itself")
 
     def test_repeated_related_id(self):
         related = self.publications["journal"][0]["id"]
         self.paper["related_publication_ids"] = [related, related]
-        self.assert_publication_error("related_publication_ids")
+        self.assert_publication_error("related_publication_ids", "duplicate related ID")
 
     def test_invalid_dates(self):
         for date in ("2026-02-30", "2026-2-3"):

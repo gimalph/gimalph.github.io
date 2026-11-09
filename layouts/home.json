@@ -1,0 +1,11 @@
+{{- $pages := site.RegularPages -}}
+{{- if eq .Language.Lang "ja" -}}
+  {{- range .Translations -}}
+    {{- $pages = $pages | append .Site.RegularPages -}}
+  {{- end -}}
+{{- end -}}
+{{- $index := slice -}}
+{{- range $pages -}}
+  {{- $index = $index | append (dict "title" .Title "permalink" .Permalink "summary" .Summary "content" .Plain) -}}
+{{- end -}}
+{{- $index | jsonify -}}

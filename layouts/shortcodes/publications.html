@@ -1,0 +1,74 @@
+{{- $categories := slice "journal" "conference" "workshop" "arxiv" "domestic" -}}
+{{- $anchors := dict "journal" "journal-papers" "conference" "conference-papers" "workshop" "presentations-on-international-workshops" "arxiv" "preprint-papers" "domestic" "domestic-presentations" -}}
+{{- if eq .Site.Language.Lang "ja" -}}
+  {{- $anchors = merge $anchors (dict "workshop" "国際ワークショップでの発表" "arxiv" "プレプリント" "domestic" "国内研究会等での発表") -}}
+{{- end -}}
+{{- $publications := hugo.Data.publications -}}
+{{- $page := .Page -}}
+
+<nav class="publication-index" aria-label="{{ i18n "publication_categories" }}">
+  <ul>
+    {{ range $categories }}
+      {{ if index $publications . }}
+        <li><a href="#{{ index $anchors . }}">{{ i18n (printf "publication_%s" .) }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>
+
+{{ range $category := $categories }}
+  {{ with index $publications $category }}
+    <h2 id="{{ index $anchors $category }}">{{ i18n (printf "publication_%s" $category) }}</h2>
+    {{ if eq $category "domestic" }}
+      {{ $presentations := where . "presenter" "儀間 達也" }}
+      <p>{{ i18n "publication_domestic_presenter_count" (dict "count" (len $presentations)) }}</p>
+    {{ end }}
+    <ol class="publications" reversed>
+      {{ range . }}
+        {{ $paper := . }}
+        {{ $venue := default .booktitle .journal }}
+        {{ $details := slice }}
+        {{ with .place }}{{ $details = $details | append . }}{{ end }}
+        {{ with .series }}{{ $details = $details | append . }}{{ end }}
+        {{ with .volume }}
+          {{ $volume := string . }}
+          {{ with $paper.issue }}{{ $volume = printf "%s(%v)" $volume . }}{{ end }}
+          {{ $details = $details | append $volume }}
+        {{ else }}
+          {{ with .issue }}{{ $details = $details | append (printf "no. %v" .) }}{{ end }}
+        {{ end }}
+        {{ with .pages }}{{ $details = $details | append (printf "pp. %v" .) }}{{ end }}
+        {{ $date := slice }}
+        {{ with .month }}{{ $date = $date | append (string .) }}{{ end }}
+        {{ with .year }}{{ $date = $date | append (string .) }}{{ end }}
+        {{ with $date }}{{ $details = $details | append (delimit . " " | string) }}{{ end }}
+        <li id="publication-{{ .id }}">
+          <div class="publication-title">{{ $page.RenderString .title }}{{ if .invite }} ({{ i18n "publication_invited" }}){{ end }}</div>
+          <div class="publication-authors">
+            {{- range $index, $author := .author -}}
+              {{- if $index }}, {{ end -}}
+              {{- if and (eq $category "domestic") (eq $author $paper.presenter) -}}
+                <strong>*{{ $author }}</strong>
+              {{- else -}}
+                {{- $author -}}
+              {{- end -}}
+            {{- end -}}
+          </div>
+          {{ if or $venue $details }}
+            <div class="publication-citation">
+              {{ with $venue }}<cite>{{ . }}</cite>{{ if $details }}, {{ end }}{{ end -}}
+              {{ with $details }}{{ delimit . ", " | string }}{{ end }}
+            </div>
+          {{ end }}
+          {{ with .award }}<div class="publication-award"><strong>{{ . }}</strong></div>{{ end }}
+          {{ if or .doi .arxiv }}
+            <div class="publication-links">
+              {{ with .doi }}<a href="{{ . }}">DOI</a>{{ end }}
+              {{ with .arxiv }}<a href="{{ . }}">arXiv</a>{{ end }}
+            </div>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ol>
+  {{ end }}
+{{ end }}

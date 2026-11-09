@@ -1,0 +1,29 @@
+{{- $events := partial "collect-events.html" (dict
+  "lang" .Page.Language.Lang
+  "months" (int (default 0 (.Get "months")))
+  "limit" (int (default 0 (.Get "limit")))
+) -}}
+{{- $monthFormat := i18n "news_month_format" -}}
+{{- with $events }}
+  {{- $year := "" }}
+  {{- range . }}
+    {{- $eventYear := substr .date 0 4 }}
+    {{- if ne $eventYear $year }}
+      {{- if $year }}</ul>{{ end }}
+      {{- $year = $eventYear }}
+      <h3 class="news-year">{{ $year }}</h3>
+      <ul class="news-list">
+    {{- end }}
+    <li>
+      <time class="news-date" datetime="{{ .date }}">{{ time.Format $monthFormat .date }}</time>
+      <div>
+        {{ $.Page.RenderString (i18n .kind .args) }}
+        {{- $label := cond (eq .kind "paper_online") "DOI" (i18n "news_details") }}
+        {{- with .url }} <a href="{{ . }}">{{ $label }}</a>{{ end }}
+      </div>
+    </li>
+  {{- end }}
+  </ul>
+{{- else }}
+  <p>{{ i18n "news_empty" }}</p>
+{{- end -}}

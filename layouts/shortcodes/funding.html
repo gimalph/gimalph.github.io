@@ -1,0 +1,22 @@
+{{ $suffix := cond (eq .Site.Language.Lang "en") "_en" "" }}
+{{ with hugo.Data.funding }}
+  <ul class="funding-list">
+    {{ range $grant := . }}
+      {{ $title := default .title (index . (printf "title%s" $suffix)) }}
+      <li>
+        <h2>{{ with .url }}<a href="{{ . }}">{{ $title }}</a>{{ else }}{{ $title }}{{ end }}</h2>
+        <dl>
+          {{ range slice "agency" "period" "role" "number" }}
+            {{ $value := default (index $grant .) (index $grant (printf "%s%s" . $suffix)) }}
+            {{ if ne $value nil }}
+              <dt>{{ i18n (printf "funding_%s" .) }}</dt>
+              <dd>{{ $value }}</dd>
+            {{ end }}
+          {{ end }}
+        </dl>
+      </li>
+    {{ end }}
+  </ul>
+{{ else }}
+  <p>{{ i18n "funding_empty" }}</p>
+{{ end }}

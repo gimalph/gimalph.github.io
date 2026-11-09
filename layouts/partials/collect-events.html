@@ -1,0 +1,56 @@
+{{- $events := slice -}}
+{{- $data := hugo.Data -}}
+{{- $suffix := printf "_%s" .lang -}}
+
+{{- /* The stable sort preserves source order when dates tie. */ -}}
+{{- range slice "conference" "journal" "arxiv" "workshop" "domestic" -}}
+  {{- range index $data.publications . -}}
+    {{- $args := dict "title" .title "venue" (or .booktitle .journal "") -}}
+    {{- with .accepted_on -}}
+      {{- $events = $events | append (dict "date" . "kind" "paper_accepted" "args" $args) -}}
+    {{- end -}}
+    {{- if .online_on -}}
+      {{- $events = $events | append (dict "date" .online_on "kind" "paper_online" "args" $args "url" .doi) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- range $data.funding -}}
+  {{- if .accepted_on -}}
+    {{- $title := or (index . (printf "title%s" $suffix)) .title -}}
+    {{- $agency := or (index . (printf "agency%s" $suffix)) .agency "" -}}
+    {{- $args := dict "title" $title "agency" $agency -}}
+    {{- $events = $events | append (dict "date" .accepted_on "kind" "fund_awarded" "args" $args "url" .url) -}}
+  {{- end -}}
+{{- end -}}
+{{- range $data.positions -}}
+  {{- if .started_on -}}
+    {{- $args := dict "title" (or (index . (printf "title%s" $suffix)) .title) -}}
+    {{- $events = $events | append (dict "date" .started_on "kind" "position_started" "args" $args "url" .url) -}}
+  {{- end -}}
+{{- end -}}
+{{- range $data.awards -}}
+  {{- if .received_on -}}
+    {{- $args := dict "award" (or (index . (printf "award%s" $suffix)) .award) -}}
+    {{- $events = $events | append (dict "date" .received_on "kind" "award_received" "args" $args "url" .url) -}}
+  {{- end -}}
+{{- end -}}
+{{- range $data.news_extra -}}
+  {{- $args := dict "text" (index . (printf "text%s" $suffix)) -}}
+  {{- $events = $events | append (dict "date" .date "kind" "news_extra" "args" $args "url" .url) -}}
+{{- end -}}
+
+{{- $today := now | time.In "Asia/Tokyo" -}}
+{{- $events = where $events "date" "le" ($today.Format "2006-01-02") -}}
+{{- with .months -}}
+  {{- $cutoff := $today.AddDate 0 (mul -1 .) 0 -}}
+  {{- /* AddDate rolls past short months. Clamp to the preceding month's last day. */ -}}
+  {{- if lt $cutoff.Day $today.Day -}}
+    {{- $cutoff = $cutoff.AddDate 0 0 (mul -1 $cutoff.Day) -}}
+  {{- end -}}
+  {{- $events = where $events "date" "ge" ($cutoff.Format "2006-01-02") -}}
+{{- end -}}
+{{- $events = sort $events "date" "desc" -}}
+{{- with .limit -}}
+  {{- $events = first . $events -}}
+{{- end -}}
+{{- return $events -}}

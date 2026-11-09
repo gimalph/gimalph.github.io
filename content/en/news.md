@@ -4,13 +4,19 @@ summary: "Update log and research news"
 changefreq: monthly
 ---
 
+## Updates
+
+{{< recent-news >}}
+
+## Archive
+
 Legends
 - 📕: acceptance of Journal papers
 - 📘: acceptance of Conference papers
 - 📖: publication of papers
 - 🧑‍🤝‍🧑: attendance of International workshop
 
-## 2026
+### 2026
 1. August: The following paper has been published on arXiv.
 	- ``Extending Courcelle's Theorem with Optimality Predicates''
 1. 📕June: The following paper has been accepted/published in _Journal of Graph Algorithms and Applications_ ([link](https://doi.org/10.7155/jgaa.v30i1.3095)).
@@ -20,7 +26,7 @@ Legends
 1.  🎉📘March: The following paper has been accepted to [_WALCOM 2026_](https://mozart.diei.unipg.it/walcom2026/) and received the ``Best Student Paper Award''!
 	- ``Forcing a unique minimum spanning tree and a unique shortest path'' with Yasuaki Kobayashi, Yota Otachi, Takumi Sato
 
-## 2025 
+### 2025
 1. 📘August: The following paper has been accepted to [_IPEC 2025_](https://algo-conference.org/2025/ipec/). 
 	- ``Hitting Geodesic Intervals in Structurally Restricted Graphs'' with Yasuaki Kobayashi, Yuto Okada, Yota Otachi, Hayato Takaike.
 1. 📘July: The following paper has been accepted to [_GD 2025_](https://graphdrawing.github.io/gd2025/pages/accepted_papers/).
@@ -37,7 +43,7 @@ Legends
 1. 📕February: The following paper has been accepted to _Discrete Applied Mathematics_.
   - ``Orientable burning number of graphs'' with Julien Courtiel, Paul Dorbec, Tatsuya Gima, Romain Lecoq, and Yota Otachi.
 
-## 2024
+### 2024
 1. 📕November: The following paper has been accepted to _Theoretical Computer Science_.
 	- ``Dichotomies for Tree Minor Containment with Structural Parameters'' with Soh Kumabe, Kazuhiro Kurita, Yuto Okada, and Yota Otachi.
 1. 📕November: The following paper has been accepted to _Theoretical Computer Science_  [📕link](https://doi.org/10.1016/j.tcs.2024.114954).
@@ -52,7 +58,7 @@ Legends
    - ``Structural Parameterizations of Vertex Integrity'' with Tesshu Hanaka, Yasuaki Kobayashi, Ryota Murai, Hirotaka Ono, and Yota Otachi. 
 1. 📖January 4th: ``Extended MSO Model Checking via Small Vertex Integrity'' with Yota Otachi has been published in [_Algorithmica (2024) 86:147--170_](https://doi.org/10.1007/s00453-023-01161-9)
 
-## 2023
+### 2023
 1. 📖December 13: ``Bandwidth Parameterized by Cluster Vertex Deletion Number'' has been officially published. (doi: [10.4230/LIPIcs.IPEC.2023.21](https://doi.org/10.4230/LIPIcs.IPEC.2023.21))
 1. 📘📘📘📘 November 4th: The following four papers has been accepted to [_WALCOM 2024_](https://www.kono.cis.iwate-u.ac.jp/~yamanaka/walcom2024/) 
 	- ``On the Complexity of List $\mathcal H$-Packing for Sparse Graph Classes'' with Tesshu Hanaka, Yasuaki Kobayashi, Yota Otachi, Tomohito Shirai, Akira Suzuki, Yuma Tamura, and Xiao Zhou.

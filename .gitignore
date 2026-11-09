@@ -1,9 +1,8 @@
 .idea/
+.venv/
+__pycache__/
 .hugo_build.lock
 public/
-resources/*
-themes/
-content/research.md
-content/en/research.md
+resources/
 list.tex
 .out/

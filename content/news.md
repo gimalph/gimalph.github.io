@@ -2,8 +2,13 @@
 title: "News"
 summary: "Update log and research news"
 changefreq: monthly
-math: true
 ---
+
+## お知らせ
+
+{{< recent-news >}}
+
+## 過去のお知らせ {#archive}
 
 凡例
 - 📕: 国際論文誌の採択結果
@@ -14,7 +19,7 @@ math: true
 - 🎉: 受賞等
 - マークなし: その他
 
-## 2026
+### 2026
 1. 8月: 以下の論文を arXiv に公開しました.
 	- ``Extending Courcelle's Theorem with Optimality Predicates'' 
 1. 📕6月: 以下の論文が _Journal of Graph Algorithms and Applications_ ([link](https://doi.org/10.7155/jgaa.v30i1.3095)) に採択・出版されました.
@@ -23,7 +28,6 @@ math: true
 	- ``Lower Bounds for Meta-Reconfiguration'' with Kord Eickmeyer, Michael Lampis, Valia Mitsou, Edouard Nemery, Yota Otachi, Manolis Vasilakis, and Daniel Vaz
 1. 🧑‍🤝‍🧑6月: 以下の発表が [_WAAC 2026_](https://algo.postech.ac.kr/workshops/waac26/) に採択されました.
 	- ``On the Parameterized Complexity of Orientable Domination Number'' with Hans L. Bodlaender, Yasuaki Kobayashi, Futaba Mizuno, Yuto Okada, and Yota Otachi
-	- ``On the Parameterized Complexity of Orientable Domination Number'' with Hans L. Bodlaender, Yasuaki Kobayashi, Futaba Mizuno, Yuto Okada, and Yota Otachi
 	- ``Structural Parameterizations of Crossing Minimization Problems for 2-Layer Drawings'' with Yasuaki Kobayashi and Hankyeol Lee
 1. 5月: 以下の論文を arXiv に公開しました.
 	- ``Treewidth of the $n \times n$ toroidal grid'' with Hiraku Morimoto, Yuto Okada, and Yota Otachi
@@ -31,7 +35,7 @@ math: true
 	- ``Forcing a unique minimum spanning tree and a unique shortest path'' with Yasuaki Kobayashi, Yota Otachi, Takumi Sato
 1. 🗾1月: 2025年度 冬のLAシンポジウム 京都大学 2026年1月にて5件の発表に関わりました．
 
-## 2025 
+### 2025
 1. 📘8月: 以下の論文が [_IPEC 2025_](https://algo-conference.org/2025/ipec/) に採択されました.
 	- ``Hitting Geodesic Intervals in Structurally Restricted Graphs'' with Yasuaki Kobayashi, Yuto Okada, Yota Otachi, Hayato Takaike.
 1. 📘7月: 以下の論文が [_GD 2025_](https://graphdrawing.github.io/gd2025/pages/accepted_papers/) に採択されました.
@@ -48,7 +52,7 @@ math: true
 1. 📕2月: 以下の論文が _Discrete Applied Mathematics_ に採択されました.
 	- ``Orientable burning number of graphs'' with Julien Courtiel, Paul Dorbec, Tatsuya Gima, Romain Lecoq, and Yota Otachi.
 
-## 2024
+### 2024
 1. 📕11月: 以下の論文が _Theoretical Computer Science_ に採択されました.
 	- ``Dichotomies for Tree Minor Containment with Structural Parameters'' with Soh Kumabe, Kazuhiro Kurita, Yuto Okada, and Yota Otachi.
 1. 📕11月: 以下の論文が _Theoretical Computer Science_ に採択されました [📕link](https://doi.org/10.1016/j.tcs.2024.114954).
@@ -66,7 +70,7 @@ math: true
    - ``Structural Parameterizations of Vertex Integrity'' with Tesshu Hanaka, Yasuaki Kobayashi, Ryota Murai, Hirotaka Ono, and Yota Otachi. 
 1. 📖1月 4日: ``Extended MSO Model Checking via Small Vertex Integrity'' with Yota Otachi has been published in [_Algorithmica (2024) 86:147--170_](https://doi.org/10.1007/s00453-023-01161-9)
 
-## 2023
+### 2023
 1. 📖December 13: ``Bandwidth Parameterized by Cluster Vertex Deletion Number'' has been officially published. (doi: [10.4230/LIPIcs.IPEC.2023.21](https://doi.org/10.4230/LIPIcs.IPEC.2023.21))
 1. 📘📘📘📘 November 4th: The following four papers has been accepted to [_WALCOM 2024_](https://www.kono.cis.iwate-u.ac.jp/~yamanaka/walcom2024/) 
 	- ``On the Complexity of List $\mathcal H$-Packing for Sparse Graph Classes'' with Tesshu Hanaka, Yasuaki Kobayashi, Yota Otachi, Tomohito Shirai, Akira Suzuki, Yuma Tamura, and Xiao Zhou.
