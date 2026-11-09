@@ -49,7 +49,7 @@ Web サイトとは別に、`python papers_to_tex.py` で `list.tex` を生成�
 
 ## 研究費を追加する
 
-`data/funding.yml` はリストです。初期値の `[]` を置き換えて項目を追加します。課題名 `title` は必須です。`agency`、`period`、`role`、`number`、`url` は分かる範囲で入力します。英語表記には `title_en`、`agency_en`、`period_en`、`role_en` を使えます。`accepted_on` に採択日を入力すると News にも掲載されます。
+`data/funding.yml` はリストです。既存の項目を参考に、新しい項目を追加します。課題名 `title` は必須です。`agency`、`period`、`role`、`number`、`url` は分かる範囲で入力します。英語表記には `title_en`、`agency_en`、`period_en`、`role_en` を使えます。`accepted_on` に採択日を入力すると News にも掲載されます。
 
 ```yaml
 - title: "研究課題の例"
