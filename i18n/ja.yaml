@@ -1,0 +1,54 @@
+paper_accepted:
+  other: '論文「{{ .title }}」が{{ with .venue }} {{ . }} に{{ end }}採択されました。'
+paper_online:
+  other: '論文「{{ .title }}」がオンライン公開されました。'
+fund_awarded:
+  other: '研究課題「{{ .title }}」が{{ with .agency }} {{ . }} の助成に{{ end }}採択されました。'
+position_started:
+  other: '{{ .title }}に着任しました。'
+award_received:
+  other: '「{{ .award }}」を受賞しました。'
+news_extra:
+  other: '{{ .text }}'
+news_month_format:
+  other: '2006年1月'
+news_empty:
+  other: 'この期間のお知らせはありません。'
+news_details:
+  other: '詳細'
+publication_categories:
+  other: '研究業績の分類'
+publication_journal:
+  other: '論文誌論文'
+publication_conference:
+  other: '国際会議論文'
+publication_workshop:
+  other: '国際ワークショップでの発表'
+publication_arxiv:
+  other: 'プレプリント'
+publication_domestic:
+  other: '国内研究会等での発表'
+publication_domestic_presenter_count:
+  other: 'うち、儀間が発表したもの {{ .count }} 件'
+publication_invited:
+  other: '招待講演'
+funding_empty:
+  other: '掲載している研究費情報はありません。'
+funding_agency:
+  other: '助成機関'
+funding_period:
+  other: '研究期間'
+funding_role:
+  other: '役割'
+funding_number:
+  other: '課題番号'
+main_navigation:
+  other: 'メインナビゲーション'
+skip_to_content:
+  other: '本文へ移動'
+cv_year_format:
+  other: '%d年'
+page_not_found:
+  other: 'ページが見つかりません'
+back_to_home:
+  other: 'トップページへ'

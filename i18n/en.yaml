@@ -1,0 +1,54 @@
+paper_accepted:
+  other: 'The paper “{{ .title }}” was accepted{{ with .venue }} to {{ . }}{{ end }}.'
+paper_online:
+  other: 'The paper “{{ .title }}” is now available online.'
+fund_awarded:
+  other: 'The research project “{{ .title }}” was awarded funding{{ with .agency }} by {{ . }}{{ end }}.'
+position_started:
+  other: 'I started a new position as {{ .title }}.'
+award_received:
+  other: 'I received the {{ .award }}.'
+news_extra:
+  other: '{{ .text }}'
+news_month_format:
+  other: 'January 2006'
+news_empty:
+  other: 'There are no updates for this period.'
+news_details:
+  other: 'Details'
+publication_categories:
+  other: 'Publication categories'
+publication_journal:
+  other: 'Journal articles'
+publication_conference:
+  other: 'Conference papers'
+publication_workshop:
+  other: 'International workshop presentations'
+publication_arxiv:
+  other: 'Preprints'
+publication_domestic:
+  other: 'Domestic workshop and conference presentations'
+publication_domestic_presenter_count:
+  other: 'Presentations by Tatsuya Gima: {{ .count }}'
+publication_invited:
+  other: 'invited talk'
+funding_empty:
+  other: 'No funding records are listed.'
+funding_agency:
+  other: 'Funding agency'
+funding_period:
+  other: 'Project period'
+funding_role:
+  other: 'Role'
+funding_number:
+  other: 'Project number'
+main_navigation:
+  other: 'Main navigation'
+skip_to_content:
+  other: 'Skip to content'
+cv_year_format:
+  other: '%d'
+page_not_found:
+  other: 'Page not found'
+back_to_home:
+  other: 'Back to home'

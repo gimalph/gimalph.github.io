@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Research funding",
+  "type": [
+    "array",
+    "null"
+  ],
+  "items": {
+    "type": "object",
+    "required": [
+      "title"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]*$"
+      },
+      "title": {
+        "type": "string",
+        "pattern": "\\S"
+      },
+      "title_en": {
+        "type": "string",
+        "pattern": "\\S"
+      },
+      "agency": {
+        "type": "string",
+        "pattern": "\\S"
+      },
+      "agency_en": {
+        "type": "string",
+        "pattern": "\\S"
+      },
+      "period": {
+        "type": "string",
+        "pattern": "\\S"
+      },
+      "period_en": {
+        "type": "string",
+        "pattern": "\\S"
+      },
+      "role": {
+        "type": "string",
+        "pattern": "\\S"
+      },
+      "role_en": {
+        "type": "string",
+        "pattern": "\\S"
+      },
+      "number": {
+        "type": [
+          "string",
+          "integer"
+        ],
+        "pattern": "\\S"
+      },
+      "amount": {
+        "type": [
+          "string",
+          "number"
+        ],
+        "pattern": "\\S"
+      },
+      "url": {
+        "type": "string",
+        "pattern": "^https?://[^\\s/]+[^\\s]*$"
+      },
+      "accepted_on": {
+        "type": "string",
+        "format": "date",
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+      }
+    },
+    "additionalProperties": false
+  }
+}

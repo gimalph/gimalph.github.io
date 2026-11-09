@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Research publications",
+  "type": "object",
+  "required": [
+    "conference",
+    "journal",
+    "arxiv",
+    "workshop",
+    "domestic"
+  ],
+  "properties": {
+    "conference": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/publication"
+      }
+    },
+    "journal": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/publication"
+      }
+    },
+    "arxiv": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/publication"
+      }
+    },
+    "workshop": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/publication"
+      }
+    },
+    "domestic": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/publication"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "publication": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "author"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]*$"
+        },
+        "title": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "author": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "\\S"
+          }
+        },
+        "booktitle": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "journal": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "series": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "place": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "presenter": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "award": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "arxiv": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "volume": {
+          "type": [
+            "string",
+            "integer"
+          ],
+          "pattern": "\\S"
+        },
+        "issue": {
+          "type": [
+            "string",
+            "integer"
+          ],
+          "pattern": "\\S"
+        },
+        "pages": {
+          "type": [
+            "string",
+            "integer"
+          ],
+          "pattern": "\\S"
+        },
+        "year": {
+          "type": [
+            "string",
+            "integer"
+          ],
+          "pattern": "\\S"
+        },
+        "month": {
+          "type": [
+            "string",
+            "integer"
+          ],
+          "pattern": "\\S"
+        },
+        "doi": {
+          "type": "string",
+          "pattern": "^https?://[^\\s/]+[^\\s]*$"
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https?://[^\\s/]+[^\\s]*$"
+        },
+        "invite": {
+          "type": "boolean"
+        },
+        "accepted_on": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "online_on": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "related_publication_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]*$"
+          }
+        }
+      }
+    }
+  }
+}

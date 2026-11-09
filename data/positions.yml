@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../schemas/positions.schema.json
+- year: 2024
+  month: 4
+  title: "北海道大学 大学院情報科学研究院 助教"
+  title_en: "Assistant Professor, Faculty of Information Science and Technology, Hokkaido University"
+
+- year: 2023
+  month: 4
+  end_year: 2024
+  end_month: 3
+  title: "日本学術振興会特別研究員DC2"
+  title_en: "JSPS Research Fellow (DC2)"
+  details: "グラフ構造パラメータと述語論理を用いた高速メタアルゴリズム"
+  details_en: "Fast meta-algorithms using structural graph parameters and predicate logic"
