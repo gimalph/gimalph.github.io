@@ -1,5 +1,7 @@
+# yaml-language-server: $schema=../schemas/publications.schema.json
 conference:
-  - author:
+  - id: MFCS2026-reconfiguration
+    author:
       - Kord Eickmeyer 
       - Tatsuya Gima 
       - Michael Lampis 
@@ -18,7 +20,8 @@ conference:
     pages: 55:1--55:17
     doi: https://doi.org/10.4230/LIPIcs.MFCS.2026.55
     
-  - author:
+  - id: WALCOM2026-forcing
+    author:
       - Tatsuya Gima 
       - Yasuaki Kobayashi
       - Yota Otachi
@@ -35,7 +38,8 @@ conference:
     doi:  https://doi.org/10.1007/978-981-95-7127-7_25
     award: Best Student Paper
 
-  - author:
+  - id: IPEC2025-geodesic
+    author:
       - Tatsuya Gima
       - Yasuaki Kobayashi
       - Yuto Okada
@@ -52,7 +56,8 @@ conference:
     arxiv: https://arxiv.org/abs/2509.01413
     doi: https://doi.org/10.4230/LIPIcs.IPEC.2025.29
 
-  - author:
+  - id: GD2025-planarity
+    author:
       - Tatsuya Gima
       - Yasuaki Kobayashi
       - Yuto Okada
@@ -67,7 +72,8 @@ conference:
     month: September
     doi: https://doi.org/10.4230/LIPIcs.GD.2025.16
 
-  - author:
+  - id: ESA2025-lipschitz
+    author:
       - Tatsuya Gima
       - Soh Kumabe
       - Yuichi Yoshida
@@ -82,7 +88,8 @@ conference:
     arxiv: https://arxiv.org/abs/2506.21118
     doi: https://doi.org/10.4230/LIPIcs.ESA.2025.11
 
-  - author:
+  - id: MFCS2025-broadcasting
+    author:
       - Yudai Egami
       - Tatsuya Gima
       - Tesshu Hanaka
@@ -104,7 +111,8 @@ conference:
     arxiv: https://arxiv.org/abs/2504.13669
     doi: https://doi.org/10.4230/LIPIcs.MFCS.2025.42
 
-  - author: 
+  - id: WALCOM2024-packing
+    author:
       - Tatsuya Gima
       - Tesshu Hanaka
       - Yasuaki Kobayashi
@@ -125,7 +133,8 @@ conference:
     arxiv: https://doi.org/／ES10.u48550/arXiv.2312.08639
     doi: https://doi.org/10.1007/978-981-97-0566-5_30
 
-  - author:
+  - id: WALCOM2024-vertex-integrity
+    author:
       - Tatsuya Gima
       - Tesshu Hanaka
       - Yasuaki Kobayashi
@@ -145,7 +154,8 @@ conference:
     presenter: Ryota Murai
     award: Best paper
 
-  - author:
+  - id: WALCOM2024-tree-minors
+    author:
       - Tatsuya Gima
       - Soh Kumabe
       - Kazuhiro Kurita
@@ -163,7 +173,8 @@ conference:
     doi: https://doi.org/10.1007/978-981-97-0566-5_28
     presenter: Yuto Okada
 
-  - author: 
+  - id: WALCOM2024-burning
+    author:
       - Julien Courtiel
       - Paul Dorbec
       - Tatsuya Gima
@@ -181,7 +192,8 @@ conference:
     arxiv: https://arxiv.org/abs/2311.13132
     doi: https://doi.org/10.1007/978-981-97-0566-5_27
 
-  - author:
+  - id: IPEC2023-bandwidth
+    author:
       - Tatsuya Gima
       - Eun Jung Kim
       - Noleen Köhler
@@ -200,7 +212,8 @@ conference:
     doi: https://doi.org/10.4230/LIPIcs.IPEC.2023.21
 
     
-  - author:
+  - id: ISAAC2022-mso
+    author:
       - Tatsuya Gima
       - Yota Otachi
     title: Extended MSO Model Checking via Small Vertex Integrity
@@ -215,7 +228,8 @@ conference:
     arxiv: https://arxiv.org/abs/2202.08445
     presenter: Tatsuya Gima
 
-  - author:
+  - id: ESA2022-reconfiguration
+    author:
       - Tatsuya Gima
       - Takehiro Ito
       - Yasuaki Kobayashi
@@ -232,7 +246,8 @@ conference:
     arxiv: https://arxiv.org/abs/2207.01024
     presenter: Tatsuya Gima
     
-  - author: 
+  - id: CIAC2021-vertex-integrity
+    author:
       - Tatsuya Gima
       - Tesshu Hanaka
       - Masashi Kiyomi
@@ -252,7 +267,8 @@ conference:
 
 
 journal:
-  - author:
+  - id: JGAA2026-planarity
+    author:
       - Tatsuya Gima
       - Yasuaki Kobayashi
       - Yuto Okada
@@ -264,7 +280,8 @@ journal:
     year: '2026'
     doi: https://doi.org/10.7155/jgaa.v30i1.3095
 
-  - author: 
+  - id: TCS2025-packing
+    author:
       - Tatsuya Gima
       - Tesshu Hanaka
       - Yasuaki Kobayashi
@@ -281,7 +298,8 @@ journal:
     doi: https://doi.org/10.1016/j.tcs.2025.115425
     arxiv: https://doi.org/10.48550/arXiv.2312.08639
 
-  - author:
+  - id: Algorithmica-bandwidth
+    author:
       - Tatsuya Gima
       - Eun Jung Kim
       - Noleen Köhler
@@ -294,7 +312,8 @@ journal:
     arxiv: https://arxiv.org/abs/2309.17204
     doi: https://doi.org/10.1007/s00453-025-01315-x
 
-  - author:
+  - id: DAM2025-burning
+    author:
       - Julien Courtiel
       - Paul Dorbec
       - Tatsuya Gima
@@ -308,7 +327,8 @@ journal:
     arxiv: https://arxiv.org/abs/2311.13132
     doi: https://doi.org/10.1016/j.dam.2025.02.004
 
-  - author:
+  - id: TCS2025-tree-minors
+    author:
       - Tatsuya Gima
       - Soh Kumabe
       - Kazuhiro Kurita
@@ -322,7 +342,8 @@ journal:
     arxiv: https://doi.org/10.48550/arXiv.2311.03225
     doi: https://doi.org/10.1016/j.tcs.2024.114984
 
-  - author:
+  - id: TCS2025-vertex-integrity
+    author:
       - Tatsuya Gima
       - Tesshu Hanaka
       - Yasuaki Kobayashi
@@ -337,7 +358,8 @@ journal:
     arxiv: https://arxiv.org/abs/2311.05892
     doi: https://doi.org/10.1016/j.tcs.2024.114954
 
-  - author:
+  - id: IPL2025-treewidth
+    author:
       - Tatsuya Gima
       - Tesshu Hanaka
       - Kohei Noro
@@ -351,7 +373,8 @@ journal:
     doi: https://doi.org/10.1016/j.ipl.2024.106536
     arxiv: https://doi.org/10.48550/arXiv.2404.08520
 
-  - author:
+  - id: Algorithmica2024-reconfiguration
+    author:
       - Tatsuya Gima
       - Takehiro Ito
       - Yasuaki Kobayashi
@@ -364,7 +387,8 @@ journal:
     doi: https://doi.org/10.1007/s00453-024-01261-0
     arxiv: https://arxiv.org/abs/2207.01024
 
-  - author:
+  - id: Algorithmica2024-mso
+    author:
       - Tatsuya Gima
       - Yota Otachi
     title: Extended MSO Model Checking via Small Vertex Integrity
@@ -375,7 +399,8 @@ journal:
     doi: https://doi.org/10.1007/s00453-023-01161-9
     arxiv: https://arxiv.org/abs/2202.08445
 
-  - author:
+  - id: IEICE2024-treewidth
+    author:
       - Tatsuya Gima
       - Tesshu Hanaka
       - Kohei Noro
@@ -388,7 +413,8 @@ journal:
     year: '2024'
     doi: https://doi.org/10.1587/transinf.2023FCL0002
 
-  - author: 
+  - id: TCS2022-vertex-integrity
+    author:
       - Tatsuya Gima
       - Tesshu Hanaka
       - Masashi Kiyomi
@@ -402,7 +428,8 @@ journal:
     doi: https://doi.org/10.1016/j.tcs.2022.03.021
     arxiv: https://arxiv.org/abs/2101.09414
 
-  - author: 
+  - id: TOCS2022-cactus
+    author:
       - Yuuki Aoike
       - Tatsuya Gima
       - Tesshu Hanaka
@@ -420,18 +447,21 @@ journal:
     arxiv: https://arxiv.org/abs/2012.04910
 
 arxiv:
-  - author:
+  - id: arxiv-courcelle-optimality
+    author:
       - Tatsuya Gima
     title: Extending Courcelle's Theorem with Optimality Predicates
     arxiv: http://arxiv.org/abs/2608.20175
-  - author:
+  - id: arxiv-toroidal-treewidth
+    author:
       - Tatsuya Gima
       - Hiraku Morimoto
       - Yuto Okada
       - Yota Otachi
     title: Treewidth of the $n \times n$ toroidal grid
     arxiv: https://arxiv.org/abs/2605.21015
-  - author:
+  - id: arxiv-diverse-sat
+    author:
       - Tatsuya Gima
       - Yuni Iwamasa
       - Yasuaki Kobayashi
@@ -441,7 +471,8 @@ arxiv:
     title: Computing diverse pair of solutions for tractable SAT
     arxiv: https://arxiv.org/abs/2412.04016
 
-  - author:
+  - id: arxiv-consistent-subset
+    author:
       - Hiroki Arimura 
       - Tatsuya Gima
       - Yasuaki Kobayashi
@@ -451,7 +482,8 @@ arxiv:
     arxiv: https://doi.org/10.48550/arXiv.2305.07259
 
 workshop:
-  - author: 
+  - id: WAAC2026-crossing
+    author:
       - Tatsuya Gima
       - Yasuaki Kobayashi
       - Hankyeol Lee
@@ -462,7 +494,8 @@ workshop:
     year: '2026'
     place: Busan, Korea
 
-  - author: 
+  - id: WAAC2026-orientable-domination
+    author:
       - Hans L. Bodlaender
       - Tatsuya Gima
       - Yasuaki Kobayashi
@@ -476,7 +509,8 @@ workshop:
     year: '2026'
     place: Busan, Korea
 
-  - author:
+  - id: WAAC2026-cut-prevention
+    author:
       - Tatsuya Gima
       - Yasuaki Kobayashi
       - Hiraku Morimoto
@@ -488,7 +522,8 @@ workshop:
     year: '2026'
     place: Busan, Korea
 
-  - author:
+  - id: CJCDCG2025-edge-cut-width
+    author:
       - Yu Fujiwara 
       - Tatsuya Gima
       - Yasuaki Kobayashi
@@ -500,7 +535,8 @@ workshop:
     year: '2025'
     place: Guangzhou, China
 
-  - author:
+  - id: WAAC2025-geodesic
+    author:
     - Tatsuya Gima
     - Yasuaki Kobayashi
     - Yuto Okada
@@ -513,7 +549,8 @@ workshop:
     year: '2025'
     place: Hokkaido, Japan
 
-  - author:
+  - id: WAAC2025-planarity
+    author:
     - Tatsuya Gima
     - Yasuaki Kobayashi 
     - Yuto Okada
@@ -524,7 +561,8 @@ workshop:
     year: '2025'
     place: Hokkaido, Japan
 
-  - author:
+  - id: WAAC2023-consistent-subset
+    author:
       - Hiroki Arimura 
       - Tatsuya Gima
       - Yasuaki Kobayashi
@@ -537,7 +575,8 @@ workshop:
     year: '2023'
     place: Nagoya, Japan
 
-  - author:
+  - id: WAAC2023-vertex-integrity
+    author:
       - Ryota Murai
       - Tatsuya Gima
       - Tesshu Hanaka
@@ -551,7 +590,8 @@ workshop:
     year: '2023'
     place: Nagoya, Japan
 
-  - author:
+  - id: WAAC2023-treewidth
+    author:
       - Tatsuya Gima
       - Tesshu Hanaka
       - Kohei Noro
@@ -565,7 +605,8 @@ workshop:
     place: Nagoya, Japan
 
 domestic:
-  - title: Courcelleʼs Theorem for Lipschitz Continuity
+  - id: LA2026winter-lipschitz
+    title: Courcelleʼs Theorem for Lipschitz Continuity
     author:
       - 儀間 達也
       - 隈部 壮 
@@ -574,7 +615,8 @@ domestic:
     presenter: 隈部 壮 
 
 
-  - author: 
+  - id: LA2026winter-domination
+    author:
       - Hans L. Bodlaender 
       - 儀間 達也
       - ⼩林 靖明
@@ -585,7 +627,8 @@ domestic:
     booktitle: 2025年度 冬のLAシンポジウム 京都大学 2026年1月
     presenter: ⽔野 双葉
 
-  - title: Hitting Geodesic Intervals in Structurally Restricted Graphs
+  - id: LA2026winter-geodesic
+    title: Hitting Geodesic Intervals in Structurally Restricted Graphs
     author:
       - 儀間 達也
       - 小林 靖明
@@ -595,7 +638,8 @@ domestic:
     booktitle: 2025年度 冬のLAシンポジウム 京都大学 2026年1月
     presenter: 髙池 颯⽃
 
-  - author:
+  - id: LA2026winter-toroidal-treewidth
+    author:
       - 儀間 達也
       - 森元 拓
       - 岡田 優斗
@@ -604,13 +648,15 @@ domestic:
     booktitle: 2025年度 冬のLAシンポジウム 京都大学 2026年1月
     presenter: 森元 拓
 
-  - author:
+  - id: LA2026winter-optimal-set-mso
+    author:
       - 儀間 達也
     title:  Evaluating Monadic Second-Order Queries with Optimal-Set Quantifiers on Bounded Clique-Width 
     booktitle: 2025年度 冬のLAシンポジウム 京都大学 2026年1月
     presenter: 儀間 達也
 
-  - author:
+  - id: LA2025summer-connected-vertex-integrity
+    author:
       - 平野 司
       - 儀間 達也
       - ⼩林 靖明
@@ -618,7 +664,8 @@ domestic:
     booktitle: 2025年度 夏のLAシンポジウム アイーナ・いわて県民情報交流センター 2025年7月
     presenter: 平野 司
 
-  - author:
+  - id: LA2025summer-forcing
+    author:
       - 佐藤 拓海
       - 儀間 達也
       - ⼩林 靖明
@@ -627,7 +674,8 @@ domestic:
     booktitle: 2025年度 夏のLAシンポジウム アイーナ・いわて県民情報交流センター 2025年7月
     presenter: 佐藤 拓海
 
-  - author:
+  - id: IPSJ-AL203-edge-cut-width
+    author:
       - 藤原 優
       - 儀間 達也
       - 小林 靖明
@@ -635,7 +683,8 @@ domestic:
     booktitle: 情報処理学会 第203回アルゴリズム研究会 九州大学 西新プラザ 2025年5月
     presenter: 藤原 優
 
-  - author:
+  - id: IPSJ-AL202-token-reconfiguration
+    author:
       - 儀間 達也
       - 小林 靖明 
       - 斉藤 凜
@@ -643,7 +692,8 @@ domestic:
     booktitle: 情報処理学会 第202回アルゴリズム研究会 福井工業大学 2025年3月
     presenter: 儀間 達也
 
-  - author:
+  - id: LA2025winter-toroidal-treewidth
+    author:
       - 儀間 達也
       - 森元 拓
       - 岡田 優斗
@@ -652,7 +702,8 @@ domestic:
     booktitle: 2024年度冬のLAシンポジウム, 京都大学, 2025年 1月
     presenter: 森元 拓
 
-  - author:
+  - id: IPSJ-AL201-local-search
+    author:
       - 後出 祥臣
       - 儀間 達也
       - 小林 靖明
@@ -660,7 +711,8 @@ domestic:
     booktitle: 情報処理学会 第201回アルゴリズム研究会 熊本県民交流館パレア 2025年1月
     presenter: 後出 祥臣
 
-  - author:
+  - id: IPSJ-AL201-toroidal-treewidth
+    author:
       - 儀間 達也
       - 森元 拓
       - 岡田 優斗
@@ -669,7 +721,8 @@ domestic:
     booktitle: 情報処理学会 第201回アルゴリズム研究会 熊本県民交流館パレア 2025年1月
     presenter: 森元 拓
 
-  - author:
+  - id: IPSJ-AL199-edge-cut-parameters
+    author:
       - 藤原 優
       - 儀間 達也
       - 小林 靖明
@@ -677,7 +730,8 @@ domestic:
     booktitle: 情報処理学会 第199回アルゴリズム研究会 広島工業大学 2024年9月
     presenter: 藤原 優
 
-  - author:
+  - id: COMP2024-diverse-sat
+    author:
       - 儀間 達也
       - 岩政 勇仁
       - 小林 靖明 
@@ -688,7 +742,8 @@ domestic:
     booktitle: 2023年電子情報通信学会総合大会COMP-AFSA学生シンポジウム, 広島大学, 2024年 3月
     presenter: 斉藤 凜
 
-  - author:
+  - id: COMP2024-treewidth
+    author:
       - 儀間 達也
       - 土中 哲秀 
       - 野呂 浩平
@@ -699,14 +754,16 @@ domestic:
     presenter: 野呂 浩平
     award: 最優秀論文賞
 
-  - author:
+  - id: RIMS2024-reconfiguration
+    author:
       - 儀間 達也
     title: 組合せ遷移問題に対するメタアルゴリズム
     booktitle: ワークショップ「組合せ最適化」, 京都大学数理解析研究所, 2024年 2月
     presenter: 儀間 達也
     invite: yes
 
-  - author:
+  - id: LA2024winter-diverse-sat
+    author:
       - 儀間 達也
       - 岩政 勇仁
       - 小林 靖明 
@@ -717,7 +774,8 @@ domestic:
     booktitle: 2023年度冬のLAシンポジウム, 京都大学, 2024年 2月
     presenter: 斉藤 凜
 
-  - author:
+  - id: LA2024winter-treewidth
+    author:
       - 儀間 達也
       - 土中 哲秀 
       - 野呂 浩平
@@ -727,7 +785,8 @@ domestic:
     booktitle: 2023年度冬のLAシンポジウム, 京都大学, 2024年 2月
     presenter: 野呂 浩平
 
-  - author:
+  - id: LA2023summer-treewidth
+    author:
       - 儀間 達也
       - 土中 哲秀 
       - 野呂 浩平
@@ -737,7 +796,8 @@ domestic:
     booktitle: 2023年度夏のLAシンポジウム, サンリフレ函館, 2023年 7月
     presenter: 野呂 浩平
 
-  - author:
+  - id: LA2023summer-tree-minors
+    author:
       - 儀間 達也
       - 隈部 壮
       - 栗田 和宏
@@ -747,7 +807,8 @@ domestic:
     booktitle: 2023年度夏のLAシンポジウム, サンリフレ函館, 2023年 7月
     presenter: 岡田 優斗
 
-  - author:
+  - id: LA2023winter-vertex-integrity
+    author:
       - 村井 亮太
       - 儀間 達也 
       - 土中 哲秀 
@@ -758,7 +819,8 @@ domestic:
     booktitle: 2022年度冬のLAシンポジウム, 京都大学, 2023年 1月 -- 2月
     presenter: 村井 亮太
 
-  - author:
+  - id: LA2023winter-treewidth
+    author:
       - 野呂 浩平
       - 儀間 達也 
       - 土中 哲秀 
@@ -768,7 +830,8 @@ domestic:
     booktitle: 2022年度冬のLAシンポジウム, 京都大学, 2023年 1月 -- 2月
     presenter: 野呂 浩平
 
-  - author:
+  - id: LA2023winter-reconfiguration
+    author:
       - 儀間 達也
       - 伊藤 健洋
       - 小林 靖明
@@ -777,7 +840,8 @@ domestic:
     booktitle: 2022年度冬のLAシンポジウム, 京都大学, 2023年 1月 -- 2月
     presenter: 儀間 達也
 
-  - author:
+  - id: JCCA2022-reconfiguration
+    author:
       - 儀間 達也
       - 伊藤 健洋
       - 小林 靖明
@@ -787,7 +851,8 @@ domestic:
     presenter: 儀間 達也
     invite: yes
 
-  - author:
+  - id: WOO2022-reconfiguration
+    author:
       - 儀間 達也
       - 伊藤 健洋
       - 小林 靖明
@@ -796,7 +861,8 @@ domestic:
     booktitle: 最適化手法とアルゴリズム ─未来を担う若手研究者の集い 2022─, 東京大学, 2022年 6月
     presenter: 儀間 達也
 
-  - author:
+  - id: COMP2022-extended-mso
+    author:
       - 儀間 達也
       - 大舘 陽太
     title: Extended MSO Model Checking via Small Vertex Integrity
@@ -804,14 +870,16 @@ domestic:
     presenter: 儀間 達也
     award: 最優秀論文賞
 
-  - author:
+  - id: LA2022winter-extended-mso
+    author:
       - 儀間 達也
       - 大舘 陽太
     title: Extended MSO Model Checking via Small Vertex Integrity
     booktitle: 2021年度冬のLAシンポジウム, オンライン, 2022年 2月
     presenter: 儀間 達也
 
-  - author:
+  - id: COMP2021-fair-mso
+    author:
       - 儀間 達也
       - 大舘 陽太
     title: Fair MSO Evaluation Problems Parameterized by Vertex Integrity
@@ -819,7 +887,8 @@ domestic:
     presenter: 儀間 達也
 
 
-  - author: 
+  - id: COMP2020-cactus
+    author:
       - 青池 宥希
       - 儀間 達也
       - 土中 哲秀
@@ -833,7 +902,8 @@ domestic:
     presenter: 小林 靖明
 
 
-  - author:
+  - id: LA2020winter-vertex-integrity
+    author:
       - 儀間 達也
       - 土中 哲秀
       - 清見 礼

@@ -9,8 +9,8 @@ template= "template.tex"
 publication_data = "data/publications.yml"
 
 def author_mark(x):
-    if 'presenter' in x:
-        pp = x['presenter']
+    pp = x.get('presenter')
+    if pp in x['author']:
         ppidx = x['author'].index(pp)
         x['author'][ppidx] = '*' + pp + ''
 
@@ -28,13 +28,15 @@ def create_journal_list(xd) -> [str]:
     for x in xd:
         title = x['title']
         author_mark(x)
-        paper = ', '.join(x['author']) + '.\n\t``' + title + ".''\n\t" + '\\textit{' + x['journal'] + '}, '
+        paper = ', '.join(x['author']) + '.\n\t``' + title + ".''\n\t"
+        if 'journal' in x:
+            paper += '\\textit{' + x['journal'] + '}, '
         if 'volume' in x:
-              paper += x['volume'] + ', '
+            paper += str(x['volume']) + ', '
         if 'pages' in x:
-              paper += 'pp. ' + x['pages'] + '. '
+            paper += f"pp. {x['pages']}. "
         if 'year' in x:
-              paper += x['year'] + '. '
+            paper += str(x['year']) + '. '
         if 'doi' in x:
             paper += '\\url{' + x['doi'] +"}"
         jlist.append(paper)
@@ -58,14 +60,19 @@ def create_conference_list(xd) -> [str]:
     for x in xd:
         title = x['title']
         author_mark(x)
-        paper = ', '.join(x['author']) + '.\n\t``' + title + ".''\n\t"\
-              +  '\\textit{' + x['booktitle'] + '}, '\
-              + x['place'] + '. '
-        if 'series' in x:
-            paper += x['series'] + ', ' + x['volume'] + ', pp. ' + x['pages'] + '. '
-        # else:
-        #     paper += 'accepted. '
-        paper += x['month'] + ', ' + x['year'] + '. '
+        paper = ', '.join(x['author']) + '.\n\t``' + title + ".''\n\t"
+        if 'booktitle' in x:
+            paper += '\\textit{' + x['booktitle'] + '}, '
+        if 'place' in x:
+            paper += x['place'] + '. '
+        proceedings = [str(x[field]) for field in ('series', 'volume') if field in x]
+        if 'pages' in x:
+            proceedings.append(f"pp. {x['pages']}")
+        if proceedings:
+            paper += ', '.join(proceedings) + '. '
+        date = [str(x[field]) for field in ('month', 'year') if field in x]
+        if date:
+            paper += ', '.join(date) + '. '
         if 'doi' in x:
             paper += "\\url{" + x['doi'] +"}"
         clist.append(paper)
@@ -80,10 +87,9 @@ def create_domestic(xd) -> ([str], int):
     for x in xd:
         author_mark(x)
         paper = ', '.join(x['author']) + '.\n\t``' + x['title'] + ".''\n\t"
-        if myname == x['presenter']:
+        if myname == x.get('presenter'):
             count += 1
-        # for t in x['booktitle']:
-        dlist.append(paper +  x['booktitle'])
+        dlist.append(paper + x.get('booktitle', ''))
     return dlist, count
 
 # main part 
