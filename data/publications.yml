@@ -297,6 +297,28 @@ conference:
 
 
 journal:
+  - id: TOCT2026-broadcasting
+    author:
+      - Yudai Egami
+      - Tatsuya Gima
+      - Tesshu Hanaka
+      - Yasuaki Kobayashi
+      - Michael Lampis
+      - Valia Mitsou
+      - Edouard Nemery
+      - Yota Otachi
+      - Manolis Vasilakis
+      - Daniel Vaz
+    title: Broadcasting Under Structural Restrictions
+    journal: ACM Transactions on Computation Theory
+    year: '2026'
+    month: November
+    accepted_on: '2026-10-05'
+    online_on: '2026-11-06'
+    doi: https://doi.org/10.1145/3859480
+    arxiv: https://arxiv.org/abs/2504.13669
+    related_publication_ids: [MFCS2025-broadcasting]
+
   - id: JGAA2026-planarity
     author:
       - Tatsuya Gima
