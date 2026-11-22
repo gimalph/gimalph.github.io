@@ -1,0 +1,11 @@
+{{- $icons := dict "journal" "📕" "conference" "📘" "workshop" "🧑‍🤝‍🧑" "domestic" "🗾" -}}
+{{- $kind := default "publication_category" .kind -}}
+{{- $icon := "" -}}
+{{- if eq $kind "paper_online" -}}
+  {{- $icon = "📘📖" -}}
+{{- else if eq $kind "award_received" -}}
+  {{- $icon = "🎉" -}}
+{{- else if or (eq $kind "paper_accepted") (eq $kind "publication_category") -}}
+  {{- $icon = default "" (index $icons .category) -}}
+{{- end -}}
+{{- with $icon -}}<span class="publication-icon" aria-hidden="true">{{ . }}</span>{{- end -}}

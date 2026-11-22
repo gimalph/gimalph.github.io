@@ -41,6 +41,7 @@ markup:
         )
         templates = (
             "partials/collect-events.html",
+            "partials/publication-icon.html",
             "shortcodes/recent-news.html",
             "shortcodes/funding.html",
             "_markup/render-passthrough.html",
@@ -77,6 +78,18 @@ markup:
                     },
                     {"title": "Same-day paper with $x^2$", "accepted_on": "2026-06-15"},
                     {"title": "Undated Paper", "year": 2026, "month": 6, "doi": DOI},
+                ],
+                "journal": [
+                    {"title": "Journal Paper", "accepted_on": "2025-01-04"},
+                ],
+                "workshop": [
+                    {"title": "Workshop Paper", "accepted_on": "2025-01-03"},
+                ],
+                "domestic": [
+                    {"title": "Domestic Paper", "accepted_on": "2025-01-02"},
+                ],
+                "arxiv": [
+                    {"title": "Preprint Paper", "accepted_on": "2025-01-01"},
                 ],
             },
             "funding": [
@@ -129,6 +142,7 @@ markup:
             [
                 "2026-06-16", "2026-06-15", "2026-06-15", "2026-06-15",
                 "2026-01-01", "2025-06-16", "2025-06-15",
+                "2025-01-04", "2025-01-03", "2025-01-02", "2025-01-01",
             ],
         )
         ordered_text = [
@@ -142,6 +156,25 @@ markup:
         self.assertEqual(html.count(f'href="{DOI}"'), 1)
         self.assertNotIn("Undated Paper", html)
         self.assertNotIn("Future update", html)
+
+    def test_event_icons_match_categories_and_leave_other_updates_unmarked(self):
+        expected_icons = [
+            ["📘📖"], ["📘"], ["📘"], [], [], [], ["🎉"],
+            ["📕"], ["🧑‍🤝‍🧑"], ["🗾"], [],
+        ]
+        for lang in ("ja", "en"):
+            with self.subTest(lang=lang):
+                events = re.findall(r"<li>(.*?)</li>", self.page("all", lang), re.S)
+                self.assertEqual(
+                    [
+                        re.findall(
+                            r'<span class="publication-icon" aria-hidden="true">(.*?)</span>',
+                            event, re.S,
+                        )
+                        for event in events
+                    ],
+                    expected_icons,
+                )
 
     def test_localized_months_and_year_headings(self):
         en, ja = self.page("all"), self.page("all", "ja")

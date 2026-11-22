@@ -14,7 +14,7 @@ python scripts/validate_data.py
 hugo server
 ```
 
-ブラウザーで [日本語版](http://localhost:1313/) または [英語版](http://localhost:1313/en/) を開きます。研究業績は `/research/` と `/en/research/`、研究費は `/funding/` と `/en/funding/` です。公開用のビルドと回帰テストは次のコマンドで実行できます。
+ブラウザーで [日本語版](http://localhost:1313/) または [英語版](http://localhost:1313/en/) を開きます。研究業績は `/research/` と `/en/research/`、研究費は CV（`/about/` と `/en/about/`）内に表示します。公開用のビルドと回帰テストは次のコマンドで実行できます。
 
 ```bash
 python -B -m unittest discover -s tests -v
@@ -25,7 +25,7 @@ hugo --gc --minify --printPathWarnings --printI18nWarnings --panicOnWarning
 
 ## 論文を追加・更新する
 
-`data/publications.yml` の該当分類（`conference`、`journal`、`arxiv`、`workshop`、`domestic`）に追加します。論文一覧は各分類のファイル内の順番を使うため、新しいものは通常先頭に追加します。以下は架空の会議論文です。
+`data/publications.yml` の該当分類（`conference`、`journal`、`arxiv`、`workshop`、`domestic`）に追加します。論文一覧は `year` で年別にまとめ、新しい年から表示します。各年の中では論文誌・国際会議・国際ワークショップ・プレプリント・国内発表の順に分類し、該当する成果がある分類だけを表示します。同じ年・分類の中ではファイル内の順番を使うため、新しいものは通常先頭に追加します。以下は架空の会議論文です。
 
 ```yaml
 conference:
@@ -40,6 +40,7 @@ conference:
 ```
 
 - `id` は分類をまたいで一意にします。英数字で始め、英数字・ハイフン・アンダースコアを使えます。題名や DOI を変更しても ID は維持します。
+- `year` は全分類で必須の4桁の西暦です。論文は掲載年、プレプリントは初回公開年、発表は開催年（年度ではなく暦年）を入力します。各分類の逆順の通し番号は年をまたいで維持します。
 - 採択通知を受けたら、確認した日を `accepted_on` に入力します。正式なオンライン版の公開日と DOI が確認できたら、同じレコードに `online_on: "2026-09-10"` と `doi: "https://doi.org/…"` を追加します。それぞれが独立した News になります。
 - 日付は引用符付きの `YYYY-MM-DD` で入力します。日が分からなければ日付欄を省略します。書誌上の `year` や `month` は論文一覧で使います。
 - 論文誌名は `journal`、会議名は `booktitle` を使用します。巻 `volume`、号 `issue`、ページ `pages`、`arxiv` URL などは確認できたものを追加します。タイトル内のインライン数式は `$…$` で囲みます。
@@ -50,6 +51,8 @@ Web サイトとは別に、`python papers_to_tex.py` で `list.tex` を生成�
 ## 研究費を追加する
 
 `data/funding.yml` はリストです。既存の項目を参考に、新しい項目を追加します。課題名 `title` は必須です。`agency`、`period`、`role`、`number`、`url` は分かる範囲で入力します。英語表記には `title_en`、`agency_en`、`period_en`、`role_en` を使えます。`accepted_on` に採択日を入力すると News にも掲載されます。
+
+表示は論文一覧と同じ文字サイズ・項目間隔で、`F5.` のような逆順の通し番号に続けて課題名、役割、助成機関・研究期間・課題番号、詳細リンクを並べます。データの記載順に表示するため、新しい研究費は先頭に追加します。
 
 ```yaml
 - title: "研究課題の例"
@@ -78,6 +81,8 @@ Web サイトとは別に、`python papers_to_tex.py` で `list.tex` を生成�
 ホームの `{{< recent-news limit=5 months=12 >}}` は、当日を含む直近12か月から最大5件を表示します。News ページは公開対象の全件と、従来の手書きのアーカイブを掲載します。既存の記録はアーカイブにまとめています。後からアーカイブの記録を YAML に移すときは、同じイベントが二重に掲載されないよう、そのアーカイブ行も同じ変更で整理してください。
 
 共通の文面は `i18n/ja.yaml` と `i18n/en.yaml` で変更できます。文面を直す際は `{{ .title }}` などの差し込み名を維持します。リンク先は YAML で設定します。
+
+研究成果と News のアイコンは `layouts/partials/publication-icon.html` で共通管理します。論文誌は 📕、国際会議は 📘、出版は 📘📖、国際ワークショップは 🧑‍🤝‍🧑、国内発表は 🗾、受賞は 🎉 を使います。研究成果の各項目には `📕 J12.`、`📘 C16.` のようにアイコン・分類記号・番号を表示します。分類記号は論文誌 `J`、国際会議 `C`、国際ワークショップ `W`、プレプリント `P`、国内発表 `D` です。プレプリントやその他の項目にはアイコンを付けません。
 
 ## 検証と公開
 

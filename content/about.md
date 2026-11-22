@@ -27,6 +27,10 @@ changefreq: yearly
 
 {{< cv-history positions >}}
 
+## 獲得研究費
+
+{{< funding >}}
+
 ## 受賞歴
 
 {{< cv-history awards >}}

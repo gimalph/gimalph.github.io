@@ -29,6 +29,10 @@ changefreq: yearly
 
 {{< cv-history positions >}}
 
+## Funding
+
+{{< funding >}}
+
 ## Awards
 
 {{< cv-history awards >}}

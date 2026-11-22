@@ -1,5 +1,35 @@
 # yaml-language-server: $schema=../schemas/publications.schema.json
 conference:
+  - id: SOFSEM2027-forcing-minimum-cuts
+    author:
+      - Tatsuya Gima
+      - Yasuaki Kobayashi
+      - Hiraku Morimoto
+      - Yota Otachi
+    title: On the Complexity of Forcing and Anti-Forcing Minimum Cuts
+    booktitle: 52nd International Conference on Current Trends in Theory and Practice of Computer Science (SOFSEM 2027)
+    year: '2027'
+    month: February
+    place: Ioannina, Greece
+    accepted_on: '2026-11-11'
+    url: https://sofsem2027.conf.uoi.gr/index.php?id=accepted-papers
+
+  - id: SOFSEM2027-orientable-domination
+    author:
+      - Hans L. Bodlaender
+      - Tatsuya Gima
+      - Yasuaki Kobayashi
+      - Futaba Mizuno
+      - Yuto Okada
+      - Yota Otachi
+    title: On the Complexity of Orientable Domination
+    booktitle: 52nd International Conference on Current Trends in Theory and Practice of Computer Science (SOFSEM 2027)
+    year: '2027'
+    month: February
+    place: Ioannina, Greece
+    accepted_on: '2026-11-11'
+    url: https://sofsem2027.conf.uoi.gr/index.php?id=accepted-papers
+
   - id: MFCS2026-reconfiguration
     author:
       - Kord Eickmeyer 
@@ -130,7 +160,7 @@ conference:
     place: Kanazawa, Japan
     month: March
     presenter: Yuma Tamura
-    arxiv: https://doi.org/／ES10.u48550/arXiv.2312.08639
+    arxiv: https://arxiv.org/abs/2312.08639
     doi: https://doi.org/10.1007/978-981-97-0566-5_30
 
   - id: WALCOM2024-vertex-integrity
@@ -299,6 +329,7 @@ journal:
     arxiv: https://doi.org/10.48550/arXiv.2312.08639
 
   - id: Algorithmica-bandwidth
+    year: '2025'
     author:
       - Tatsuya Gima
       - Eun Jung Kim
@@ -448,11 +479,13 @@ journal:
 
 arxiv:
   - id: arxiv-courcelle-optimality
+    year: '2026'
     author:
       - Tatsuya Gima
     title: Extending Courcelle's Theorem with Optimality Predicates
     arxiv: http://arxiv.org/abs/2608.20175
   - id: arxiv-toroidal-treewidth
+    year: '2026'
     author:
       - Tatsuya Gima
       - Hiraku Morimoto
@@ -461,6 +494,7 @@ arxiv:
     title: Treewidth of the $n \times n$ toroidal grid
     arxiv: https://arxiv.org/abs/2605.21015
   - id: arxiv-diverse-sat
+    year: '2024'
     author:
       - Tatsuya Gima
       - Yuni Iwamasa
@@ -472,6 +506,7 @@ arxiv:
     arxiv: https://arxiv.org/abs/2412.04016
 
   - id: arxiv-consistent-subset
+    year: '2023'
     author:
       - Hiroki Arimura 
       - Tatsuya Gima
@@ -606,6 +641,7 @@ workshop:
 
 domestic:
   - id: LA2026winter-lipschitz
+    year: '2026'
     title: Courcelleʼs Theorem for Lipschitz Continuity
     author:
       - 儀間 達也
@@ -616,6 +652,7 @@ domestic:
 
 
   - id: LA2026winter-domination
+    year: '2026'
     author:
       - Hans L. Bodlaender 
       - 儀間 達也
@@ -628,6 +665,7 @@ domestic:
     presenter: ⽔野 双葉
 
   - id: LA2026winter-geodesic
+    year: '2026'
     title: Hitting Geodesic Intervals in Structurally Restricted Graphs
     author:
       - 儀間 達也
@@ -639,6 +677,7 @@ domestic:
     presenter: 髙池 颯⽃
 
   - id: LA2026winter-toroidal-treewidth
+    year: '2026'
     author:
       - 儀間 達也
       - 森元 拓
@@ -649,6 +688,7 @@ domestic:
     presenter: 森元 拓
 
   - id: LA2026winter-optimal-set-mso
+    year: '2026'
     author:
       - 儀間 達也
     title:  Evaluating Monadic Second-Order Queries with Optimal-Set Quantifiers on Bounded Clique-Width 
@@ -656,6 +696,7 @@ domestic:
     presenter: 儀間 達也
 
   - id: LA2025summer-connected-vertex-integrity
+    year: '2025'
     author:
       - 平野 司
       - 儀間 達也
@@ -665,6 +706,7 @@ domestic:
     presenter: 平野 司
 
   - id: LA2025summer-forcing
+    year: '2025'
     author:
       - 佐藤 拓海
       - 儀間 達也
@@ -675,6 +717,7 @@ domestic:
     presenter: 佐藤 拓海
 
   - id: IPSJ-AL203-edge-cut-width
+    year: '2025'
     author:
       - 藤原 優
       - 儀間 達也
@@ -684,6 +727,7 @@ domestic:
     presenter: 藤原 優
 
   - id: IPSJ-AL202-token-reconfiguration
+    year: '2025'
     author:
       - 儀間 達也
       - 小林 靖明 
@@ -693,6 +737,7 @@ domestic:
     presenter: 儀間 達也
 
   - id: LA2025winter-toroidal-treewidth
+    year: '2025'
     author:
       - 儀間 達也
       - 森元 拓
@@ -703,6 +748,7 @@ domestic:
     presenter: 森元 拓
 
   - id: IPSJ-AL201-local-search
+    year: '2025'
     author:
       - 後出 祥臣
       - 儀間 達也
@@ -712,6 +758,7 @@ domestic:
     presenter: 後出 祥臣
 
   - id: IPSJ-AL201-toroidal-treewidth
+    year: '2025'
     author:
       - 儀間 達也
       - 森元 拓
@@ -722,6 +769,7 @@ domestic:
     presenter: 森元 拓
 
   - id: IPSJ-AL199-edge-cut-parameters
+    year: '2024'
     author:
       - 藤原 優
       - 儀間 達也
@@ -731,6 +779,7 @@ domestic:
     presenter: 藤原 優
 
   - id: COMP2024-diverse-sat
+    year: '2024'
     author:
       - 儀間 達也
       - 岩政 勇仁
@@ -743,6 +792,7 @@ domestic:
     presenter: 斉藤 凜
 
   - id: COMP2024-treewidth
+    year: '2024'
     author:
       - 儀間 達也
       - 土中 哲秀 
@@ -755,6 +805,7 @@ domestic:
     award: 最優秀論文賞
 
   - id: RIMS2024-reconfiguration
+    year: '2024'
     author:
       - 儀間 達也
     title: 組合せ遷移問題に対するメタアルゴリズム
@@ -763,6 +814,7 @@ domestic:
     invite: yes
 
   - id: LA2024winter-diverse-sat
+    year: '2024'
     author:
       - 儀間 達也
       - 岩政 勇仁
@@ -775,6 +827,7 @@ domestic:
     presenter: 斉藤 凜
 
   - id: LA2024winter-treewidth
+    year: '2024'
     author:
       - 儀間 達也
       - 土中 哲秀 
@@ -786,6 +839,7 @@ domestic:
     presenter: 野呂 浩平
 
   - id: LA2023summer-treewidth
+    year: '2023'
     author:
       - 儀間 達也
       - 土中 哲秀 
@@ -797,6 +851,7 @@ domestic:
     presenter: 野呂 浩平
 
   - id: LA2023summer-tree-minors
+    year: '2023'
     author:
       - 儀間 達也
       - 隈部 壮
@@ -808,6 +863,7 @@ domestic:
     presenter: 岡田 優斗
 
   - id: LA2023winter-vertex-integrity
+    year: '2023'
     author:
       - 村井 亮太
       - 儀間 達也 
@@ -820,6 +876,7 @@ domestic:
     presenter: 村井 亮太
 
   - id: LA2023winter-treewidth
+    year: '2023'
     author:
       - 野呂 浩平
       - 儀間 達也 
@@ -831,6 +888,7 @@ domestic:
     presenter: 野呂 浩平
 
   - id: LA2023winter-reconfiguration
+    year: '2023'
     author:
       - 儀間 達也
       - 伊藤 健洋
@@ -841,6 +899,7 @@ domestic:
     presenter: 儀間 達也
 
   - id: JCCA2022-reconfiguration
+    year: '2022'
     author:
       - 儀間 達也
       - 伊藤 健洋
@@ -852,6 +911,7 @@ domestic:
     invite: yes
 
   - id: WOO2022-reconfiguration
+    year: '2022'
     author:
       - 儀間 達也
       - 伊藤 健洋
@@ -862,6 +922,7 @@ domestic:
     presenter: 儀間 達也
 
   - id: COMP2022-extended-mso
+    year: '2022'
     author:
       - 儀間 達也
       - 大舘 陽太
@@ -871,6 +932,7 @@ domestic:
     award: 最優秀論文賞
 
   - id: LA2022winter-extended-mso
+    year: '2022'
     author:
       - 儀間 達也
       - 大舘 陽太
@@ -879,6 +941,7 @@ domestic:
     presenter: 儀間 達也
 
   - id: COMP2021-fair-mso
+    year: '2021'
     author:
       - 儀間 達也
       - 大舘 陽太
@@ -888,6 +951,7 @@ domestic:
 
 
   - id: COMP2020-cactus
+    year: '2020'
     author:
       - 青池 宥希
       - 儀間 達也
@@ -903,6 +967,7 @@ domestic:
 
 
   - id: LA2020winter-vertex-integrity
+    year: '2020'
     author:
       - 儀間 達也
       - 土中 哲秀
@@ -913,4 +978,3 @@ domestic:
     booktitle: 2019年度冬のLAシンポジウム, 京都大学, 2020年2月
     presenter: 儀間 達也
 
-  

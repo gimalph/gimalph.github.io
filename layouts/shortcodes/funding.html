@@ -1,22 +1,32 @@
 {{ $suffix := cond (eq .Site.Language.Lang "en") "_en" "" }}
 {{ with hugo.Data.funding }}
-  <ul class="funding-list">
-    {{ range $grant := . }}
+  {{ $count := len . }}
+  <ol class="funding-list" role="list" reversed start="{{ $count }}">
+    {{ range $index, $grant := . }}
       {{ $title := default .title (index . (printf "title%s" $suffix)) }}
-      <li>
-        <h2>{{ with .url }}<a href="{{ . }}">{{ $title }}</a>{{ else }}{{ $title }}{{ end }}</h2>
-        <dl>
-          {{ range slice "agency" "period" "role" "number" }}
-            {{ $value := default (index $grant .) (index $grant (printf "%s%s" . $suffix)) }}
-            {{ if ne $value nil }}
-              <dt>{{ i18n (printf "funding_%s" .) }}</dt>
-              <dd>{{ $value }}</dd>
-            {{ end }}
+      {{ $role := default .role (index . (printf "role%s" $suffix)) }}
+      {{ $details := slice }}
+      {{ range $field := slice "agency" "period" "number" }}
+        {{ $value := default (index $grant $field) (index $grant (printf "%s%s" $field $suffix)) }}
+        {{ with $value }}
+          {{ if eq $field "number" }}
+            {{ $details = $details | append (printf "%s: %v" (i18n "funding_number") .) }}
+          {{ else }}
+            {{ $details = $details | append . }}
           {{ end }}
-        </dl>
+        {{ end }}
+      {{ end }}
+      <li>
+        <span class="funding-label">F{{ sub $count $index }}.</span>
+        <div class="funding-content">
+          <div class="funding-title">{{ $title }}</div>
+          {{ with $role }}<div class="funding-role">{{ . }}</div>{{ end }}
+          {{ with $details }}<div class="funding-citation">{{ delimit . ", " | string }}</div>{{ end }}
+          {{ with .url }}<div class="funding-links"><a href="{{ . }}">{{ i18n "funding_details" }}</a></div>{{ end }}
+        </div>
       </li>
     {{ end }}
-  </ul>
+  </ol>
 {{ else }}
   <p>{{ i18n "funding_empty" }}</p>
 {{ end }}

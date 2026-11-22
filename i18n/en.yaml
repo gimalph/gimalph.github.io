@@ -18,6 +18,10 @@ news_details:
   other: 'Details'
 publication_categories:
   other: 'Publication categories'
+publication_years:
+  other: 'Publication years'
+publication_year:
+  other: '{{ .year }}'
 publication_journal:
   other: 'Journal articles'
 publication_conference:
@@ -42,6 +46,8 @@ funding_role:
   other: 'Role'
 funding_number:
   other: 'Project number'
+funding_details:
+  other: 'Details'
 main_navigation:
   other: 'Main navigation'
 skip_to_content:

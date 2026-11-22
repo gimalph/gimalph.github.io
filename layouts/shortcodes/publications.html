@@ -1,31 +1,50 @@
 {{- $categories := slice "journal" "conference" "workshop" "arxiv" "domestic" -}}
+{{- $prefixes := dict "journal" "J" "conference" "C" "workshop" "W" "arxiv" "P" "domestic" "D" -}}
 {{- $anchors := dict "journal" "journal-papers" "conference" "conference-papers" "workshop" "presentations-on-international-workshops" "arxiv" "preprint-papers" "domestic" "domestic-presentations" -}}
 {{- if eq .Site.Language.Lang "ja" -}}
   {{- $anchors = merge $anchors (dict "workshop" "国際ワークショップでの発表" "arxiv" "プレプリント" "domestic" "国内研究会等での発表") -}}
 {{- end -}}
 {{- $publications := hugo.Data.publications -}}
 {{- $page := .Page -}}
+{{- $groups := dict -}}
+{{- $years := slice -}}
+{{- $remainingByCategory := dict -}}
+{{- range $category := $categories -}}
+  {{- $records := index $publications $category -}}
+  {{- $remainingByCategory = merge $remainingByCategory (dict $category (len $records)) -}}
+  {{- range $records -}}
+    {{- $year := string .year -}}
+    {{- $groupKey := printf "%s-%s" $category $year -}}
+    {{- $papers := default slice (index $groups $groupKey) -}}
+    {{- $groups = merge $groups (dict $groupKey ($papers | append .)) -}}
+    {{- $years = $years | append $year -}}
+  {{- end -}}
+{{- end -}}
+{{- $years = sort (uniq $years) "value" "desc" -}}
 
-<nav class="publication-index" aria-label="{{ i18n "publication_categories" }}">
+<nav class="publication-index" aria-label="{{ i18n "publication_years" }}">
   <ul>
-    {{ range $categories }}
-      {{ if index $publications . }}
-        <li><a href="#{{ index $anchors . }}">{{ i18n (printf "publication_%s" .) }}</a></li>
-      {{ end }}
+    {{ range $years }}
+      <li><a href="#publications-{{ . }}">{{ i18n "publication_year" (dict "year" .) }}</a></li>
     {{ end }}
   </ul>
 </nav>
 
-{{ range $category := $categories }}
-  {{ with index $publications $category }}
-    <h2 id="{{ index $anchors $category }}">{{ i18n (printf "publication_%s" $category) }}</h2>
-    {{ if eq $category "domestic" }}
-      {{ $presentations := where . "presenter" "儀間 達也" }}
-      <p>{{ i18n "publication_domestic_presenter_count" (dict "count" (len $presentations)) }}</p>
-    {{ end }}
-    <ol class="publications" reversed>
-      {{ range . }}
-        {{ $paper := . }}
+{{ range $year := $years }}
+  <h2 class="publication-year" id="publications-{{ $year }}">{{ i18n "publication_year" (dict "year" $year) }}</h2>
+  {{ range $category := $categories }}
+    {{ with index $groups (printf "%s-%s" $category $year) }}
+      {{ $remaining := index $remainingByCategory $category }}
+      {{ if eq $remaining (len (index $publications $category)) }}
+        <span id="{{ index $anchors $category }}"></span>
+      {{ end }}
+      <h3 id="{{ index $anchors $category }}-{{ $year }}">{{ i18n (printf "publication_%s" $category) }}</h3>
+      {{ if eq $category "domestic" }}
+        {{ $presentations := where . "presenter" "儀間 達也" }}
+        <p>{{ i18n "publication_domestic_presenter_count" (dict "count" (len $presentations)) }}</p>
+      {{ end }}
+      <ol class="publications" role="list" reversed start="{{ $remaining }}">
+      {{ range $paperIndex, $paper := . }}
         {{ $venue := default .booktitle .journal }}
         {{ $details := slice }}
         {{ with .place }}{{ $details = $details | append . }}{{ end }}
@@ -43,6 +62,8 @@
         {{ with .year }}{{ $date = $date | append (string .) }}{{ end }}
         {{ with $date }}{{ $details = $details | append (delimit . " " | string) }}{{ end }}
         <li id="publication-{{ .id }}">
+          <span class="publication-label">{{ partial "publication-icon.html" (dict "category" $category) }}{{ index $prefixes $category }}{{ sub $remaining $paperIndex }}.</span>
+          <div class="publication-content">
           <div class="publication-title">{{ $page.RenderString .title }}{{ if .invite }} ({{ i18n "publication_invited" }}){{ end }}</div>
           <div class="publication-authors">
             {{- range $index, $author := .author -}}
@@ -60,15 +81,18 @@
               {{ with $details }}{{ delimit . ", " | string }}{{ end }}
             </div>
           {{ end }}
-          {{ with .award }}<div class="publication-award"><strong>{{ . }}</strong></div>{{ end }}
+          {{ with .award }}<div class="publication-award"><strong>{{ partial "publication-icon.html" (dict "kind" "award_received") }}{{ . }}</strong></div>{{ end }}
           {{ if or .doi .arxiv }}
             <div class="publication-links">
               {{ with .doi }}<a href="{{ . }}">DOI</a>{{ end }}
               {{ with .arxiv }}<a href="{{ . }}">arXiv</a>{{ end }}
             </div>
           {{ end }}
+          </div>
         </li>
       {{ end }}
-    </ol>
+      </ol>
+      {{ $remainingByCategory = merge $remainingByCategory (dict $category (sub $remaining (len .))) }}
+    {{ end }}
   {{ end }}
 {{ end }}

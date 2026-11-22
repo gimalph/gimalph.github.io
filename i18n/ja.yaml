@@ -18,6 +18,10 @@ news_details:
   other: '詳細'
 publication_categories:
   other: '研究業績の分類'
+publication_years:
+  other: '研究業績の掲載年'
+publication_year:
+  other: '{{ .year }}年'
 publication_journal:
   other: '論文誌論文'
 publication_conference:
@@ -42,6 +46,8 @@ funding_role:
   other: '役割'
 funding_number:
   other: '課題番号'
+funding_details:
+  other: '詳細'
 main_navigation:
   other: 'メインナビゲーション'
 skip_to_content:

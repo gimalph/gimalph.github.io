@@ -149,13 +149,29 @@ pre, math[display="block"] { overflow-x: auto; }
 }
 
 .publication-index li { margin: 0; }
-.publications > li + li { margin-top: 1.15rem; }
-.publication-citation { color: var(--muted); }
+.publication-icon {
+  display: inline-block;
+  margin-inline-end: 0.35em;
+  white-space: nowrap;
+}
+.publications, .funding-list {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.publications > li, .funding-list > li {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: 0.35rem;
+}
+.publication-label, .funding-label {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.publications > li + li, .funding-list > li + li { margin-top: 1.15rem; }
+.publication-citation, .funding-citation { color: var(--muted); }
 .publication-links a + a { margin-inline-start: 0.8rem; }
 
-.funding-list, .news-list { list-style: none; padding: 0; }
-.funding-list dt { font-weight: 650; }
-.funding-list dd { margin-inline-start: 0; margin-bottom: 0.65rem; }
+.news-list { list-style: none; padding: 0; }
 
 .news-list li {
   display: grid;

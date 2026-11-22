@@ -17,6 +17,7 @@
     <li>
       <time class="news-date" datetime="{{ .date }}">{{ time.Format $monthFormat .date }}</time>
       <div>
+        {{ partial "publication-icon.html" . }}
         {{ $.Page.RenderString (i18n .kind .args) }}
         {{- $label := cond (eq .kind "paper_online") "DOI" (i18n "news_details") }}
         {{- with .url }} <a href="{{ . }}">{{ $label }}</a>{{ end }}

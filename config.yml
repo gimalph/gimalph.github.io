@@ -13,7 +13,7 @@ languages:
     title: 儀間 達也 (Tatsuya Gima)
     menus:
       main:
-        - {name: 履歴書, pageRef: /about, weight: 1}
+        - {name: CV, pageRef: /about, weight: 1}
         - {name: 研究業績, pageRef: /research, weight: 2}
         - {name: 研究費, pageRef: /funding, weight: 3}
         - {name: News, pageRef: /news, weight: 4}

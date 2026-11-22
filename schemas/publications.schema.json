@@ -48,7 +48,8 @@
       "required": [
         "id",
         "title",
-        "author"
+        "author",
+        "year"
       ],
       "properties": {
         "id": {
@@ -121,7 +122,9 @@
             "string",
             "integer"
           ],
-          "pattern": "\\S"
+          "pattern": "^[0-9]{4}$",
+          "minimum": 1000,
+          "maximum": 9999
         },
         "month": {
           "type": [

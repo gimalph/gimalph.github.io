@@ -3,14 +3,14 @@
 {{- $suffix := printf "_%s" .lang -}}
 
 {{- /* The stable sort preserves source order when dates tie. */ -}}
-{{- range slice "conference" "journal" "arxiv" "workshop" "domestic" -}}
-  {{- range index $data.publications . -}}
+{{- range $category := slice "conference" "journal" "arxiv" "workshop" "domestic" -}}
+  {{- range index $data.publications $category -}}
     {{- $args := dict "title" .title "venue" (or .booktitle .journal "") -}}
     {{- with .accepted_on -}}
-      {{- $events = $events | append (dict "date" . "kind" "paper_accepted" "args" $args) -}}
+      {{- $events = $events | append (dict "date" . "kind" "paper_accepted" "category" $category "args" $args) -}}
     {{- end -}}
     {{- if .online_on -}}
-      {{- $events = $events | append (dict "date" .online_on "kind" "paper_online" "args" $args "url" .doi) -}}
+      {{- $events = $events | append (dict "date" .online_on "kind" "paper_online" "category" $category "args" $args "url" .doi) -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
